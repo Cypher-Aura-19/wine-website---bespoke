@@ -1,0 +1,190 @@
+/* ==========================================================================
+   Bespoke Wine & Spirits, wine detail page
+   The bottle stands tall on a blush plate; under it, the case it is sold in,
+   one slot per bottle, filling as the page opens and as you choose how many
+   cases. The buying column sits beside it; the back label, the story and the
+   rest of the producer's list follow.
+   ========================================================================== */
+
+/* 1. Opening: stage and buying column ------------------------------------------------ */
+.wn-hero { padding-top: clamp(6.5rem, 14vh, 8.5rem); padding-bottom: clamp(3.5rem, 9vh, 6rem); }
+.wn-hero__grid { display: grid; grid-template-columns: minmax(0, 6.5fr) minmax(0, 5.5fr); gap: clamp(2rem, 6vw, 6.5rem); align-items: start; }
+
+.wn-stage { position: sticky; top: calc(var(--nav-h) + 0.5rem); margin: 0; display: grid; gap: 1.1rem; }
+.wn-plate { position: relative; height: min(calc(100vh - 15rem), 50rem); min-height: 24rem; background: var(--blush); overflow: hidden; }
+.wn-plate::after { content: ""; position: absolute; left: 34%; right: 34%; bottom: 7%; height: 2.6%; background: radial-gradient(ellipse at center, rgba(95, 38, 38, 0.3), rgba(95, 38, 38, 0) 70%); }
+.wn-plate__img { position: absolute; z-index: 1; left: 0; right: 0; top: 9%; bottom: 8.4%; margin: auto; width: 100%; height: 82.6%; object-fit: contain; object-position: 50% 100%; }
+.wn-plate__img--photo { top: 0; bottom: 0; height: 100%; padding: 9%; object-position: 50% 50%; mix-blend-mode: multiply; }
+.wn-plate.is-photo::after { display: none; }
+.wn-plate__tag { position: absolute; z-index: 2; left: 1.1rem; top: 1rem; font-size: 0.78rem; font-weight: 500; color: var(--ox); }
+/* a gift: its photograph fills the plate */
+.wn-plate--pic { background: var(--blush); }
+.wn-plate--pic::after { display: none; }
+.wn-plate__pic { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+/* what you get: the store's facts as a short ruled list beside the heading */
+.wn-get { padding-block: clamp(4.5rem, 12vh, 8rem); border-top: 1px solid var(--line); }
+.wn-get__in { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 2rem clamp(2rem, 6vw, 6rem); }
+.wn-get__title { margin: 0; font-family: var(--display); font-weight: 400; color: var(--ox); font-size: clamp(2.6rem, 5vw, 5rem); line-height: 0.98; letter-spacing: -0.04em; }
+.wn-get__body { display: grid; gap: 1.6rem; justify-items: start; }
+.wn-get__lead { margin: 0; max-width: 44ch; font-family: var(--display); font-size: clamp(1.4rem, 2.1vw, 1.9rem); line-height: 1.2; letter-spacing: -0.02em; color: var(--ox); }
+.wn-get__sub { margin: 1rem 0 0; font-size: 1rem; line-height: 1.5; }
+.ex-in { justify-items: stretch; }
+.ex-in .ex-wines { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+.ex-in .ex-wine { display: grid; grid-template-columns: 3.2rem minmax(0, 1fr); gap: 1rem; padding: 1.35rem 0; border-bottom: 1px solid var(--line); }
+.ex-in .ex-wine__n { font-family: var(--display); font-size: 1.5rem; line-height: 1.1; color: var(--ox); }
+.ex-in .ex-wine__name { margin: 0; font-size: 1.1rem; font-weight: 500; line-height: 1.35; color: var(--ox); }
+.ex-in .ex-wine__line { margin: 0.3rem 0 0; font-size: 0.8rem; color: var(--ink); }
+.ex-in .ex-wine__note { margin: 0.6rem 0 0; max-width: 62ch; font-size: 0.95rem; line-height: 1.65; }
+.ex-wine__name a { color: inherit; border-bottom: 1px solid var(--line); transition: border-color 0.3s; }
+.ex-wine__name a:hover, .ex-wine__name a:focus-visible { border-bottom-color: currentColor; }
+.ex-wines__k { margin: 0 0 1rem; font-size: 0.85rem; color: var(--ink); }
+.wn-get__facts { margin: 0; width: 100%; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); border-top: 1px solid var(--line); }
+.wn-get__facts div { padding: 0.9rem 0; border-bottom: 1px solid var(--line); }
+.wn-get__facts div:nth-child(odd) { padding-right: 1.5rem; }
+.wn-get__facts dt { font-size: 0.75rem; color: var(--ink); }
+.wn-get__facts dd { margin: 0.25rem 0 0; font-size: 0.98rem; font-weight: 500; color: var(--ox); }
+@media (max-width: 900px) { .wn-get__in { grid-template-columns: 1fr; } }
+.wn-case--gift .wn-case__n { font-variant-numeric: tabular-nums; }
+.wn-ship a { color: var(--ox); border-bottom: 1px solid var(--line); }
+.wn-give__acts { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem 1.6rem; }
+.wn-give__link { font-size: 0.88rem; font-weight: 500; color: var(--ox); border-bottom: 1px solid var(--line); padding-bottom: 0.2rem; transition: border-color 0.3s; }
+.wn-give__link:hover, .wn-give__link:focus-visible { border-bottom-color: currentColor; }
+.wn-give { border-top: 1px solid var(--line); }
+/* no write-up yet: an invitation to ask, not an apology */
+.wn-none { display: grid; gap: 0.9rem; justify-items: start; padding: clamp(1.6rem, 3vw, 2.4rem); background: var(--blush); }
+.wn-none__t { margin: 0; font-family: var(--display); font-size: clamp(1.7rem, 2.6vw, 2.4rem); line-height: 1.05; letter-spacing: -0.03em; color: var(--ox); }
+.wn-none p:not(.wn-none__t) { margin: 0; max-width: 42ch; font-size: 1rem; line-height: 1.65; }
+.wn-none__acts { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem 1.6rem; margin-top: 0.4rem; }
+.wn-none__tel { font-size: 0.9rem; font-weight: 500; color: var(--ox); border-bottom: 1px solid var(--line); padding-bottom: 0.15rem; }
+@media (max-width: 900px) { .wn-give__in { grid-template-columns: 1fr; align-items: start; } }
+
+/* no photograph at all: a drawn bottle and the wine's name */
+.wn-plate__blank { position: absolute; inset: 0; display: grid; place-items: center; align-content: center; gap: 1.6rem; padding: 12%; text-align: center; }
+.wn-plate__blank i { width: clamp(4.5rem, 8vw, 6rem); aspect-ratio: 100 / 360; background: rgba(138, 61, 61, 0.22); -webkit-mask: var(--bottle) center / contain no-repeat; mask: var(--bottle) center / contain no-repeat; }
+.wn-plate__blank span { max-width: 16ch; font-family: var(--display); font-size: clamp(1.5rem, 2.4vw, 2.2rem); line-height: 1.1; letter-spacing: -0.02em; color: var(--ox); }
+
+/* the case: one slot per bottle */
+.wn-case { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: end; gap: 0.6rem 1.25rem; padding-top: 1rem; border-top: 1px solid var(--line); }
+.wn-case__k { font-size: 0.78rem; color: var(--ink); line-height: 1.4; }
+.wn-case__k b { display: block; font-weight: 500; font-size: 0.9rem; color: var(--ox); }
+.wn-slots { display: flex; justify-content: flex-end; align-items: center; gap: 0.9rem; min-width: 0; height: 2.6rem; }
+/* cases stack like crates: one row per case, up to four, sharing the height of one; past four the rest are counted */
+.wn-stack { --n: 1; display: flex; flex-direction: column; justify-content: flex-end; align-items: flex-end; gap: 0.18rem; height: 100%; }
+.wn-grp { display: flex; align-items: flex-end; gap: calc(0.4rem / var(--n)); height: calc((100% - (var(--n) - 1) * 0.18rem) / var(--n)); }
+.wn-slots__more { flex: none; font-size: 0.78rem; font-weight: 500; color: var(--ox); white-space: nowrap; }
+.wn-slot { flex: none; height: 100%; aspect-ratio: 100 / 360; background: var(--line); -webkit-mask: var(--bottle) center bottom / contain no-repeat; mask: var(--bottle) center bottom / contain no-repeat; }
+.wn-slot.is-in { background: var(--ox); }
+.wn-case__n { min-width: 5.5ch; text-align: right; font-family: var(--display); font-size: clamp(1.6rem, 2.2vw, 2.1rem); line-height: 1; letter-spacing: -0.02em; color: var(--ox); font-variant-numeric: tabular-nums; }
+.wn-case__n small { display: block; margin-top: 0.3rem; font-family: var(--sans); font-size: 0.72rem; letter-spacing: 0; color: var(--ink); }
+
+/* buying column */
+.wn-info { display: grid; gap: clamp(1.6rem, 3.6vh, 2.3rem); padding-top: clamp(0.5rem, 3vh, 2rem); }
+.wn-crumbs { display: flex; flex-wrap: wrap; gap: 0.6rem; font-size: 0.82rem; color: var(--ink); }
+.wn-crumbs a { color: var(--ox); border-bottom: 1px solid transparent; transition: border-color 0.3s; }
+.wn-crumbs a:hover, .wn-crumbs a:focus-visible { border-bottom-color: currentColor; }
+.wn-maker { display: inline-flex; align-items: center; gap: 0.9rem; justify-self: start; color: var(--ox); }
+.wn-maker__mark { width: 5.5rem; aspect-ratio: 2 / 1; background: currentColor; -webkit-mask: var(--m) left center / contain no-repeat; mask: var(--m) left center / contain no-repeat; }
+.wn-maker__name { font-size: 0.92rem; font-weight: 500; border-bottom: 1px solid var(--line); padding-bottom: 0.15rem; transition: border-color 0.3s; }
+a.wn-maker:hover .wn-maker__name, a.wn-maker:focus-visible .wn-maker__name { border-bottom-color: currentColor; }
+.wn-title { margin: 0; font-family: var(--display); font-weight: 400; color: var(--ox); font-size: clamp(2.5rem, 4.6vw, 4.8rem); line-height: 0.98; letter-spacing: -0.04em; text-wrap: balance; }
+.wn-title .line { padding-bottom: 0.08em; margin-bottom: -0.08em; }
+.wn-line { margin: -0.6rem 0 0; font-size: 1rem; color: var(--ink); }
+
+.wn-price { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.4rem 1.4rem; padding-top: 1.3rem; border-top: 1px solid var(--line); }
+.wn-price__main { font-family: var(--display); font-size: clamp(2.6rem, 4vw, 3.8rem); line-height: 1; letter-spacing: -0.03em; color: var(--ox); font-variant-numeric: tabular-nums; }
+.wn-price__main small { margin-left: 0.4rem; font-family: var(--sans); font-size: 0.85rem; letter-spacing: 0; color: var(--ink); }
+.wn-price__case { font-size: 0.95rem; color: var(--ox); }
+
+.wn-buyblock { display: grid; gap: 0.9rem; }
+.wn-buy { display: grid; gap: 1rem; }
+.wn-buy__row { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 0.8rem; align-items: stretch; }
+.wn-qty { display: grid; grid-template-columns: 3rem 3.4rem 3rem; align-items: center; border: 1px solid var(--line); }
+.wn-qty button { height: 100%; min-height: 3.4rem; font-size: 1.25rem; color: var(--ox); transition: background-color 0.3s; }
+.wn-qty button:hover:not(:disabled), .wn-qty button:focus-visible { background: var(--blush); }
+.wn-qty button:disabled { color: var(--line); cursor: default; }
+.wn-qty input { width: 100%; height: 100%; border: 0; background: none; text-align: center; font: inherit; font-size: 1.05rem; font-weight: 500; color: var(--ox); font-variant-numeric: tabular-nums; -moz-appearance: textfield; appearance: textfield; }
+.wn-qty input::-webkit-inner-spin-button, .wn-qty input::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; }
+.wn-add { justify-content: space-between; min-height: 3.4rem; }
+.wn-add:disabled { background: var(--blush-2); color: var(--ox); cursor: default; }
+.wn-add:disabled::before { display: none; }
+.wn-buy__sum { display: flex; justify-content: space-between; gap: 1rem; font-size: 0.88rem; color: var(--ink); font-variant-numeric: tabular-nums; }
+.wn-buy__sum b { font-weight: 500; color: var(--ox); }
+.wn-stock { display: flex; align-items: center; gap: 0.55rem; font-size: 0.88rem; color: var(--ox); }
+.wn-stock::before { content: ""; width: 0.5rem; height: 0.5rem; border-radius: 50%; background: #5d7a4c; }
+.wn-stock.is-out::before { background: transparent; box-shadow: inset 0 0 0 1px var(--ox); }
+.wn-ask { font-size: 0.88rem; color: var(--ox); border-bottom: 1px solid var(--line); justify-self: start; transition: border-color 0.3s; }
+.wn-ask:hover, .wn-ask:focus-visible { border-bottom-color: currentColor; }
+
+.wn-ship { list-style: none; margin: 0; padding: 1.1rem 0 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; border-top: 1px solid var(--line); }
+.wn-ship li { display: grid; gap: 0.25rem; font-size: 0.8rem; line-height: 1.4; color: var(--ink); }
+.wn-ship b { font-size: 0.9rem; font-weight: 500; color: var(--ox); }
+
+/* 2. Back label and story ------------------------------------------------------------- */
+.wn-detail { padding-block: clamp(4.5rem, 12vh, 8rem); border-top: 1px solid var(--line); }
+.wn-detail__grid { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: clamp(2.5rem, 7vw, 7rem); align-items: start; }
+.wn-detail__title { margin: 0 0 clamp(1.5rem, 4vh, 2.2rem); font-family: var(--display); font-weight: 400; color: var(--ox); font-size: clamp(2.2rem, 3.6vw, 3.6rem); line-height: 1; letter-spacing: -0.035em; }
+.wn-label { margin: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); border-top: 1px solid var(--ox); }
+.wn-label > div { display: grid; gap: 0.35rem; padding: 1.05rem 1rem 1.05rem 0; border-bottom: 1px solid var(--line); }
+.wn-label > div:nth-child(even) { padding-left: 1rem; border-left: 1px solid var(--line); }
+.wn-label dt { font-size: 0.74rem; color: var(--ink); }
+.wn-label dd { margin: 0; font-size: 1.02rem; font-weight: 500; color: var(--ox); }
+.wn-sheet { display: inline-flex; align-items: center; gap: 0.6rem; margin-top: 1.6rem; font-size: 0.9rem; font-weight: 500; color: var(--ox); padding-bottom: 0.25rem; border-bottom: 1px solid var(--line); transition: border-color 0.3s; }
+.wn-sheet:hover, .wn-sheet:focus-visible { border-bottom-color: currentColor; }
+.wn-story { display: grid; gap: 1.3rem; max-width: 64ch; }
+.wn-story p { margin: 0; font-size: 1.02rem; line-height: 1.72; }
+.wn-story .wn-story__lead { font-family: var(--display); font-size: clamp(1.45rem, 2.2vw, 2.1rem); line-height: 1.25; letter-spacing: -0.02em; color: var(--ox); }
+.wn-story__none { font-size: 1.02rem; line-height: 1.7; }
+.wn-story__none a { color: var(--ox); border-bottom: 1px solid currentColor; }
+
+/* 3. More from the producer --------------------------------------------------------------- */
+.wn-more { padding-bottom: clamp(5rem, 12vh, 8rem); }
+.wn-more__head { display: flex; justify-content: space-between; align-items: flex-end; gap: 1rem 2rem; flex-wrap: wrap; padding-bottom: 1.2rem; border-bottom: 1px solid var(--line); }
+.wn-more__title { margin: 0; font-family: var(--display); font-weight: 400; color: var(--ox); font-size: clamp(2.2rem, 4.4vw, 4.4rem); line-height: 1; letter-spacing: -0.04em; }
+.wn-more__all { font-size: 0.9rem; font-weight: 500; color: var(--ox); border-bottom: 1px solid var(--line); padding-bottom: 0.2rem; transition: border-color 0.3s; }
+.wn-more__all:hover, .wn-more__all:focus-visible { border-bottom-color: currentColor; }
+.wn-grid { list-style: none; margin: clamp(2rem, 5vh, 3rem) 0 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(1.75rem, 3vw, 2.75rem) clamp(1rem, 2vw, 1.75rem); }
+
+/* 4. Phone: the buying bar follows once the main button scrolls away ---------------------- */
+.wn-bar { display: none; }
+
+@media (max-width: 1100px) { .wn-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 900px) {
+  .wn-hero { padding-top: 6rem; }
+  .wn-hero__grid, .wn-detail__grid { grid-template-columns: 1fr; }
+  /* phones: who made it and what it is come first, then the bottle and its case, then the price and button */
+  .wn-hero__grid { gap: 0; }
+  .wn-info { display: contents; }
+  .wn-crumbs { order: 1; margin-bottom: 1.1rem; }
+  .wn-maker { order: 2; margin-bottom: 1rem; }
+  .wn-title { order: 3; }
+  .wn-line { order: 4; margin: 0.7rem 0 0; }
+  .wn-stage { order: 5; position: static; margin: 1.2rem 0 1.5rem; }
+  .wn-price { order: 6; margin-bottom: 1.4rem; }
+  .wn-buyblock { order: 7; display: grid; gap: 0.9rem; margin-bottom: 1.8rem; }
+  .wn-ship { order: 8; }
+  .wn-plate { height: min(44vh, 22rem); min-height: 17rem; }
+  .is-wine:has(.wn-bar) .foot { padding-bottom: calc(4.8rem + env(safe-area-inset-bottom)); }
+  .wn-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .wn-bar {
+    position: fixed; z-index: 30; left: 0; right: 0; bottom: 0; display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+    padding: 0.75rem 1.25rem calc(0.75rem + env(safe-area-inset-bottom)); background: rgba(252, 244, 236, 0.94); border-top: 1px solid var(--line);
+    -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px);
+    transform: translateY(105%); transition: transform 0.55s var(--ease);
+  }
+  .wn-bar.is-on { transform: none; }
+  .wn-bar__p { font-family: var(--display); font-size: 1.5rem; line-height: 1; color: var(--ox); }
+  .wn-bar__p small { display: block; margin-top: 0.2rem; font-family: var(--sans); font-size: 0.72rem; color: var(--ink); }
+  .wn-bar .btn { min-height: 3rem; }
+}
+@media (max-width: 520px) {
+  .wn-ship { grid-template-columns: 1fr; gap: 0.7rem; }
+  .wn-ship li { grid-template-columns: 9rem 1fr; align-items: baseline; }
+  .wn-label { grid-template-columns: 1fr; }
+  .wn-label > div:nth-child(even) { padding-left: 0; border-left: 0; }
+  .wn-case { grid-template-columns: 1fr auto; }
+  .wn-slots { grid-column: 1 / -1; grid-row: 2; justify-content: flex-start; flex-direction: row-reverse; height: 2.2rem; }
+  .wn-stack { align-items: flex-start; }
+  .wn-buy__row { grid-template-columns: 1fr; }
+  .wn-qty { grid-template-columns: 3.4rem 1fr 3.4rem; }
+}
+@media (prefers-reduced-motion: reduce) { .wn-bar { transition: none; } }

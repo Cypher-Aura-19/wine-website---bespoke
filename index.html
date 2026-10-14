@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bespoke Wine &amp; Spirits | Organic and biodynamic wine, chosen by hand</title>
+  <meta name="description" content="An agency for organic and biodynamic wines and spirits from artisanal producers. Shop red, white, rosé, sparkling, amaro and non-alcoholic bottles.">
+  <meta name="theme-color" content="#fcf4ec">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <script>
+    document.documentElement.classList.add('js');
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) document.documentElement.classList.add('rm');
+    try { if (sessionStorage.getItem('bw-nav')) document.documentElement.classList.add('is-entering'); else if (sessionStorage.getItem('bw-pt')) document.documentElement.classList.add('is-turning'); } catch (e) {}
+  </script>
+  <link rel="preload" href="assets/fonts/Coconat-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/LexendDeca-var.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/fonts.css?v=3">
+  <link rel="preload" as="image" href="assets/film/f000.jpg">
+  <link rel="stylesheet" href="css/styles.css?v=60">
+  <link rel="stylesheet" href="/css/cart.css?v=11">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- Preloader: two colour wipes (cream, then muted red), a logo screen, then the screen lifts away -->
+  <div class="preloader" data-preloader aria-hidden="true">
+    <div class="preloader-bg"></div>
+    <div class="preloader-revealer preloader-revealer-1"></div>
+    <div class="preloader-revealer preloader-revealer-5"></div>
+    <div class="preloader-logo"><i class="logo-mark"></i></div>
+  </div>
+
+  <nav class="nav" data-nav aria-label="Primary">
+    <a class="nav__logo" href="#top" aria-label="Bespoke Wine and Spirits, home"><i class="logo-mark"></i></a>
+    <div class="nav__links" data-navlinks><div class="nav__shop"><a class="nav__link nav__link--shop" href="/wines/">Shop</a><div class="nav__drop"><div class="nav__drop-in"><div class="nav__col"><p>Wines</p><a href="/wines/">All wines</a><a href="/collections/red-wine/">Red</a><a href="/collections/white-wine/">White</a><a href="/collections/rose-wine/">Rosé</a><a href="/collections/sparkling-wine/">Sparkling</a><a href="/collections/skin-contact-orange-wine-white/">Orange</a><a href="/collections/dessert-wine/">Dessert</a><a href="/collections/non-alcoholic/">Non-alcoholic</a></div><div class="nav__col"><p>Spirits</p><a href="/collections/spirits/">All spirits</a><a href="/collections/amaro/">Amaro</a></div><div class="nav__col"><p>Style</p><a href="/collections/organic/">Organic</a><a href="/collections/bio-dynamic/">Biodynamic</a></div><div class="nav__col"><p>Gifts</p><a href="/gifts/">All gifts</a><a href="/experiences/">Mixed cases</a><a href="/wines/gift-card-100-00/">Gift card</a></div></div></div></div><a class="nav__link" href="/cart/" data-navcart>Cart<span class="nav__n" data-navcount hidden></span></a></div>
+    <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu" data-toggle>
+      <span id="nav-toggle-open">Menu</span>
+      <span id="nav-toggle-close" aria-hidden="true">Close</span>
+    </button>
+  </nav>
+
+  <div class="menu" id="menu" data-menu aria-hidden="true">
+    <div class="menu__content" data-menucontent>
+      <div class="menu__items">
+        <div class="menu__colL"><div class="menu__preview" data-preview><img src="assets/photos/menu-wines.jpg" alt=""></div></div>
+        <div class="menu__colR">
+          <div class="menu__links">
+            <div class="menu__link"><a href="/" data-img="assets/photos/flow-cover.jpg" aria-current="page">Home</a></div>
+            <div class="menu__link"><a href="/wines/" data-img="assets/photos/menu-wines.jpg">Wines &amp; Spirits</a></div>
+            <div class="menu__link"><a href="/collections/non-alcoholic/" data-img="assets/photos/menu-nonalc.jpg">Non-Alcoholic</a></div>
+            <div class="menu__link"><a href="/experiences/" data-img="assets/photos/menu-cases-2.jpg">Mixed cases</a></div>
+            <div class="menu__link"><a href="/producers/" data-img="assets/photos/menu-producers.jpg">Producers</a></div>
+            <div class="menu__link"><a href="/about/" data-img="assets/photos/menu-about.jpg">About</a></div>
+            <div class="menu__link"><a href="/gallery/" data-img="assets/photos/menu-gallery.jpg">Gallery</a></div>
+            <div class="menu__link"><a href="/contact/" data-img="assets/photos/menu-contact.jpg">Contact</a></div>
+          </div>
+          <div class="menu__socials">
+            <div class="menu__social"><a href="https://www.instagram.com/bespokewineandspirits/">Instagram</a></div>
+            <div class="menu__social"><a href="https://www.facebook.com/bespokewineandspirits/">Facebook</a></div>
+            <div class="menu__social"><a href="/cart/">Cart</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="menu__foot">
+        <p><span>Organic and biodynamic</span></p>
+        <p><span>Wine &amp; Spirits Agency</span></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="page" data-page>
+  <main id="main">
+
+    <!-- 1. Hero: a pair of hands pours a bottle into a glass (real footage plus a photographed pour), scrubbed by scroll -->
+    <section class="hero" id="top" data-hero aria-label="Introduction">
+      <canvas class="hero-film" data-film aria-hidden="true"></canvas>
+      <div class="hero-header">
+        <h1>Wine and spirits chosen by hand</h1>
+      </div>
+      <aside class="pour" data-pour aria-hidden="true">
+        <div class="pour__card">
+          <div class="pour__thumb"><img src="assets/products/chianti-classico.png" alt="" width="388" height="1500"></div>
+          <div class="pour__info">
+            <p class="pour__k">Now pouring</p>
+            <p class="pour__name">Chianti Classico 2023</p>
+            <p class="pour__meta">Luca Menicucci, Tuscany</p>
+          </div>
+          <p class="pour__price">$28</p>
+        </div>
+        <div class="pour__meter">
+          <div class="pour__row"><span>In the glass</span><span><b data-ml>0</b> ml</span></div>
+          <div class="pour__track"><i data-mlbar></i></div>
+        </div>
+      </aside>
+      <div class="hero-footer">
+        <p>Organic and biodynamic</p>
+        <p><a class="hero-link" href="/wines/">Shop the collection</a></p>
+      </div>
+    </section>
+
+    <!-- 2. From small farms to your table: photographs spread out of the centre as you scroll -->
+    <section class="flow" data-flow aria-label="From small farms to your table">
+      <div class="flow-text">
+        <h2 class="flow-title" data-wave>From small farms to your table</h2>
+        <p class="flow-sub">Organic and biodynamic wines and spirits from artisanal makers and hidden gems, each bottle with its story.</p>
+      </div>
+      <div class="flow-images" aria-hidden="true">
+        <div class="img"><img src="assets/photos/flow-01.jpg" alt="" width="1400" height="1400" loading="lazy" decoding="async"></div>
+        <div class="img"><img src="assets/photos/flow-02.jpg" alt="" width="1400" height="1400" loading="lazy" decoding="async"></div>
+        <div class="img"><img src="assets/photos/flow-03.jpg" alt="" width="1400" height="1400" loading="lazy" decoding="async"></div>
+        <div class="img"><img src="assets/photos/flow-04.jpg" alt="" width="1400" height="1400" loading="lazy" decoding="async"></div>
+        <div class="img"><img src="assets/photos/flow-05.jpg" alt="" width="1400" height="1400" loading="lazy" decoding="async"></div>
+        <div class="img"><img src="assets/photos/flow-06.jpg" alt="" width="1400" height="1400" loading="lazy" decoding="async"></div>
+        <div class="img"><img src="assets/photos/flow-07.jpg" alt="" width="1400" height="1400" loading="lazy" decoding="async"></div>
+        <div class="img"><img src="assets/photos/flow-08.jpg" alt="" width="1400" height="1400" loading="lazy" decoding="async"></div>
+        <div class="img cover"></div>
+      </div>
+    </section>
+
+    <!-- 3. Browse by style: a needle sweeps around a circular photograph, then the circle opens into a harvest photograph and "How we choose" slides in beside it -->
+    <section class="pc" data-pc aria-label="Browse by style">
+      <div class="pc-stage">
+        <div class="pc-bg" data-pcbg aria-hidden="true"><img src="assets/photos/choose-harvest.jpg" alt="" width="2400" height="1802" loading="lazy" decoding="async"></div>
+
+        <ol class="pc-index" data-pcindex aria-hidden="true"><li>01</li><li>02</li><li>03</li><li>04</li><li>05</li></ol>
+
+        <div class="pc-disc" data-pcdisc>
+          <img class="pc-slide" src="assets/photos/pc-1.jpg" alt="A glass of red wine on a wooden bench in soft sunlight" width="1200" height="1200" loading="lazy" decoding="async">
+          <img class="pc-slide" src="assets/photos/pc-2.jpg" alt="A hand holding a glass of white wine against a warm beige wall" width="1200" height="1200" loading="lazy" decoding="async">
+          <img class="pc-slide" src="assets/photos/pc-3.jpg" alt="A glass of rosé wine on a light surface in soft shadow" width="1200" height="1200" loading="lazy" decoding="async">
+          <img class="pc-slide" src="assets/photos/pc-4.jpg" alt="A flute of sparkling wine balanced on a pale stone" width="1200" height="1200" loading="lazy" decoding="async">
+          <img class="pc-slide" src="assets/photos/pc-5.jpg" alt="A pink sparkling non-alcoholic drink in a glass with orange slices on marble" width="1200" height="1200" loading="lazy" decoding="async">
+        </div>
+        <div class="pc-needle" data-pcneedle aria-hidden="true"><i class="pc-line"></i><i class="pc-dot"></i></div>
+
+        <div class="pc-info" data-pcinfo aria-live="polite">
+          <h2 class="pc-title" data-pctitle>Red wine</h2>
+          <p class="pc-sub" data-pcsub>From light and fruity to deep and structured</p>
+        </div>
+
+        <p class="pc-label" data-pclabel>Browse by style</p>
+        <p class="pc-count" data-pccount><span data-pcnum>87</span> <span class="pc-unit">bottles</span></p>
+        <a class="btn btn--wine pc-cta" data-pccta href="/collections/red-wine/">Shop red wine</a>
+
+        <div class="pc-grid pc-choose" data-pcgrid>
+          <div class="pc-cell pc-choose__head">
+            <p class="pc-choose__k">How we choose</p>
+            <h3>Every bottle starts with the farm</h3>
+            <p>We look for growers who work with the land, and makers who work at a human scale.</p>
+          </div>
+          <ul class="pc-choose__list">
+            <li class="pc-cell"><span class="pc-choose__ico" aria-hidden="true"><i class="pc-ico pc-ico--leaf"></i></span><h4>Organic vineyards</h4><p>No synthetic pesticides or herbicides in the vineyard, so the wine tastes like the place it grew.</p></li>
+            <li class="pc-cell"><span class="pc-choose__ico" aria-hidden="true"><i class="pc-ico pc-ico--moon"></i></span><h4>Biodynamic farms</h4><p>Farms that follow the planting calendar and treat the soil as something alive.</p></li>
+            <li class="pc-cell"><span class="pc-choose__ico" aria-hidden="true"><i class="pc-ico pc-ico--house"></i></span><h4>Small producers</h4><p>Family cellars and small estates, often one hillside and a handful of labels.</p></li>
+            <li class="pc-cell"><span class="pc-choose__ico" aria-hidden="true"><i class="pc-ico pc-ico--spark"></i></span><h4>Hidden gems</h4><p>Bottles you will not find in every shop, from regions worth getting to know.</p></li>
+          </ul>
+          <div class="pc-cell pc-choose__foot">
+            <a class="btn btn--wine" href="/producers/">Meet the producers<i class="ico ico--arrow" aria-hidden="true"></i></a>
+            <a class="pc-choose__link" href="/collections/organic/">Organic wines</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. The shelf: nine real bottles, one card system, a sliding filter -->
+    <section class="shelf section" id="shelf" data-shelf>
+      <div class="wrap">
+        <h2 class="shelf__title" data-lines>The shelf</h2>
+        <div class="shelf__bar">
+          <p class="shelf__lede">Real bottles from small producers, priced per bottle.</p>
+          <div class="filters" role="group" aria-label="Filter the shelf" data-filters>
+            <button class="filter is-on" type="button" data-filter="all" aria-pressed="true">All<sup>9</sup></button>
+            <button class="filter" type="button" data-filter="red" aria-pressed="false">Red<sup>4</sup></button>
+            <button class="filter" type="button" data-filter="white" aria-pressed="false">White<sup>3</sup></button>
+            <button class="filter" type="button" data-filter="other" aria-pressed="false">Rosé and amaro<sup>2</sup></button>
+            <i class="filters__bar" aria-hidden="true"></i>
+          </div>
+        </div>
+        <ul class="shelf__grid" data-grid>
+        <li class="pcard" data-kind="red">
+          <a class="pcard__link" href="/wines/chianti-classico-menicucci-2024/">
+            <span class="pcard__plate"><span class="pcard__tag">Red</span><img class="pcard__img" src="assets/products/chianti-classico.png" alt="Chianti Classico 2023" width="388" height="1500" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+            <span class="pcard__body">
+              <span class="pcard__meta">Luca Menicucci</span>
+              <span class="pcard__row"><span class="pcard__name">Chianti Classico 2023</span><span class="pcard__price">$28<small>a bottle</small></span></span>
+              <span class="pcard__note">Case of 12 · $336</span>
+            </span>
+          </a>
+        </li>
+        <li class="pcard" data-kind="white">
+          <a class="pcard__link" href="/wines/villa-folini-ribolla-gialla-2025/">
+            <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="assets/products/ribolla-gialla.png" alt="Ribolla Gialla 2024" width="396" height="1500" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+            <span class="pcard__body">
+              <span class="pcard__meta">Tenimenti Civa</span>
+              <span class="pcard__row"><span class="pcard__name">Ribolla Gialla 2024</span><span class="pcard__price">$16<small>a bottle</small></span></span>
+              <span class="pcard__note">Case of 12 · $192</span>
+            </span>
+          </a>
+        </li>
+        <li class="pcard" data-kind="other">
+          <a class="pcard__link" href="/wines/roka-2021/">
+            <span class="pcard__plate"><span class="pcard__tag">Rosé</span><img class="pcard__img" src="assets/products/roka.png" alt="Roka 2021" width="434" height="1500" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+            <span class="pcard__body">
+              <span class="pcard__meta">Kristinus</span>
+              <span class="pcard__row"><span class="pcard__name">Roka 2021</span><span class="pcard__price">$25<small>a bottle</small></span></span>
+              <span class="pcard__note">Case of 12 · $300</span>
+            </span>
+          </a>
+        </li>
+        <li class="pcard" data-kind="red">
+          <a class="pcard__link" href="/wines/villa-folini-merlot-2024/">
+            <span class="pcard__plate"><span class="pcard__tag">Red</span><img class="pcard__img" src="assets/products/merlot.png" alt="Merlot 2024" width="396" height="1500" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+            <span class="pcard__body">
+              <span class="pcard__meta">Tenimenti Civa</span>
+              <span class="pcard__row"><span class="pcard__name">Merlot 2024</span><span class="pcard__price">$16<small>a bottle</small></span></span>
+              <span class="pcard__note">Case of 12 · $192</span>
+            </span>
+          </a>
+        </li>
+        <li class="pcard" data-kind="white">
+          <a class="pcard__link" href="/wines/california-wonders-chardonnay-2023/">
+            <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="assets/products/ca-chardonnay.png" alt="California Wonders Chardonnay" width="527" height="1500" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+            <span class="pcard__body">
+              <span class="pcard__meta">San Joaquin</span>
+              <span class="pcard__row"><span class="pcard__name">California Wonders Chardonnay</span><span class="pcard__price">$23<small>a bottle</small></span></span>
+              <span class="pcard__note">Case of 12 · $276</span>
+            </span>
+          </a>
+        </li>
+        <li class="pcard" data-kind="other">
+          <a class="pcard__link" href="/wines/amaro-di-chainciano/">
+            <span class="pcard__plate"><span class="pcard__tag">Amaro</span><img class="pcard__img" src="assets/products/amaro-chianciano.png" alt="Amaro di Chianciano" width="495" height="1500" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+            <span class="pcard__body">
+              <span class="pcard__meta">Santoni</span>
+              <span class="pcard__row"><span class="pcard__name">Amaro di Chianciano</span><span class="pcard__price">$45<small>a bottle</small></span></span>
+              <span class="pcard__note">Case of 12 · $540</span>
+            </span>
+          </a>
+        </li>
+        <li class="pcard" data-kind="red">
+          <a class="pcard__link" href="/wines/no-fine-print-cabernet-sauvignon-2020/">
+            <span class="pcard__plate"><span class="pcard__tag">Red</span><img class="pcard__img" src="assets/products/no-fine-print.png" alt="No Fine Print Cabernet" width="367" height="1500" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+            <span class="pcard__body">
+              <span class="pcard__meta">Pour Management LLC</span>
+              <span class="pcard__row"><span class="pcard__name">No Fine Print Cabernet</span><span class="pcard__price">$46<small>a bottle</small></span></span>
+              <span class="pcard__note">Case of 12 · $552</span>
+            </span>
+          </a>
+        </li>
+        <li class="pcard" data-kind="white">
+          <a class="pcard__link" href="/wines/furmint-2022/">
+            <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="assets/products/furmint.png" alt="Furmint 2022" width="337" height="1500" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+            <span class="pcard__body">
+              <span class="pcard__meta">Diwald</span>
+              <span class="pcard__row"><span class="pcard__name">Furmint 2022</span><span class="pcard__price">$36<small>a bottle</small></span></span>
+              <span class="pcard__note">Case of 12 · $432</span>
+            </span>
+          </a>
+        </li>
+        <li class="pcard" data-kind="red">
+          <a class="pcard__link" href="/wines/california-wonders-cabernet-2021/">
+            <span class="pcard__plate"><span class="pcard__tag">Red</span><img class="pcard__img" src="assets/products/ca-cabernet.png" alt="California Wonders Cabernet" width="631" height="1500" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+            <span class="pcard__body">
+              <span class="pcard__meta">San Joaquin</span>
+              <span class="pcard__row"><span class="pcard__name">California Wonders Cabernet</span><span class="pcard__price">$23<small>a bottle</small></span></span>
+              <span class="pcard__note">Case of 12 · $276</span>
+            </span>
+          </a>
+        </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 5. Countries: type-led index with a cursor-following bottle preview -->
+    <section class="cats section" data-cats>
+      <div class="wrap">
+        <h2 class="cats__title" data-lines>Shop by country</h2>
+        <p class="cats__lede">Where the bottles come from. Hover a country to see one from the shelf.</p>
+        <ul class="cats__list">
+          <li class="cat"><a class="cat__link" href="/wines/?country=italy" data-img="assets/products/chianti-classico.png"><span class="cat__name">Italy</span><span class="cat__count">112 bottles</span><img class="cat__thumb" src="assets/products/chianti-classico.png" alt="" width="200" height="760" loading="lazy" decoding="async"><img class="ico cat__arrow" src="assets/icons/arrow-up-right.svg" alt="" width="20" height="20"></a></li>
+          <li class="cat"><a class="cat__link" href="/wines/?country=france" data-img="assets/products/chablis.png"><span class="cat__name">France</span><span class="cat__count">36 bottles</span><img class="cat__thumb" src="assets/products/chablis.png" alt="" width="200" height="760" loading="lazy" decoding="async"><img class="ico cat__arrow" src="assets/icons/arrow-up-right.svg" alt="" width="20" height="20"></a></li>
+          <li class="cat"><a class="cat__link" href="/wines/?country=spain" data-img="assets/products/ayre-verdejo.png"><span class="cat__name">Spain</span><span class="cat__count">14 bottles</span><img class="cat__thumb" src="assets/products/ayre-verdejo.png" alt="" width="200" height="760" loading="lazy" decoding="async"><img class="ico cat__arrow" src="assets/icons/arrow-up-right.svg" alt="" width="20" height="20"></a></li>
+          <li class="cat"><a class="cat__link" href="/wines/?country=united-states" data-img="assets/products/no-fine-print.png"><span class="cat__name">United States</span><span class="cat__count">12 bottles</span><img class="cat__thumb" src="assets/products/no-fine-print.png" alt="" width="200" height="760" loading="lazy" decoding="async"><img class="ico cat__arrow" src="assets/icons/arrow-up-right.svg" alt="" width="20" height="20"></a></li>
+          <li class="cat"><a class="cat__link" href="/wines/?country=austria" data-img="assets/products/furmint.png"><span class="cat__name">Austria</span><span class="cat__count">12 bottles</span><img class="cat__thumb" src="assets/products/furmint.png" alt="" width="200" height="760" loading="lazy" decoding="async"><img class="ico cat__arrow" src="assets/icons/arrow-up-right.svg" alt="" width="20" height="20"></a></li>
+          <li class="cat"><a class="cat__link" href="/wines/?country=argentina" data-img="assets/products/malbicho.png"><span class="cat__name">Argentina</span><span class="cat__count">2 bottles</span><img class="cat__thumb" src="assets/products/malbicho.png" alt="" width="200" height="760" loading="lazy" decoding="async"><img class="ico cat__arrow" src="assets/icons/arrow-up-right.svg" alt="" width="20" height="20"></a></li>
+        </ul>
+      </div>
+      <div class="cats__follow" data-follow aria-hidden="true"><div class="cats__frame"></div></div>
+    </section>
+
+
+    <!-- 6. Mixed packs: a calm close before the footer -->
+    <section class="band section" data-band>
+      <div class="wrap band__inner">
+        <div class="band__copy">
+          <h2 class="band__title" data-lines>Not sure where to start?</h2>
+          <p class="band__text">A mixed pack puts several bottles from different producers into one order.</p>
+          <a class="btn btn--wine" href="/experiences/">Shop mixed packs<i class="ico ico--arrow" aria-hidden="true"></i></a>
+        </div>
+        <div class="band__img" data-bandimg><img src="assets/photos/band.jpg" alt="A bottle of red wine, two glasses and a bunch of grapes on a white table" width="1600" height="2400" loading="lazy" decoding="async"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 7. Footer -->
+  <footer class="foot" data-foot>
+    <div class="foot__top">
+      <div>
+        <h2 class="foot__title" data-lines>Let's stay in touch</h2>
+        <p class="foot__lead">New producers and new bottles, sent when there is something worth sharing.</p>
+      </div>
+      <form class="news" data-news novalidate>
+        <div class="news__row">
+          <div class="field"><label for="n-name">Name</label><input id="n-name" name="name" type="text" autocomplete="name"></div>
+          <div class="field"><label for="n-email">Email</label><input id="n-email" name="email" type="email" autocomplete="email" required aria-describedby="n-msg"></div>
+        </div>
+        <button class="btn btn--wine" type="submit">Join the newsletter<i class="ico ico--arrow" aria-hidden="true"></i></button>
+        <p class="news__msg" id="n-msg" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+
+    <div class="foot__cols">
+      <div><h3>Shop</h3>
+        <a href="/wines/">Wines &amp; Spirits</a>
+        <a href="/collections/non-alcoholic/">Non-Alcoholic</a>
+        <a href="/experiences/">Mixed cases</a>
+        <a href="/cart/">Cart</a></div>
+      <div><h3>Company</h3>
+        <a href="/producers/">Producers</a>
+        <a href="/about/">About</a>
+        <a href="/gallery/">Gallery</a>
+        <a href="/contact/">Contact</a>
+        <a href="/terms/">Terms &amp; conditions</a></div>
+      <div><h3>Get in touch</h3>
+        <a href="tel:+16472861153">647-286-1153</a>
+        <a href="https://www.instagram.com/bespokewineandspirits/">Instagram</a>
+        <a href="https://www.facebook.com/bespokewineandspirits/">Facebook</a></div>
+    </div>
+
+    <p class="foot__legal">&copy; 2026 Bespoke Wine &amp; Spirits</p>
+    <div class="foot__word" data-fit="0.955" data-footword aria-hidden="true"><span class="hero__line"><span class="ch2">BESPOKE</span></span></div>
+  </footer>
+  </div>
+
+  <script src="vendor/gsap.min.js"></script>
+  <script src="vendor/ScrollTrigger.min.js"></script>
+  <script src="vendor/SplitText.min.js"></script>
+  <script src="vendor/lenis.min.js"></script>
+  <script src="js/main.js?v=78"></script>
+  <script src="/js/cart.js?v=11"></script>
+</body>
+</html>

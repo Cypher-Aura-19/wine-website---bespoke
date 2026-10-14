@@ -1,0 +1,15 @@
+# reference demos used during design, not part of the site
+CGMWTFEB2026/
+cg-phantom-gallery-javascript/
+codegrid-buckssauce-landing-page-reveal/
+codegrid-interactive-team-section-nextjs/
+# raw source footage (the site uses the frames in assets/film)
+hero video.mp4
+# tool output and dependencies
+tools/shots/
+tools/node_modules/
+node_modules/
+.impeccable/
+.vercel
+*.pyc
+__pycache__/

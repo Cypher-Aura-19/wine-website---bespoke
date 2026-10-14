@@ -1,0 +1,2782 @@
+{
+"black-mont-rubi-2021": {
+"specs": {
+"Vintage": "2023",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Grenache",
+"Country": "Spain",
+"Region": "Riojia"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/17802406_BLACK tasting notes NEW.pdf"
+},
+"blaufrankish-2018": {
+"specs": {
+"Vintage": "2019",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Blaufrankish",
+"Country": "Austria"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18018958_Blaufra\u0308nkisch Tasting 2022.pdf"
+},
+"chateau-peyredon-lagravette-blanc-2024": {
+"specs": {
+"Vintage": "2024",
+"Type": "White Wine.",
+"Bottle Size": "6 x 750mL",
+"Bottles Per Case": "6",
+"Country": "France"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18496954_Chateau PEYREDON LAGRAVETTE Blanc Tasting.pdf"
+},
+"benvenuto-terra-2026": {
+"specs": {
+"Vintage": "2025",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/21138580_Benvenuto_Terra_Tasting.docx"
+},
+"benvenuto-terra-2025": {
+"specs": {
+"Vintage": "2025",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/21138580_Benvenuto_Terra_Tasting.docx"
+},
+"benvenuto-celeste-rose-2025": {
+"specs": {
+"Vintage": "2025",
+"Type": "Rose Wine",
+"Bottle Size": "12 x 12mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/21138533_Benvenuto_Celeste_Tasting_Rose.docx"
+},
+"benvenuto-zibibbo-2026": {
+"specs": {
+"Vintage": "2025",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/21138468_Benvenuto_Zibibbo_Tasting.docx"
+},
+"benvenuto-zibibbo-2025": {
+"specs": {
+"Vintage": "2025",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/21138468_Benvenuto_Zibibbo_Tasting.docx"
+},
+"prestige-champagne-4": {
+"specs": {
+"Vintage": "0",
+"Type": "Champagne",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "France"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/20815916_PRESTIGE_Champagne_Tasting.pdf"
+},
+"prestige-champagne-3": {
+"specs": {
+"Vintage": "0",
+"Type": "Champagne",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "France"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/20815916_PRESTIGE_Champagne_Tasting.pdf"
+},
+"prestige-champagne-2": {
+"specs": {
+"Vintage": "0",
+"Type": "Champagne",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "France"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/20815916_PRESTIGE_Champagne_Tasting.pdf"
+},
+"prestige-champagne-1": {
+"specs": {
+"Vintage": "0",
+"Type": "Champagne",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "France"
+},
+"sheet": null
+},
+"prestige-champagne": {
+"specs": {
+"Vintage": "0",
+"Type": "Champagne",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "France"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/20815716_PRESTIGE_Champagne_Tasting.pdf"
+},
+"ronc-laris-merlot-2": {
+"specs": {
+"Vintage": "0",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/20620484_Ronc_Laris_Merlot_Tasting.pdf"
+},
+"ronc-laris-merlot-1": {
+"specs": {
+"Vintage": "0",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/20620484_Ronc_Laris_Merlot_Tasting.pdf"
+},
+"ronc-laris-merlot": {
+"specs": {
+"Vintage": "0",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/20620484_Ronc_Laris_Merlot_Tasting.pdf"
+},
+"ronc-laris-cabernet": {
+"specs": {
+"Vintage": "0",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/20620441_Ronc_Laris_Cabernet_Tasting.pdf"
+},
+"ronc-laris-sauvignon-2": {
+"specs": {
+"Vintage": "0",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/20619713_Ronc_Laris_Sauvignon_Tasting.pdf"
+},
+"ronc-laris-sauvignon-1": {
+"specs": {
+"Vintage": "0",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/20619713_Ronc_Laris_Sauvignon_Tasting.pdf"
+},
+"ronc-laris-sauvignon": {
+"specs": {
+"Vintage": "0",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/20619713_Ronc_Laris_Sauvignon_Tasting.pdf"
+},
+"las-nencias-malbec-2030": {
+"specs": {
+"Vintage": "2025",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Argentina"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/20554858_Las_Nencias_Malbec_Tasting.pdf"
+},
+"bus-9-red-2021": {
+"specs": {
+"Vintage": "2021",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Portugal"
+},
+"sheet": null
+},
+"hormiga-negra-malbec-2025": {
+"specs": {
+"Vintage": "2025",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Argentina"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/20520422_Hormiga_Negra_Malbec_2025_TASTING.pdf"
+},
+"las-nencias-malbec-2029": {
+"specs": {
+"Vintage": "2025",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Malbec",
+"Country": "Argentina"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/20520410_Malbicho_Chardonnay_Taeting.pdf"
+},
+"las-nencias-malbec-2028": {
+"specs": {
+"Vintage": "2025",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Malbec",
+"Country": "Argentina"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/20520410_Malbicho_Chardonnay_Taeting.pdf"
+},
+"las-nencias-malbec-2027": {
+"specs": {
+"Vintage": "2025",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Malbec",
+"Country": "Argentina"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/20520324_Las_Nencias_Malbec_Tasting.pdf"
+},
+"las-nencias-malbec-2026": {
+"specs": {
+"Vintage": "2025",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Malbec",
+"Country": "Argentina"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/20520324_Las_Nencias_Malbec_Tasting.pdf"
+},
+"las-nencias-malbec-2025": {
+"specs": {
+"Vintage": "2025",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Malbec",
+"Country": "Argentina"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/20520324_Las_Nencias_Malbec_Tasting.pdf"
+},
+"petite-marie-white-2023": {
+"specs": {
+"Vintage": "2025",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Sauvignon Blanc, S\u00e9millon",
+"Country": "France"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18393488_PETITE MARIE  BLANC Tasting.pdf"
+},
+"diwald-rose-2025": {
+"specs": {
+"Vintage": "2025",
+"Type": "Rose Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Austria"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/20381395_Diwald_Zweigelt_Rose_tasting.pdf"
+},
+"lambrusco-grasparossa-amabile": {
+"specs": {
+"Vintage": "0",
+"Type": "Sparkling Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/19618862_LAMBRUSCO GRASPAROSSA AMABILE TASTING  .pdf"
+},
+"lambrusco-di-sorbara": {
+"specs": {
+"Vintage": "0",
+"Type": "Sparkling Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/19618902_LAMBRUSCO DI SORBARA Tasting.docx"
+},
+"lambrusco-grasparossa-secco": {
+"specs": {
+"Vintage": "0",
+"Type": "Sparkling Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/19608154_LAMBRUSCO GRASPAROSSA SECCO TASTING.docx"
+},
+"salat-organic-cava-brut": {
+"specs": {
+"Type": "Sparkling Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Spain"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/19607126_Salat Organic Brut \u00b7 D.O. Cava  Tasting Sheet.pdf"
+},
+"limoncello-200ml-castagner": {
+"specs": {
+"Vintage": "0",
+"Type": "Spirits",
+"Bottle Size": "24 x 200mL",
+"Bottles Per Case": "24",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/19604075_19604068_Limoncello 200ml NEW tasting.pdf"
+},
+"primitivo-trecciaia-2025": {
+"specs": {
+"Vintage": "2025",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/19335973_Trecciaia _ Primitivo Tasting.pdf"
+},
+"brunello-di-montalcino-2017": {
+"specs": {
+"Vintage": "2021",
+"Type": "Red Wine",
+"Bottle Size": "6 x 750mL",
+"Bottles Per Case": "6",
+"Varietal": "Sangiovese",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18018995_Brunello Montalcino Piancornello tasting.pdf"
+},
+"giuseppe-luigi-pinot-grigio-2026": {
+"specs": {
+"Vintage": "2025",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/17944688_Reguta_Prosecco NEW tasting notes.pdf"
+},
+"montepulciano-trecciaia-2021": {
+"specs": {
+"Vintage": "2025",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/19464188_Trecciaia_Montepulciano_dAbruzzo_Doc_Eng_1.pdf"
+},
+"versiano-verdicchio-2024": {
+"specs": {
+"Vintage": "2024",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18394468_Versiano Tasting.pdf"
+},
+"terra-vallona-2026": {
+"specs": {
+"Vintage": "2025",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "France"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18774826_TERRA VALLONA RED Tasting.pdf"
+},
+"verdicchio-terre-delle-lame-2024": {
+"specs": {
+"Vintage": "2025",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18393895_Terre Delle Lame Tasting.pdf"
+},
+"reguta-pinot-nero-2023": {
+"specs": {
+"Vintage": "2023",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": null
+},
+"frank-matts-picks": {
+"specs": {
+"Type": "Other",
+"Bottles Per Case": "1"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18913309_empty_test.pdf"
+},
+"viva-italia": {
+"specs": {
+"Type": "Other",
+"Bottles Per Case": "1"
+},
+"sheet": null
+},
+"weeknight-pours": {
+"specs": {
+"Type": "Other",
+"Bottles Per Case": "1"
+},
+"sheet": null
+},
+"pop-pour": {
+"specs": {
+"Type": "Other",
+"Bottles Per Case": "1"
+},
+"sheet": null
+},
+"terra-vallona-2025": {
+"specs": {
+"Vintage": "2025",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "France"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18774826_TERRA VALLONA RED Tasting.pdf"
+},
+"sommeliers-choice": {
+"specs": {
+"Bottles Per Case": "1"
+},
+"sheet": null
+},
+"pretty-in-pink": {
+"specs": {
+"Type": "Rose Wine",
+"Bottles Per Case": "1"
+},
+"sheet": null
+},
+"open-wine-1": {
+"specs": {
+"Vintage": "0",
+"Type": "Other",
+"Bottle Size": "1 x 750mL",
+"Bottles Per Case": "1"
+},
+"sheet": null
+},
+"open-wine": {
+"specs": {
+"Vintage": "0",
+"Type": "Other",
+"Bottle Size": "1 x 750mL",
+"Bottles Per Case": "1"
+},
+"sheet": null
+},
+"duzat-2023": {
+"specs": {
+"Vintage": "2025",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Dolcetto",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18157414_Duzat tasting notes.pdf"
+},
+"langhe-nebbiolo-virna-2023": {
+"specs": {
+"Vintage": "2023",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18393086_Virna Nebbiolo Tasting.png"
+},
+"chianti-d-o-c-g-2026": {
+"specs": {
+"Vintage": "2025",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18467459_Chianti Docg Tasting.pdf"
+},
+"chianti-d-o-c-g-2022": {
+"specs": {
+"Vintage": "2024",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18461305_Chianti Docg Tasting.pdf"
+},
+"rhubarbo": {
+"specs": {
+"Vintage": "0",
+"Type": "Spirits",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "United States"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18410627_Fernet Francisco Ruibarbo Tasting.pdf"
+},
+"sauvignon-jean-aubron-2026": {
+"specs": {
+"Vintage": "2025",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "France"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18336278_Jean Aubron Sauvignon Tasting.jpg"
+},
+"sauvignon-jean-aubron-2025": {
+"specs": {
+"Vintage": "2025",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "France"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18336278_Jean Aubron Sauvignon Tasting.jpg"
+},
+"croifolie-beaujolais-villages-rose-labise-2024": {
+"specs": {
+"Vintage": "2025",
+"Type": "Rose Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "France"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18156741_Croifolie_  BEAUJOLAIS VILLAGES Rose\u0301 Labise Tasting.pdf"
+},
+"cremant-rose-comtesse-d-estey-3": {
+"specs": {
+"Vintage": "0",
+"Type": "Sparkling Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "France"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18174352_Cremant Rose _ Comtesse d Estey TASTING.pdf"
+},
+"cremant-blanc-comtesse-d-estey-1": {
+"specs": {
+"Vintage": "0",
+"Type": "Sparkling Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18174230_Cremant Blanc Comtesse d Estey TASTING.pdf"
+},
+"nebbiolo-cascina-montegrosso-2024": {
+"specs": {
+"Vintage": "2024",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18119529_Nebbiolo Montegrosso tasting.pdf"
+},
+"barolo-cascina-montegrosso-2023": {
+"specs": {
+"Vintage": "2022",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18119471_Barolo Montegrosso Tasting.pdf"
+},
+"chablis-les-senties-2022": {
+"specs": {
+"Vintage": "2025",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Chardonnay",
+"Country": "France"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18156407_Chablis Les Senties Tasting.docx"
+},
+"lirica-primitivo-di-manduria": {
+"specs": {
+"Vintage": "2023",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Primitivo",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18076851_LIRICA Primitivo Manduria Tasting Notes.pdf"
+},
+"gruner-veltliner-vom-loss-2021": {
+"specs": {
+"Vintage": "2025",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Gr\u00fcner Veltliner",
+"Country": "Austria"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18158625_weingut_martin_ulli_diwald_gruner_veltliner_vom_loss_2025.pdf"
+},
+"petite-marie-red-bordeaux-2023": {
+"specs": {
+"Vintage": "2024",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Cabernet Franc",
+"Country": "France"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18393455_Petite Marie Bordeaux Rouge Tasting.pdf"
+},
+"barolo-brunate-marcarini-2021": {
+"specs": {
+"Vintage": "2021",
+"Type": "Red Wine",
+"Bottle Size": "6 x 750mL",
+"Bottles Per Case": "6",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/17978213_Barolo Brunate Marcarini Tasting.png"
+},
+"villa-folini-merlot-2024": {
+"specs": {
+"Vintage": "2024",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18024290_Merlot Villa Folini Tasting.pdf"
+},
+"villa-folini-cabernet-2024": {
+"specs": {
+"Vintage": "2024",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18024248_Cabernet Villa Folini Tasting.pdf"
+},
+"sauvignon-blanc-igt-2025": {
+"specs": {
+"Vintage": "2024",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18024185_Sauvignon Villa Folini Tasting.pdf"
+},
+"villa-folini-ribolla-gialla-2025": {
+"specs": {
+"Vintage": "2024",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18024066_Ribolla Gialla Villa Folini Tasting.pdf"
+},
+"rose-dry-mueller-oswald-2025": {
+"specs": {
+"Vintage": "2024",
+"Type": "Rose Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Germany"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18017685_Rose\u0301 Dry MUELLER_OSWALD TASTING.pdf"
+},
+"riesling-dry-mueller-oswald-2025": {
+"specs": {
+"Vintage": "2025",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Germany"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18017623_Riesling Dry MUELLER_OSWALD TASTING.pdf"
+},
+"sauvignon-blanc-dry-mueller-oswald-2026": {
+"specs": {
+"Vintage": "2025",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Germany"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18017343_Sauvignon Blanc Dry MUELLER_OSWALD TASTING.pdf"
+},
+"spatburgunder-dry-mueller-oswald-2024": {
+"specs": {
+"Vintage": "2024",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Germany"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18017282_Spa\u0308tburgunder Dry MUELLER_OSWALD  TASTING.pdf"
+},
+"adrian-serrano-joven-rioja-2023": {
+"specs": {
+"Vintage": "2025",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Tempranillo",
+"Country": "Spain"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/17769741_ADRIAN SERRANO  JOVEN Tempranillo tasting WINE 2023.pdf"
+},
+"roero-arneis-marcarini-2025": {
+"specs": {
+"Vintage": "2025",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/17979621_Marcarini Roero Arneis Tasting.png"
+},
+"dolcetto-d-alba-boschi-di-berri-marcarini-2024": {
+"specs": {
+"Vintage": "2024",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/17979576_Marcarini Dolcetto Tasting.png"
+},
+"barbera-d-alba-ciabot-marcarini-2024": {
+"specs": {
+"Vintage": "2024",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/17978362_Marcarini Barbera d Alba Tasting.png"
+},
+"langhe-nebbiolo-lasarin-marcarini-2025": {
+"specs": {
+"Vintage": "2024",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/17978339_Marcarini Langhe Nebbiolo Tasting.png"
+},
+"barolo-del-commune-di-la-morra-marcarini-2021": {
+"specs": {
+"Vintage": "2022",
+"Type": "Red Wine",
+"Bottle Size": "6 x 750mL",
+"Bottles Per Case": "6"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/17978264_Marcarini Barolo La Morra Tasting.png"
+},
+"adrian-serrano-crianza-rioja-2023": {
+"specs": {
+"Vintage": "2021",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Spain"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/17769732_ADRIAN SERRANO CRIANZA Tasting 2020.pdf"
+},
+"adriano-serrano-blanco-rioja-2024": {
+"specs": {
+"Vintage": "2024",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Tempranillo",
+"Country": "Spain"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/17769724_ADRIAN SERRANO  BLANCO Tasting 2023.pdf"
+},
+"pyjama-mencia-2020": {
+"specs": {
+"Vintage": "2024",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Mencia",
+"Country": "Spain"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18407810_Pyjama Mencia tasting notes.docx"
+},
+"pyjama-godello-2024": {
+"specs": {
+"Vintage": "2024",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Godello",
+"Country": "Spain"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18407807_Pyjama Godello tasting notes.docx"
+},
+"favorita-lafrea-2023": {
+"specs": {
+"Vintage": "2024",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18157692_Lafrea FAVORITA tasting notes.pdf"
+},
+"prosecco": {
+"specs": {
+"Vintage": "0",
+"Type": "Sparkling Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18407790_Reguta_Prosecco NEW tasting notes.pdf"
+},
+"sauvignon-atlantique-2023": {
+"specs": {
+"Vintage": "2024",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Sauvignon Blanc",
+"Country": "France"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18412602_Atlantique Tasting.pdf"
+},
+"chianti-classico-menicucci-2024": {
+"specs": {
+"Vintage": "2023",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/17917986_Chianti Classico Tasting Notes.pdf"
+},
+"roberperots-bordeaux-2024": {
+"specs": {
+"Vintage": "2024",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "France"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/17860686_Rober Perots Bordeaux tasting.pdf"
+},
+"folle-blanche-2024": {
+"specs": {
+"Vintage": "2024",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "France"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/17737188_Jean Aubron Folle Blanche. TASTING.png"
+},
+"sauvignon-jean-aubron-2024": {
+"specs": {
+"Vintage": "2024",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "France"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/17737213_Jean Aubron Sauvignon Tasting.jpg"
+},
+"cuvee-rose": {
+"specs": {
+"Vintage": "0",
+"Type": "Sparkling Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/17711206_CUVEE ROSE Tasting.pdf"
+},
+"trisole-grillo": {
+"specs": {
+"Vintage": "2025",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/17692089_TRISOLE Grillo Tasting.pdf"
+},
+"solo-super-tuscan-12-pack-2021": {
+"specs": {
+"Vintage": "2021",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/17674401_Solo Solho Tasting Notes.pdf"
+},
+"diwald-rose-2021": {
+"specs": {
+"Vintage": "2025",
+"Type": "Rose Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Zweigelt"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18156808_Diwald Zweigelt Rose\u0301 tasting.pdf"
+},
+"amaro-leon-zero-non-alc-2": {
+"specs": {
+"Vintage": "0",
+"Type": "Non-Alcoholic",
+"Bottle Size": "12 x 350mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/17769873_Amaro Leon Zero Tasting.docx"
+},
+"robi-2": {
+"specs": {
+"Vintage": "0",
+"Type": "Non-Alcoholic",
+"Bottle Size": "12 x 700mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18411510_Robi Rosso Bitter Compari Tasting.pdf"
+},
+"pinot-noir-cd-2022": {
+"specs": {
+"Vintage": "2024",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Pinot Noir",
+"Country": "France"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18407769_CD Pinot Noir tasting.pdf"
+},
+"domaine-faubert-aude-2023": {
+"specs": {
+"Vintage": "2024",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Carignan, Syrah, Grenache",
+"Country": "France"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18157195_Domaine Fabert Aude Tasting notes.pdf"
+},
+"chardonnay": {
+"specs": {
+"Vintage": "2024",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Chardonnay",
+"Country": "France"
+},
+"sheet": null
+},
+"5-senses-2020": {
+"specs": {
+"Vintage": "2024",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Merlot, Malbec, Abouriou, Cabernet Franc, Cabernet Sauvignon",
+"Country": "France"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/17769711_5 Senses Tasting.pdf"
+},
+"ripasso-red-label-2020": {
+"specs": {
+"Vintage": "2020",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Corvinone, Corvina, Rondinella",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18411356_Ripasso Tasting.pdf"
+},
+"white-mont-rubi-2021": {
+"specs": {
+"Vintage": "2022",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Xarel-lo",
+"Country": "Spain"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18394608_White Tasting.png"
+},
+"verdicchio-versus-2025": {
+"specs": {
+"Vintage": "2025",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18394401_Versus Tasting.pdf"
+},
+"brunello-riserva-2015": {
+"specs": {
+"Vintage": "2019",
+"Type": "Red Wine",
+"Bottle Size": "6 x 750mL",
+"Bottles Per Case": "6",
+"Varietal": "Sangiovese",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18019162_Piancornello Brunello di Montalcino Riserva Tasting.png.pdf"
+},
+"trisole-nerello-mascalese-2025": {
+"specs": {
+"Vintage": "2024",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18413567_TRISOLE Nerello Mascalese Tasting.pdf"
+},
+"trisole-nero-d-avola-2024": {
+"specs": {
+"Vintage": "2025",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18394774_TRISOLE Nero d Avola Tasting.pdf"
+},
+"trisole-zibibbo-2025": {
+"specs": {
+"Vintage": "2024",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18394749_TRISOLE Zibibbo Tasting.pdf"
+},
+"trisole-grillo-2024": {
+"specs": {
+"Vintage": "2024",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18413529_TRISOLE Grillo Tasting.pdf"
+},
+"ronc-laris-pinot-grigio-2025": {
+"specs": {
+"Vintage": "2024",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18411646_Pinot Laris Ronc Laris.pdf"
+},
+"amaro-santoni": {
+"specs": {
+"Vintage": "0",
+"Type": "Amaro",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/17769887_Amaro Santoni Tasting.pdf"
+},
+"rancore-2015": {
+"specs": {
+"Vintage": "2016",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18407833_NEW Rancore tasting Notes.pdf"
+},
+"bella-crema-di-mandarino": {
+"specs": {
+"Vintage": "0",
+"Type": "Non-Alcoholic",
+"Bottle Size": "6 x 750mL",
+"Bottles Per Case": "6",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/17802295_Mandarino TASTING.pdf"
+},
+"bella-crema-di-limone": {
+"specs": {
+"Vintage": "0",
+"Type": "Non-Alcoholic",
+"Bottle Size": "6 x 750mL",
+"Bottles Per Case": "6",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/17802287_Limone TASTING.pdf"
+},
+"bella-crema-di-caramello": {
+"specs": {
+"Vintage": "0",
+"Type": "Non-Alcoholic",
+"Bottle Size": "6 x 750mL",
+"Bottles Per Case": "6",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/17802278_Caramello TASTING .pdf"
+},
+"oxley-estate-chardonnay-2022": {
+"specs": {
+"Vintage": "2021",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Canada"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18393317_Oxley Estate Chardonnay Tasting copy.pdf"
+},
+"rober-perots-bordeaux-2019": {
+"specs": {
+"Vintage": "2018",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "France"
+},
+"sheet": null
+},
+"bella-vermut-2": {
+"specs": {
+"Vintage": "0",
+"Type": "Non-Alcoholic",
+"Bottle Size": "6 x 1000mL",
+"Bottles Per Case": "6"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/17802380_Bella Vermut Tasting.pdf"
+},
+"elegia-primitivo-di-manduria-riserva-2020": {
+"specs": {
+"Vintage": "2019",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/21986557_ELEGIA_Tasting_NEW_NEW.pdf"
+},
+"taruguin-2020": {
+"specs": {
+"Vintage": "2019",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Tintoira",
+"Country": "Spain"
+},
+"sheet": null
+},
+"bella-glamour-1": {
+"specs": {
+"Vintage": "0",
+"Type": "Non-Alcoholic",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Glera"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/17802356_Bella Glamour Prosecco tasting notes.pdf"
+},
+"amaro-di-chainciano-1": {
+"specs": {
+"Vintage": "0",
+"Type": "Amaro",
+"Bottle Size": "12 x 700mL",
+"Bottles Per Case": "12"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/17769855_Tasting Notes AMARO DI CHIANCIANO.docx"
+},
+"elegia-primitivo-di-manduria-riserva-2019": {
+"specs": {
+"Vintage": "2021",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/21986557_ELEGIA_Tasting_NEW_NEW.pdf"
+},
+"gr20-rose-2": {
+"specs": {
+"Vintage": "0",
+"Type": "Rose Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "France"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18158576_GR20 Rose Tasting Sheet.pdf"
+},
+"chianti-classico-menicucci-2023": {
+"specs": {
+"Vintage": "2022",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": null
+},
+"rosa-2022": {
+"specs": {
+"Vintage": "2023",
+"Type": "Rose Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Zweigelt, Blaufrankish, St. Laurent",
+"Country": "Austria"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18411654_Rosa Umathum Tasting notes.pdf"
+},
+"pinot-nero-fuxleiten-2024": {
+"specs": {
+"Vintage": "2023",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": null
+},
+"une-ile-rose-12-pack-2025": {
+"specs": {
+"Vintage": "2024",
+"Type": "Rose Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "France"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18407531_UneIle Cuvee Rose Tasting.pdf"
+},
+"ayre-verdejo-2023": {
+"specs": {
+"Vintage": "2023",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Verdejo",
+"Country": "Spain"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/17802097_Ayre Verdejo tasting notes.pdf"
+},
+"no-fine-print-cabernet-sauvignon-2020": {
+"specs": {
+"Vintage": "2019",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Cabernet Sauvignon, Syrah, Petit Syrah",
+"Country": "United States"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18394638_NO FIND PRINT Cabernet tasting notes.pdf"
+},
+"barbera-d-alba-virna-2023": {
+"specs": {
+"Vintage": "2023",
+"Type": "Red Wine",
+"Bottle Size": "12 x 12mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/17802148_Barbera Virna tasting notes.pdf"
+},
+"stu-fuori-langhe-bianco-2025": {
+"specs": {
+"Vintage": "2025",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18412369_StoFuori Tasting notes.pdf"
+},
+"barolo-noi-2021": {
+"specs": {
+"Vintage": "2022",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/17802207_Barolo NOI tasting notes.pdf"
+},
+"amarone-white-label-riserva-2006": {
+"specs": {
+"Vintage": "2004",
+"Type": "Red Wine",
+"Bottle Size": "1 x 750mL",
+"Bottles Per Case": "1",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/17773816_Amarone Riserva White Label Tasting.docx"
+},
+"amarone-master-case-cantine-benedetti": {
+"specs": {
+"Bottle Size": "1 x 750mL",
+"Bottles Per Case": "1"
+},
+"sheet": null
+},
+"ribolla-gialla-classico-2021": {
+"specs": {
+"Vintage": "2021",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18411280_Ribolla Gialla Classico Tasting.pdf"
+},
+"cuvee-elegance-magnum-3-pack-rose": {
+"specs": {
+"Vintage": "2023",
+"Type": "Rose Wine",
+"Bottle Size": "3 x 1500mL",
+"Bottles Per Case": "3",
+"Country": "France"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18156763_E\u0301LE\u0301GANCE ROSE\u0301 AOP Magnum Tasting.pdf"
+},
+"chapelle-st-jean-la-vieille-eglise-white-2022": {
+"specs": {
+"Vintage": "2025",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Sauvignon Blanc",
+"Country": "France"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18392706_LaVieille Eglise Blanc Tasting.pdf"
+},
+"terra-vallona-cabernet-merlot-2022": {
+"specs": {
+"Vintage": "2024",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Merlot, Cabernet Sauvignon",
+"Country": "France"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18413436_TERRA VALLONA RED Tasting.pdf"
+},
+"alice-2023": {
+"specs": {
+"Vintage": "2025",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Verdeca",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/17769761_Alice Tasting Notes.png"
+},
+"sabinot-barbera-2023": {
+"specs": {
+"Vintage": "2023",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": null
+},
+"blanc-de-blanc-1": {
+"specs": {
+"Vintage": "0",
+"Type": "Sparkling Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Glera, Chardonnay, Pinot Bianco",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/17802436_Blanc de Blancs tasting notes NEW.pdf"
+},
+"cennatoio-chianti-classico-2023": {
+"specs": {
+"Vintage": "2023",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18156403_Cennatoio Chianti Classico Tasting.pdf"
+},
+"scacciapensier-rosso-toscana-2023": {
+"specs": {
+"Vintage": "2025",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18077491_SCACCIAPENSIER  Tasting.png"
+},
+"garda-soave-2024": {
+"specs": {
+"Vintage": "2024",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18158450_GARDA SOAVE DOC Tasting.pdf"
+},
+"garda-pinot-noir-2024": {
+"specs": {
+"Vintage": "2024",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18158436_Garda Pinot Noir Tasting.pdf"
+},
+"rose-idylle-2024": {
+"specs": {
+"Vintage": "2024",
+"Type": "Rose Wine",
+"Bottle Size": "6 x 750mL",
+"Bottles Per Case": "6",
+"Country": "France"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18412015_Terra Vecchia Rose\u2019 Idylle Tasting.pdf"
+},
+"carte-blanche-champagne": {
+"specs": {
+"Vintage": "0",
+"Type": "Champagne",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "France"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18156358_Carte Blanche Champagne Tasting.jpg"
+},
+"viognier-blanc-2022": {
+"specs": {
+"Vintage": "2024",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Viognier",
+"Country": "France"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18394512_Viognier Tasting NEW.pdf"
+},
+"chapelle-st-jean-la-vieille-eglise-red-2022": {
+"specs": {
+"Vintage": "2023",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Cabernet Sauvignon, Merlot, Malbec, Cabernet Franc, Syrah",
+"Country": "France"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18392382_La Vieille Eglise red tasting.pdf"
+},
+"pinot-nero-fuxleiten-2023": {
+"specs": {
+"Vintage": "2024",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/19978099_pinot_nero_fuxleiten_Tasting.pdf"
+},
+"chardonnay-arvum-2024": {
+"specs": {
+"Vintage": "2025",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": null
+},
+"pinot-bianco-longarei-2023": {
+"specs": {
+"Vintage": "2023",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18407713_pinot bianco longarei Tasting.pdf"
+},
+"solo-super-tuscan-12-pack-2018": {
+"specs": {
+"Vintage": "2019",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Cabernet Sauvignon, Merlot 30% - , Syrah",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18412329_SOLO Menicucci SuperTuscan Tasting.pdf"
+},
+"valpolicella-superiore-red-label-2022": {
+"specs": {
+"Vintage": "2023",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Corvinone, Rondinella, Molinara",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18407676_Valpolicella Superiore Tasting.pdf"
+},
+"bella-gin": {
+"specs": {
+"Type": "Non-Alcoholic",
+"Bottle Size": "6 x 750mL",
+"Bottles Per Case": "6",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/17802341_Bella Gin Zero tasting notes.pdf"
+},
+"bella-bitter-dolce-aperol": {
+"specs": {
+"Type": "Non-Alcoholic",
+"Bottle Size": "6 x 750mL",
+"Bottles Per Case": "6",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/17802249_Bella bitter dolce APEROL Tasting.pdf"
+},
+"bella-bitter-amaro-compari": {
+"specs": {
+"Type": "Non-Alcoholic",
+"Bottle Size": "6 x 750mL",
+"Bottles Per Case": "6",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/17802236_Bella Bitter Amaro %22Compari%22 Tasting .pdf"
+},
+"cuvee-elegance-magnum-2023": {
+"specs": {
+"Vintage": "2023",
+"Type": "Rose Wine",
+"Bottle Size": "6 x 1500mL",
+"Bottles Per Case": "6",
+"Country": "France"
+},
+"sheet": null
+},
+"inverno-montepulciano-riserva-2022": {
+"specs": {
+"Vintage": "2021",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18176685_Inverno Tasting.pdf"
+},
+"oxley-estate-riesling-2020": {
+"specs": {
+"Vintage": "2024",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Canada"
+},
+"sheet": null
+},
+"oxley-estate-chardonnay-2021": {
+"specs": {
+"Vintage": "2021",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Canada"
+},
+"sheet": null
+},
+"weather-rock-white-2024": {
+"specs": {
+"Vintage": "2024",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Canada"
+},
+"sheet": null
+},
+"weather-rock-red-2024": {
+"specs": {
+"Vintage": "2024",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Canada"
+},
+"sheet": null
+},
+"amarone-classico-red-label": {
+"specs": {
+"Vintage": "2018",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Corvina, Corvinone, Rondinella",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/17769899_amarone_classico Tasting.pdf"
+},
+"bus-9-red": {
+"specs": {
+"Vintage": "2024",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Syrah, aragonez",
+"Country": "Portugal"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18019227_BUS 9 Red tasting.pdf"
+},
+"la-vitto-rosso-nv": {
+"specs": {
+"Vintage": "0",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Sangiovese, Syrah, Canaiolo",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18392778_La Vitto Rosso Technical sheet.pdf"
+},
+"croifolie-beaujolais-villages-rouge-tradition-2023": {
+"specs": {
+"Vintage": "2024",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Gamay",
+"Country": "France"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18156745_Croifolie \u2013 BEAUJOLAIS VILLAGES ROUGE TRADITION 2023 Tasting.pdf"
+},
+"croifolie-vieilles-vignes-beaujolais-villages-rouge-2023": {
+"specs": {
+"Vintage": "2023",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "France"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18156738_Croifolie Vieilles Vignes Beujolais Villages Tasting.pdf"
+},
+"furmint-2022": {
+"specs": {
+"Vintage": "2022",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Austria"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18158281_Furmint tasting Notes.pdf"
+},
+"parapli-cuvee-2020": {
+"specs": {
+"Vintage": "2022",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Hungary"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18158463_Parapli Tasting.pdf"
+},
+"rancho-alegre-blanco": {
+"specs": {
+"Vintage": "0",
+"Type": "Spirits",
+"Bottle Size": "12 x 1000mL",
+"Bottles Per Case": "12",
+"Country": "Mexico"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18407824_Rancho Alegre Blanco Tasting.pdf"
+},
+"sauvignon-jean-aubron-2023": {
+"specs": {
+"Vintage": "2023",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "France"
+},
+"sheet": null
+},
+"muscadet-elegance-2024": {
+"specs": {
+"Vintage": "2025",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "France"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/17737207_Muscadet Elegance Tasting Notes.doc"
+},
+"lambrusco-pietrarossa-1": {
+"specs": {
+"Vintage": "0",
+"Type": "Sparkling Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18392936_Pietrarossa Lambrusco Tasting.pdf"
+},
+"california-wonders-chardonnay-2023": {
+"specs": {
+"Vintage": "2023",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "United States"
+},
+"sheet": null
+},
+"california-wonders-cabernet-2021": {
+"specs": {
+"Vintage": "2021",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "United States"
+},
+"sheet": null
+},
+"i-toscani-2022": {
+"specs": {
+"Vintage": "2018",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Syrah, Teroldego"
+},
+"sheet": null
+},
+"rosso-di-montalcino-2020": {
+"specs": {
+"Vintage": "2020",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Sangiovese",
+"Country": "Italy"
+},
+"sheet": null
+},
+"custom-item": {
+"specs": {
+"Bottle Size": "1 x 0mL",
+"Bottles Per Case": "1"
+},
+"sheet": null
+},
+"leanne-s-50th-celebration": {
+"specs": {
+"Bottles Per Case": "1"
+},
+"sheet": null
+},
+"gift-card-100-00": {
+"specs": {
+"Type": "Other",
+"Bottles Per Case": "1"
+},
+"sheet": null
+},
+"sale-fish-gift-packs": {
+"specs": {
+"Type": "Other",
+"Bottles Per Case": "1"
+},
+"sheet": null
+},
+"congratulations-pack": {
+"specs": {
+"Vintage": "0",
+"Bottles Per Case": "1"
+},
+"sheet": null
+},
+"holiday-charcuterie": {
+"specs": {
+"Type": "Other",
+"Bottles Per Case": "1"
+},
+"sheet": null
+},
+"carrie-cook-holiday-zoom": {
+"specs": {
+"Bottles Per Case": "1"
+},
+"sheet": null
+},
+"gift-bags": {
+"specs": {
+"Type": "Openers, Kits and Cases",
+"Bottles Per Case": "1"
+},
+"sheet": null
+},
+"delivery": {
+"specs": {
+"Vintage": "0",
+"Bottle Size": "1 x 0mL",
+"Bottles Per Case": "1"
+},
+"sheet": null
+},
+"emma-s-food-ad-on": {
+"specs": {
+"Vintage": "0",
+"Type": "Other",
+"Bottles Per Case": "1"
+},
+"sheet": null
+},
+"valentines-day-web-promotion": {
+"specs": {
+"Type": "Other",
+"Bottles Per Case": "1"
+},
+"sheet": null
+},
+"rogers-new-year-zoom-package": {
+"specs": {
+"Type": "Other",
+"Bottles Per Case": "1"
+},
+"sheet": null
+},
+"td-group-jennifer-stone": {
+"specs": {
+"Bottles Per Case": "1"
+},
+"sheet": null
+},
+"crazy-cook-holiday-zoom": {
+"specs": {
+"Type": "Other",
+"Bottles Per Case": "1"
+},
+"sheet": null
+},
+"stratum-group-holiday-pack": {
+"specs": {
+"Bottles Per Case": "1"
+},
+"sheet": null
+},
+"scotia-bank-year-end": {
+"specs": {
+"Type": "Other",
+"Bottles Per Case": "1"
+},
+"sheet": null
+},
+"taxes": {
+"specs": {
+"Bottles Per Case": "1"
+},
+"sheet": null
+},
+"primitivo-1": {
+"specs": {
+"Vintage": "2024",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Primitivo",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/19464074_Montepulciano d Abruzzo tasting notes.pdf"
+},
+"la-vitto-bianco": {
+"specs": {
+"Vintage": "0",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Chardonnay, Sauvignon Blanc",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18392765_La Vitto Bianco _ tasting notes.pdf"
+},
+"bella-vermut": {
+"specs": {
+"Vintage": "0",
+"Type": "Non-Alcoholic",
+"Bottle Size": "6 x 1000mL",
+"Bottles Per Case": "6"
+},
+"sheet": null
+},
+"ribolla-gialla-bellazoia-2021": {
+"specs": {
+"Vintage": "2021",
+"Type": "White Wine.",
+"Bottle Size": "6 x 750mL",
+"Bottles Per Case": "6",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18410842_Vigneto Bellazoia Ribolla Gialla Tasting.pdf"
+},
+"pinot-gris-2023": {
+"specs": {
+"Vintage": "2022",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Austria"
+},
+"sheet": null
+},
+"serraggia-heritage-2022": {
+"specs": {
+"Vintage": "2024",
+"Type": "White Wine.",
+"Bottle Size": "6 x 750mL",
+"Bottles Per Case": "6",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18413051_Serragghia Heritage Zibibbo Tasting.pdf"
+},
+"serraggia-onda-2022": {
+"specs": {
+"Vintage": "2022",
+"Type": "Red Wine",
+"Bottle Size": "6 x 750mL",
+"Bottles Per Case": "6"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18413185_Gabrio Bini Onda Tasting.pdf"
+},
+"serraggia-zibibbo-2022": {
+"specs": {
+"Vintage": "2023",
+"Type": "White Wine.",
+"Bottle Size": "6 x 750mL",
+"Bottles Per Case": "6",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18413361_Serragghia Zibibbo Tastingt.pdf"
+},
+"no-fine-print-cabernet-sauvignon-2019": {
+"specs": {
+"Vintage": "2019",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Cabernet Sauvignon, Syrah, Petit Syrah",
+"Country": "United States"
+},
+"sheet": null
+},
+"grauer-burgunder-2021": {
+"specs": {
+"Vintage": "2024",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Pinot Gris",
+"Country": "Austria"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18158613_Grauer Burgunder tasting notes.docx"
+},
+"two-kings-pinot-noir-2021": {
+"specs": {
+"Vintage": "2021",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Pinot Noir",
+"Country": "United States"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18407409_Two Kings Pinot Noir Tasting NEW.pdf"
+},
+"zweigelt": {
+"specs": {
+"Vintage": "2020",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Zweigelt",
+"Country": "Austria"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18410555_Zweigelt tasting notes.pdf"
+},
+"no-9-cabernet-sauvignon": {
+"specs": {
+"Vintage": "2020",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Cabernet Sauvignon",
+"Country": "United States"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18394718_No 9 tasting cabernet.pdf"
+},
+"tuff-nutt": {
+"specs": {
+"Vintage": "2022",
+"Type": "Sparkling Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Bianco d'Alessano",
+"Country": "Australia"
+},
+"sheet": null
+},
+"ripasso-red-label": {
+"specs": {
+"Vintage": "2018",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Corvinone, Corvina, Rondinella",
+"Country": "Italy"
+},
+"sheet": null
+},
+"ruibarbio": {
+"specs": {
+"Vintage": "0",
+"Type": "Spirits",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "United States"
+},
+"sheet": null
+},
+"st-laurent": {
+"specs": {
+"Vintage": "2023",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "St. Laurent",
+"Country": "Austria"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18412343_St Laurent tasting.pdf"
+},
+"kirschgarten-2018": {
+"specs": {
+"Vintage": "2018",
+"Type": "Red Wine",
+"Bottle Size": "6 x 750mL",
+"Bottles Per Case": "6",
+"Varietal": "Blaufrankish",
+"Country": "Austria"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18391833_Kirschgarten 2018 tasting.pdf"
+},
+"chapelle-st-jean-white-2021": {
+"specs": {
+"Vintage": "2021",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12"
+},
+"sheet": null
+},
+"lancestral-pet-nat": {
+"specs": {
+"Vintage": "2021",
+"Type": "Sparkling Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Sumoll",
+"Country": "Spain"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18393005_LANCESTRAL 1902 ROSE 2019.pdf"
+},
+"taruguin-2019": {
+"specs": {
+"Vintage": "2019",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Tintoira",
+"Country": "Spain"
+},
+"sheet": null
+},
+"ruwer-riesling-trockewn-2021": {
+"specs": {
+"Vintage": "2021",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Riesling"
+},
+"sheet": null
+},
+"rosso-di-montalcino-2021": {
+"specs": {
+"Vintage": "2024",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Sangiovese",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18412316_Piancornello Rosso Di Montalcino Tasting.pdf"
+},
+"renascenzia-bianco-2020": {
+"specs": {
+"Vintage": "2020",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12"
+},
+"sheet": null
+},
+"ried-goldberg-2019": {
+"specs": {
+"Vintage": "2020",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Gr\u00fcner Veltliner"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18411325_Ried Goldberg Gru\u0308ner Veltliner tasting notes.pdf"
+},
+"roka-2021": {
+"specs": {
+"Vintage": "2021",
+"Type": "Rose Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Merlot",
+"Country": "Hungary"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18411638_Roka Rose Tasting.pdf"
+},
+"refosco-seriade-nv": {
+"specs": {
+"Vintage": "0",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18407859_Seriade _ Refosco tasting notes.pdf"
+},
+"ot-2016": {
+"specs": {
+"Vintage": "2016",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Syrah, Cabernet Franc"
+},
+"sheet": null
+},
+"pecorino-tre-gemme-135": {
+"specs": {
+"Vintage": "2022",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": null
+},
+"phigaia-after-the-red": {
+"specs": {
+"Vintage": "2019",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Cabernet Franc, Merlot, Cabernet Sauvignon",
+"Country": "Italy"
+},
+"sheet": null
+},
+"oliver-2021": {
+"specs": {
+"Vintage": "2021",
+"Type": "Skin Contact Orange Wine (White)",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Hungary"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18100361_Oliver tasting.pdf"
+},
+"new-world-wine-klick-health-aurinia-team-launch": {
+"specs": {
+"Type": "Other",
+"Bottles Per Case": "1"
+},
+"sheet": null
+},
+"new-world-wine-robert-sproul": {
+"specs": {
+"Bottles Per Case": "1"
+},
+"sheet": null
+},
+"new-world-wine-kaihen": {
+"specs": {
+"Bottles Per Case": "1"
+},
+"sheet": null
+},
+"new-world-wine-neo-stock-exchange": {
+"specs": {
+"Type": "Other",
+"Bottles Per Case": "1"
+},
+"sheet": null
+},
+"new-world-wine-thinking-capital": {
+"specs": {
+"Type": "Other",
+"Bottles Per Case": "1"
+},
+"sheet": null
+},
+"new-world-wine-tina-sergio": {
+"specs": {
+"Type": "Other",
+"Bottles Per Case": "1"
+},
+"sheet": null
+},
+"new-world-wine-conexiom": {
+"specs": {
+"Type": "Other",
+"Bottles Per Case": "1"
+},
+"sheet": null
+},
+"new-world-wine-french-wine-pack-feb-4th": {
+"specs": {
+"Vintage": "0",
+"Bottles Per Case": "1"
+},
+"sheet": null
+},
+"new-world-wine-3-bottle-rn-design": {
+"specs": {
+"Vintage": "0",
+"Type": "Other",
+"Bottles Per Case": "1"
+},
+"sheet": null
+},
+"new-world-wine-fidelity": {
+"specs": {
+"Bottles Per Case": "1"
+},
+"sheet": null
+},
+"new-world-wine-beer": {
+"specs": {
+"Bottles Per Case": "1"
+},
+"sheet": null
+},
+"new-world-wine-hollis-wealth": {
+"specs": {
+"Bottles Per Case": "1"
+},
+"sheet": null
+},
+"new-world-wine-jin-wen": {
+"specs": {
+"Type": "Other",
+"Bottles Per Case": "1"
+},
+"sheet": null
+},
+"new-world-wine-3-bottle-cheese-board-pack": {
+"specs": {
+"Bottles Per Case": "1"
+},
+"sheet": null
+},
+"new-world-wine-budget-pack": {
+"specs": {
+"Type": "Other",
+"Bottles Per Case": "1"
+},
+"sheet": null
+},
+"new-world-wine-alaya-nick-wintergarten": {
+"specs": {
+"Type": "Other",
+"Bottles Per Case": "1"
+},
+"sheet": null
+},
+"new-world-wine-hiroc": {
+"specs": {
+"Type": "Other",
+"Bottles Per Case": "1"
+},
+"sheet": null
+},
+"new-world-wine-jti-com": {
+"specs": {
+"Type": "Other",
+"Bottles Per Case": "1"
+},
+"sheet": null
+},
+"new-world-wine-jennifer-stone": {
+"specs": {
+"Type": "Other",
+"Bottles Per Case": "1"
+},
+"sheet": null
+},
+"nascetta-2017": {
+"specs": {
+"Vintage": "2021",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Nascetta",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18393439_Nascetta tasting New.pdf"
+},
+"montepulciano-d-abruzzo-classico-2021": {
+"specs": {
+"Vintage": "2021",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Montepulciano **Organic**"
+},
+"sheet": null
+},
+"matthew-fireplace-whiskey": {
+"specs": {
+"Vintage": "0",
+"Type": "Whiskey",
+"Bottle Size": "12 x 700mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": null
+},
+"loli-2021": {
+"specs": {
+"Vintage": "2021",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Syrah"
+},
+"sheet": null
+},
+"lumeo-2019": {
+"specs": {
+"Vintage": "2019",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Syrah"
+},
+"sheet": null
+},
+"manzanilla-1": {
+"specs": {
+"Vintage": "0",
+"Type": "Spirits",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "United States"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18393401_Manzanilla Sell Sheet (1).pdf.docx"
+},
+"mencia-2018": {
+"specs": {
+"Vintage": "2018",
+"Type": "Red Wine",
+"Bottle Size": "6 x 750mL",
+"Bottles Per Case": "6",
+"Varietal": "Mencia",
+"Country": "Spain"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18393412_Pyjama Mencia tasting notes.docx"
+},
+"la-vieille-eglise-rose-2022": {
+"specs": {
+"Vintage": "2022",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Merlot, Cabernet, Abouriou"
+},
+"sheet": null
+},
+"kosmo-2020": {
+"specs": {
+"Vintage": "2020",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Cabernet Franc, Cabernet, Merlot, Blaufrankish",
+"Country": "Hungary"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18391847_Kosmo 2020 tasting.pdf"
+},
+"la-grinozza": {
+"specs": {
+"Vintage": "0",
+"Type": "Red Wine",
+"Bottle Size": "12 x 1000mL",
+"Bottles Per Case": "12",
+"Varietal": "Grignolino",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18392100_Grinozza PetNat Tasting.pdf"
+},
+"il-barrusco": {
+"specs": {
+"Vintage": "0",
+"Type": "Pet Nat",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Barbera, Neretto",
+"Country": "Italy"
+},
+"sheet": null
+},
+"i-am-2019": {
+"specs": {
+"Vintage": "2019",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12"
+},
+"sheet": null
+},
+"i-toscani-2021": {
+"specs": {
+"Vintage": "2021",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Syrah, Teroldego"
+},
+"sheet": null
+},
+"il-baffone": {
+"specs": {
+"Vintage": "0",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Moscato, Favorita",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18158649_Il Baffone tasting notes.docx"
+},
+"gilbert-sauvignon-blanc-skin-contact-2018": {
+"specs": {
+"Vintage": "2018",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Sauvignon Blanc"
+},
+"sheet": null
+},
+"fernet-willet-rye": {
+"specs": {
+"Vintage": "0",
+"Type": "Spirits",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "United States"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18157825_Fernet Francisco Rye Cask Tasting Sheet.pdf"
+},
+"fernet-willet-bourbon": {
+"specs": {
+"Vintage": "0",
+"Type": "Spirits",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "United States"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18157766_Fernet Francisco Willett Cask Tasting Notes.pdf"
+},
+"e-rosato": {
+"specs": {
+"Vintage": "0",
+"Type": "Rose Wine",
+"Bottle Size": "12 x 1000mL",
+"Bottles Per Case": "12",
+"Varietal": "Nebbiolo",
+"Country": "Italy"
+},
+"sheet": null
+},
+"durona-red-2017": {
+"specs": {
+"Vintage": "2017",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Sumoll, Grenache, Carignan",
+"Country": "Spain"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18157331_DURONA Red Tasting Notes.pdf"
+},
+"durona-whte": {
+"specs": {
+"Vintage": "2020",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Parellada",
+"Country": "Spain"
+},
+"sheet": null
+},
+"e-rosso": {
+"specs": {
+"Vintage": "0",
+"Type": "Red Wine",
+"Bottle Size": "12 x 1000mL",
+"Bottles Per Case": "12",
+"Varietal": "Barbera, Dolcetto",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18157597_E Rosso Tasting.pdf"
+},
+"e-bianco": {
+"specs": {
+"Vintage": "0",
+"Type": "White Wine.",
+"Bottle Size": "12 x 1000mL",
+"Bottles Per Case": "12",
+"Varietal": "Arneis, Moscato",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18157428_E Bianco tasting notes 2.docx"
+},
+"clifton-hall-great-house-rum": {
+"specs": {
+"Vintage": "0",
+"Bottle Size": "6 x 700mL",
+"Bottles Per Case": "6"
+},
+"sheet": null
+},
+"chardonnay-truffieres-les-senties-2022": {
+"specs": {
+"Vintage": "2022",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Chardonnay",
+"Country": "France"
+},
+"sheet": null
+},
+"bus-9-red-2020": {
+"specs": {
+"Vintage": "2020",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "Portugal"
+},
+"sheet": null
+},
+"bus-9-white-2021": {
+"specs": {
+"Vintage": "2021",
+"Type": "White Wine.",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Moscatel, Fern\u00e3o Pires",
+"Country": "Portugal"
+},
+"sheet": null
+},
+"bourgogne-les-brulis-les-senties-2022": {
+"specs": {
+"Vintage": "2023",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Pinot Noir",
+"Country": "France"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18018981_Burgundy Pinot Noir Les Senties Tasting.docx"
+},
+"aperit": {
+"specs": {
+"Vintage": "0",
+"Type": "Other",
+"Bottle Size": "12 x 700mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": null
+},
+"andretta-brunello-riserva-2015": {
+"specs": {
+"Vintage": "2015",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12"
+},
+"sheet": null
+},
+"andretta-brunello-di-montalcino-2016": {
+"specs": {
+"Vintage": "2016",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12"
+},
+"sheet": null
+},
+"andretta-rosso-di-montalcino-2014": {
+"specs": {
+"Vintage": "2014",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12"
+},
+"sheet": null
+},
+"amaro-di-chainciano": {
+"specs": {
+"Vintage": "0",
+"Type": "Other",
+"Bottle Size": "12 x 700mL",
+"Bottles Per Case": "12"
+},
+"sheet": null
+},
+"amaro-di-toscana": {
+"specs": {
+"Type": "Amaro",
+"Bottle Size": "12 x 700mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/17769861_Amaro Toscano tasting notes.docx"
+},
+"amaro-camatti": {
+"specs": {
+"Vintage": "0",
+"Type": "Amaro",
+"Bottle Size": "12 x 1000mL",
+"Bottles Per Case": "12",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/17769832_Amaro Camatti tasting notes.pdf"
+},
+"amaro-aplomado": {
+"specs": {
+"Vintage": "0",
+"Type": "Amaro",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "United States"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/17769777_Amaro Aplomado Tasting.pdf"
+},
+"amaro-aplomado-barrel-reserve-artichoke": {
+"specs": {
+"Vintage": "0",
+"Type": "Amaro",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Country": "United States"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/17769793_Amaro Aplomado Barrel Reserve Tasting.pdf"
+},
+"albone": {
+"specs": {
+"Vintage": "0",
+"Type": "Red Wine",
+"Bottle Size": "12 x 750mL",
+"Bottles Per Case": "12",
+"Varietal": "Lambrusco Salamino",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/17769749_Albone LAMBRUSCO DI MODENA tasting notes.docx"
+},
+"organic-tunisian-lemon-mint-100g": {
+"specs": {
+"Type": "Rooibos, Oolong, White Tea",
+"Bottle Size": "1 x 100mL",
+"Bottles Per Case": "1"
+},
+"sheet": null
+},
+"detox-cleanse-refresh-100g": {
+"specs": {},
+"sheet": null
+},
+"e-orange": {
+"specs": {
+"Vintage": "0",
+"Type": "Skin Contact Orange Wine (White)",
+"Bottle Size": "12 x 1000mL",
+"Bottles Per Case": "12",
+"Varietal": "Nascetta, Moscato, Incrocio Manzoni",
+"Country": "Italy"
+},
+"sheet": "https://wine.channelsnap.com/Files/SpecSheet/18157494_E Orange tasting notes.pdf"
+}
+}

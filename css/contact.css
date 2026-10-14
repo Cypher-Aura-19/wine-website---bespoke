@@ -1,0 +1,102 @@
+/* ==========================================================================
+   Bespoke Wine & Spirits, contact page
+   Same world: cream ground, muted red type, Coconat over Lexend Deca, square
+   corners, hairlines. The form is set like the rest of the page, not boxed:
+   underlined fields, labels that lift when you type, topic pills.
+   ========================================================================== */
+
+/* 1. Opening -------------------------------------------------------------------- */
+
+.ct-hero { padding-top: clamp(7rem, 16vh, 10rem); padding-bottom: clamp(3rem, 8vh, 5.5rem); }
+.ct-hero__grid { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 1.5rem clamp(2rem, 5vw, 5rem); align-items: end; }
+.ct-hero__title {
+  margin: 0; font-family: var(--display); font-weight: 400; color: var(--ox);
+  font-size: clamp(3.4rem, 9vw, 9.6rem); line-height: 0.92; letter-spacing: -0.045em;
+}
+.ct-hero__title .line { padding-bottom: 0.08em; margin-bottom: -0.08em; }
+.ct-hero__lede { margin: 0; max-width: 34ch; padding-bottom: 0.8rem; font-size: clamp(0.98rem, 1.15vw, 1.1rem); line-height: 1.55; }
+
+/* 2. Details and form ----------------------------------------------------------- */
+
+.ct-main { padding-bottom: clamp(5rem, 12vh, 8rem); }
+.ct-main__grid { display: grid; grid-template-columns: minmax(0, 4.4fr) minmax(0, 7fr); gap: clamp(2.5rem, 7vw, 8rem); align-items: start; border-top: 1px solid var(--line); padding-top: clamp(2.5rem, 6vh, 4rem); }
+
+.ct-info { display: grid; position: sticky; top: max(calc(var(--nav-h) + 1rem), 8vh); }
+.ct-info__row { display: grid; gap: 0.7rem; justify-items: start; padding-block: 1.6rem; border-bottom: 1px solid var(--line); }
+.ct-info__row:first-child { padding-top: 0; }
+.ct-info__row:last-child { border-bottom: 0; }
+.ct-info h2 { margin: 0; font-size: 0.8rem; font-weight: 500; color: var(--ox); }
+.ct-info p, .ct-info address { margin: 0; max-width: 34ch; font-style: normal; font-size: 0.98rem; line-height: 1.6; }
+.ct-big { font-family: var(--display); color: var(--ox); font-size: clamp(2rem, 3.2vw, 3.1rem); line-height: 1; letter-spacing: -0.03em; font-variant-numeric: tabular-nums; background: linear-gradient(currentColor, currentColor) left 100% / 0% 1px no-repeat; transition: background-size 0.6s var(--ease); padding-bottom: 0.15rem; }
+.ct-big:hover, .ct-big:focus-visible { background-size: 100% 1px; }
+.ct-link { display: inline-flex; align-items: center; gap: 0.5rem; font-size: 0.88rem; font-weight: 500; color: var(--ox); padding-bottom: 0.25rem; border-bottom: 1px solid var(--line); transition: border-color 0.3s; }
+.ct-link:hover, .ct-link:focus-visible { border-bottom-color: currentColor; }
+.ct-social { display: flex; gap: 1.5rem; flex-wrap: wrap; }
+
+.ct-form { display: grid; gap: clamp(1.8rem, 4vh, 2.6rem); }
+.ct-form__title { margin: 0; font-family: var(--display); font-weight: 400; color: var(--ox); font-size: clamp(2.4rem, 4.4vw, 4.4rem); line-height: 0.98; letter-spacing: -0.035em; }
+
+.ct-topics { margin: 0; padding: 0; border: 0; display: flex; flex-wrap: wrap; gap: 0.6rem; }
+.ct-topics legend { padding: 0; margin-bottom: 0.9rem; font-size: 0.8rem; font-weight: 500; color: var(--ox); }
+.ct-pill { position: relative; cursor: pointer; }
+.ct-pill input { position: absolute; opacity: 0; inset: 0; margin: 0; cursor: pointer; }
+.ct-pill span { display: inline-flex; align-items: center; min-height: 2.6rem; padding: 0 1.15rem; font-size: 0.88rem; color: var(--ox); box-shadow: inset 0 0 0 1px var(--line); transition: background-color 0.35s var(--ease), color 0.35s var(--ease), box-shadow 0.35s var(--ease); }
+.ct-pill:hover span { box-shadow: inset 0 0 0 1px var(--ox); }
+.ct-pill input:checked + span { background: var(--ox); color: var(--cream); box-shadow: inset 0 0 0 1px var(--ox); }
+.ct-pill input:focus-visible + span { outline: 2px solid var(--ox); outline-offset: 3px; }
+
+.ct-fields { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.2rem 2rem; align-items: start; }
+.ct-field { position: relative; }
+.ct-control { position: relative; }
+.ct-field--full { grid-column: 1 / -1; }
+.ct-field input, .ct-field textarea {
+  display: block; width: 100%; padding: 1.55rem 0 0.7rem; border: 0; border-bottom: 1px solid var(--line); border-radius: 0;
+  background: transparent; color: var(--ox); font: inherit; font-size: 1.05rem; line-height: 1.5; outline: 0; resize: vertical;
+  transition: border-color 0.3s;
+}
+.ct-field textarea { min-height: 8.5rem; }
+.ct-field label { position: absolute; left: 0; top: 1.55rem; font-size: 1.05rem; color: rgba(122, 52, 52, 0.75); pointer-events: none; transform-origin: left top; transition: transform 0.45s var(--ease), color 0.3s; }
+.ct-field label span { font-size: 0.85em; opacity: 0.8; }
+.ct-field input:focus + label, .ct-field input:not(:placeholder-shown) + label,
+.ct-field textarea:focus + label, .ct-field textarea:not(:placeholder-shown) + label { transform: translateY(-1.45rem) scale(0.76); color: var(--ox); }
+/* the underline draws across from the left when a field takes focus */
+.ct-control::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 1px; background: var(--ox); transform: scaleX(0); transform-origin: left; transition: transform 0.6s var(--ease); }
+.ct-control:focus-within::after { transform: scaleX(1); }
+.ct-field input[aria-invalid="true"], .ct-field textarea[aria-invalid="true"] { border-bottom-color: #a63232; }
+.ct-err { min-height: 1.6rem; margin: 0; padding-top: 0.4rem; font-size: 0.8rem; color: #a63232; }
+
+.ct-send { display: flex; align-items: center; gap: 1.5rem; flex-wrap: wrap; }
+.ct-send__btn { min-height: 3.4rem; padding: 0 1.6rem; font-size: 0.92rem; }
+.ct-send__btn[aria-busy="true"] { opacity: 0.7; pointer-events: none; }
+.ct-send__note { margin: 0; font-size: 0.85rem; }
+.ct-status { margin: 0; min-height: 1.4rem; font-size: 0.9rem; color: var(--ox); }
+
+/* 3. Map -------------------------------------------------------------------------- */
+
+.ct-map { padding: 0 var(--gutter) clamp(5rem, 12vh, 8rem); }
+.ct-map__frame { position: relative; height: min(70svh, 40rem); overflow: hidden; background: var(--blush); }
+.ct-map { position: relative; }
+.ct-map__line { position: absolute; z-index: 2; left: var(--gutter); right: var(--gutter); top: calc(min(70svh, 40rem) / 2); height: 1px; background: var(--ox); transform-origin: left; pointer-events: none; }
+.ct-map__frame iframe { position: absolute; left: 0; top: -150px; width: 100%; height: calc(100% + 150px); border: 0; filter: grayscale(1) sepia(0.28) contrast(0.95) brightness(1.04); }
+.ct-map__frame::after { content: ""; position: absolute; inset: 0; background: rgba(242, 226, 215, 0.28); mix-blend-mode: multiply; pointer-events: none; }
+.ct-map__card { position: absolute; z-index: 1; left: clamp(1rem, 3vw, 2.5rem); bottom: clamp(1rem, 3vw, 2.5rem); display: grid; gap: 0.5rem; justify-items: start; padding: 1.4rem 1.6rem; background: var(--cream); box-shadow: 0 1.25rem 2.5rem -1.25rem rgba(95, 38, 38, 0.35); }
+.ct-map__card p { margin: 0; }
+.ct-map__k { font-size: 0.8rem; font-weight: 500; color: var(--ox); }
+.ct-map__addr { font-family: var(--display); font-size: clamp(1.4rem, 2vw, 1.9rem); line-height: 1.1; letter-spacing: -0.02em; color: var(--ox); }
+
+/* Responsive ------------------------------------------------------------------------ */
+
+@media (max-width: 980px) {
+  .ct-hero__grid { grid-template-columns: 1fr; align-items: start; }
+  .ct-main__grid { grid-template-columns: 1fr; }
+  .ct-info { position: static; }
+}
+@media (max-width: 640px) {
+  .ct-fields { grid-template-columns: 1fr; }
+  .ct-map__frame { height: 60svh; }
+  .ct-map__line { top: 30svh; }
+  .ct-map__card { right: 1rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ct-field label, .ct-control::after, .ct-pill span, .ct-big { transition: none; }
+}

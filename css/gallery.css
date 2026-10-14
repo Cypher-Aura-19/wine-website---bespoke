@@ -1,0 +1,70 @@
+/* ==========================================================================
+   Bespoke Wine & Spirits, gallery page
+   The photographs lead. One full-screen field you drag through, a quiet title
+   and hint at the foot of the screen, and a viewer that shows a photograph
+   whole and uncropped.
+   ========================================================================== */
+
+body.is-gallery { overflow: hidden; }
+
+/* One cream page: the photographs run edge to edge and fade to cream at the top, behind the logo and
+   menu, and at the bottom, behind a slim caption line. Text always lands on cream. */
+.gl { position: relative; height: 100vh; height: 100svh; }
+.gl-field { position: absolute; inset: 0; overflow: hidden; background: var(--cream); cursor: grab; touch-action: none; user-select: none; opacity: 0; transition: opacity 0.8s var(--ease); }
+.gl-field.is-ready { opacity: 1; }
+.gl-field.is-dragging { cursor: grabbing; }
+.gl-field canvas { position: absolute; inset: 0; display: block; width: 100%; height: 100%; }
+.gl-veil { position: absolute; inset: 0; z-index: 1; pointer-events: none; background:
+  linear-gradient(to right, var(--cream) 0%, rgba(252, 244, 236, 0) 6%, rgba(252, 244, 236, 0) 94%, var(--cream) 100%); }
+
+/* Frosted edges: behind the logo and menu, and behind the caption line, the photographs stay in view
+   but soften. The blur fades out into the sharp field, with a light cream wash for reading. */
+.gl-frost { position: absolute; left: 0; right: 0; z-index: 1; pointer-events: none; -webkit-backdrop-filter: blur(14px) saturate(1.05); backdrop-filter: blur(14px) saturate(1.05); }
+.gl-frost--top { top: 0; height: 8.5rem; background: linear-gradient(to bottom, rgba(252, 244, 236, 0.72), rgba(252, 244, 236, 0.35) 55%, rgba(252, 244, 236, 0)); -webkit-mask-image: linear-gradient(to bottom, #000 45%, transparent); mask-image: linear-gradient(to bottom, #000 45%, transparent); }
+.gl-frost--bottom { bottom: 0; height: 7.5rem; background: linear-gradient(to top, rgba(252, 244, 236, 0.78), rgba(252, 244, 236, 0.4) 55%, rgba(252, 244, 236, 0)); -webkit-mask-image: linear-gradient(to top, #000 45%, transparent); mask-image: linear-gradient(to top, #000 45%, transparent); }
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .gl-frost--top { background: linear-gradient(to bottom, rgba(252, 244, 236, 0.92), rgba(252, 244, 236, 0)); }
+  .gl-frost--bottom { background: linear-gradient(to top, rgba(252, 244, 236, 0.92), rgba(252, 244, 236, 0)); }
+}
+
+.gl-bar { position: absolute; z-index: 2; left: 0; right: 0; bottom: 0; display: flex; align-items: baseline; gap: 1rem 2.5rem; padding: 0 2rem 1.4rem; color: var(--ox); pointer-events: none; }
+.gl-bar__title { display: flex; align-items: baseline; gap: 1.1rem; min-width: 0; margin-right: auto; }
+.gl-bar__h { margin: 0; font-family: var(--display); font-weight: 400; font-size: clamp(1.8rem, 2.4vw, 2.4rem); line-height: 1; letter-spacing: -0.03em; }
+.gl-bar__sub { margin: 0; font-size: 0.85rem; line-height: 1.4; color: var(--ink); }
+.gl-bar__count { margin: 0; font-size: 0.82rem; font-weight: 500; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.gl-bar__hint { display: inline-flex; align-items: center; gap: 0.6rem; margin: 0; font-size: 0.82rem; font-weight: 500; white-space: nowrap; }
+.gl-bar__dot { width: 0.45rem; height: 0.45rem; border-radius: 50%; background: var(--ox); animation: gl-pulse 2.4s var(--ease) infinite; }
+@keyframes gl-pulse { 0%, 100% { transform: scale(1); opacity: 1; } 50% { transform: scale(0.55); opacity: 0.5; } }
+
+/* Viewer ------------------------------------------------------------------------- */
+.gl-view { position: fixed; inset: 0; z-index: 60; display: grid; grid-template-rows: minmax(0, 1fr) auto; gap: 1.25rem; padding: 5.5rem 2rem 1.75rem; background: rgba(252, 244, 236, 0.9); -webkit-backdrop-filter: blur(18px); backdrop-filter: blur(18px); }
+.gl-view[hidden] { display: none; }
+.gl-view__fig { position: relative; margin: 0; min-height: 0; }
+.gl-view__img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; filter: drop-shadow(0 1.5rem 2rem rgba(95, 38, 38, 0.28)); }
+.gl-view__bar { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 1.5rem; padding-top: 1.1rem; border-top: 1px solid var(--line); color: var(--ox); }
+.gl-view__meta { margin: 0; display: flex; align-items: baseline; gap: 1rem; font-size: 0.82rem; }
+.gl-view__title { font-family: var(--display); font-size: clamp(1.3rem, 2vw, 1.8rem); letter-spacing: -0.02em; }
+.gl-view__nav { display: flex; align-items: center; gap: 1.1rem; }
+.gl-view__nav button { display: grid; place-items: center; width: 2.75rem; height: 2.75rem; color: var(--ox); box-shadow: inset 0 0 0 1px var(--line); transition: box-shadow 0.3s, background-color 0.3s; }
+.gl-view__nav button:hover, .gl-view__nav button:focus-visible { box-shadow: inset 0 0 0 1px var(--ox); background: var(--blush); }
+.gl-view__count { min-width: 4.2rem; text-align: center; font-size: 0.82rem; font-weight: 500; font-variant-numeric: tabular-nums; }
+.gl-view__close { justify-self: end; font-size: 0.85rem; font-weight: 500; color: var(--ox); padding: 0.6rem 0; border-bottom: 1px solid var(--line); transition: border-color 0.3s; }
+.gl-view__close:hover, .gl-view__close:focus-visible { border-bottom-color: currentColor; }
+.gl-arr { position: relative; width: 1rem; height: 1px; background: currentColor; }
+.gl-arr::after { content: ""; position: absolute; right: 0; top: -3px; width: 7px; height: 7px; border-right: 1px solid currentColor; border-top: 1px solid currentColor; transform: rotate(45deg); }
+.gl-arr--l { transform: scaleX(-1); }
+
+@media (max-width: 900px) {
+  .gl-bar__sub { display: none; }
+}
+@media (max-width: 700px) {
+  .gl-bar { padding: 0 1.25rem 1.1rem; gap: 1rem; }
+  .gl-bar__count { display: none; }
+  .gl-view { padding: 5rem 1rem 1.25rem; }
+  .gl-view__bar { grid-template-columns: 1fr auto; }
+  .gl-view__meta { grid-column: 1 / -1; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .gl-bar__dot { animation: none; }
+  .gl-field { transition: none; }
+}

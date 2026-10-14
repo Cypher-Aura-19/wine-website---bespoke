@@ -1,0 +1,104 @@
+/* ==========================================================================
+   Bespoke Wine & Spirits, producers page
+   A brand wall in one voice: every producer's mark redrawn as a single muted
+   red shape, set in a hairline grid, grouped into country chapters with a
+   pinned title. A frosted country index stays within reach.
+   ========================================================================== */
+
+/* 1. Opening -------------------------------------------------------------------- */
+.pr-hero { padding-top: clamp(7rem, 16vh, 10rem); padding-bottom: clamp(2.5rem, 6vh, 4rem); }
+.pr-hero__grid { display: grid; grid-template-columns: minmax(0, 6fr) minmax(0, 5fr); gap: 2.5rem clamp(2rem, 6vw, 6rem); align-items: center; }
+.pr-hero__title { margin: 0; font-family: var(--display); font-weight: 400; color: var(--ox); font-size: clamp(3.4rem, 7.6vw, 8.4rem); line-height: 0.92; letter-spacing: -0.045em; }
+.pr-hero__title .line { padding-bottom: 0.08em; margin-bottom: -0.08em; }
+.pr-hero__aside { display: grid; gap: 0.9rem; justify-items: start; margin-top: clamp(1.5rem, 4vh, 2.5rem); max-width: 34ch; }
+.pr-hero__jump { display: inline-flex; align-items: center; gap: 0.55rem; margin-top: 0.4rem; font-size: 0.88rem; font-weight: 500; color: var(--ox); padding-bottom: 0.25rem; border-bottom: 1px solid var(--line); transition: border-color 0.3s; }
+.pr-hero__jump:hover, .pr-hero__jump:focus-visible { border-bottom-color: currentColor; }
+.ico--down { --i: url(../assets/icons/arrow-up-right.svg); transform: rotate(135deg); }
+.pr-hero__aside p { margin: 0; font-size: clamp(0.98rem, 1.15vw, 1.1rem); line-height: 1.55; }
+.pr-hero__k { font-size: 0.85rem !important; font-weight: 500; color: var(--ox); }
+
+/* 2. Country index: sticky, frosted ------------------------------------------------ */
+.pr-index { position: sticky; top: 0; /* when stuck it shares one row with the fixed logo and Menu */ z-index: 20; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); background: rgba(252, 244, 236, 0.78); -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px); }
+.pr-index__in { position: relative; max-width: var(--wrap); margin: 0 auto; padding: 0 max(var(--gutter), 7.5rem); display: flex; gap: clamp(1.25rem, 2.6vw, 2.5rem); overflow-x: auto; scrollbar-width: none; }
+.pr-index__in::-webkit-scrollbar { display: none; }
+.pr-chip { position: relative; display: inline-flex; align-items: baseline; gap: 0.3rem; padding: calc(var(--nav-h) / 2 - 0.7rem) 0; white-space: nowrap; font-size: 0.9rem; color: rgba(138, 61, 61, 0.6); transition: color 0.35s var(--ease); }
+.pr-chip sup { font-size: 0.68rem; font-variant-numeric: tabular-nums; }
+.pr-chip::after { content: ""; position: absolute; left: 0; right: 0; bottom: -1px; height: 2px; background: var(--ox); transform: scaleX(0); transform-origin: left; transition: transform 0.5s var(--ease); }
+.pr-chip:hover, .pr-chip:focus-visible, .pr-chip.is-on { color: var(--ox); }
+.pr-chip.is-on::after { transform: scaleX(1); }
+
+/* 3. Chapters ----------------------------------------------------------------------- */
+.pr-list { padding-top: clamp(1rem, 3vh, 2rem); }
+.pr-ch { display: grid; grid-template-columns: minmax(0, 4fr) minmax(0, 8fr); gap: clamp(2rem, 5vw, 5rem); padding-block: clamp(3rem, 8vh, 5.5rem); border-bottom: 1px solid var(--line); scroll-margin-top: calc(var(--nav-h) - 1px); }
+.pr-ch:last-child { border-bottom: 0; }
+.pr-ch__side { position: sticky; top: calc(var(--nav-h) + 2.5rem); align-self: start; }
+.pr-ch__title { margin: 0; font-family: var(--display); font-weight: 400; color: var(--ox); font-size: clamp(2.6rem, 5vw, 5rem); line-height: 0.98; letter-spacing: -0.04em; }
+.pr-ch__count { margin: 0.9rem 0 0; font-size: 0.85rem; font-weight: 500; color: var(--ox); font-variant-numeric: tabular-nums; }
+
+.pr-grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
+.pr-grid li { display: flex; background: var(--cream); border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.pr-tile { position: relative; flex: 1; display: grid; grid-template-rows: 1fr auto; aspect-ratio: 4 / 3.4; padding: 1.1rem 1.2rem 1rem; color: var(--ox); background: var(--cream); transition: background-color 0.5s var(--ease), color 0.5s var(--ease); }
+.pr-mark { align-self: center; justify-self: center; width: 72%; height: 58%; background: currentColor; -webkit-mask: var(--m) center / contain no-repeat; mask: var(--m) center / contain no-repeat; transition: transform 0.7s var(--ease); }
+.pr-name { display: flex; justify-content: space-between; align-items: center; gap: 0.6rem; padding-top: 0.8rem; border-top: 1px solid var(--line); font-size: 0.8rem; font-weight: 500; line-height: 1.3; }
+.pr-name .ico { flex: none; opacity: 0; transform: translate(-6px, 6px); transition: opacity 0.4s var(--ease), transform 0.6s var(--ease); }
+.pr-tile:hover, .pr-tile:focus-visible { background: var(--blush); color: var(--ox-deep); }
+.pr-tile:hover .pr-mark, .pr-tile:focus-visible .pr-mark { transform: scale(1.05); }
+.pr-tile:hover .ico, .pr-tile:focus-visible .ico { opacity: 1; transform: none; }
+.pr-tile:focus-visible { outline: 2px solid var(--ox); outline-offset: -2px; }
+
+/* 4. Close ------------------------------------------------------------------------- */
+.pr-close { padding-block: clamp(5rem, 12vh, 8rem); border-top: 1px solid var(--line); }
+.pr-close__in { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 4fr); gap: 2rem clamp(2rem, 6vw, 6rem); align-items: end; }
+.pr-close__title { margin: 0; font-family: var(--display); font-weight: 400; color: var(--ox); font-size: clamp(2.6rem, 5.4vw, 5.6rem); line-height: 0.98; letter-spacing: -0.04em; text-wrap: balance; }
+.pr-close__side { display: grid; gap: 1.5rem; justify-items: start; }
+.pr-close__side p { margin: 0; font-size: 1rem; line-height: 1.55; }
+
+@media (max-width: 1100px) { .pr-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 900px) {
+  .pr-hero__grid, .pr-close__in { grid-template-columns: 1fr; align-items: start; }
+  .pr-reel { height: 20rem; }
+  .pr-ch { grid-template-columns: 1fr; gap: 1.5rem; }
+  .pr-ch__side { position: static; display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; }
+  .pr-ch__count { margin: 0; }
+}
+@media (max-width: 520px) { .pr-tile { aspect-ratio: 1 / 1; padding: 0.9rem; } .pr-mark { width: 80%; } }
+@media (prefers-reduced-motion: reduce) {
+  .pr-tile, .pr-mark, .pr-name .ico, .pr-chip, .pr-chip::after { transition: none; }
+}
+
+/* Motion layer --------------------------------------------------------------------------------- */
+
+/* Ticker of every producer's name */
+.pr-marquee { overflow: hidden; padding-block: clamp(1.6rem, 4vh, 2.6rem); margin-top: clamp(1rem, 3vh, 2rem); }
+.pr-marquee__track { display: flex; width: max-content; }
+.pr-marquee__set { display: flex; align-items: center; flex: none; }
+.pr-marquee__set span { padding-inline: clamp(1rem, 2vw, 1.75rem); font-family: var(--display); font-size: clamp(2.2rem, 4.6vw, 4.8rem); line-height: 1.05; letter-spacing: -0.035em; color: var(--ox); white-space: nowrap; }
+.pr-marquee__set span:nth-of-type(3n + 2) { color: transparent; -webkit-text-stroke: 1px var(--ox); }
+.pr-marquee__set i { flex: none; width: 0.55rem; height: 0.55rem; background: var(--ox); transform: rotate(45deg); opacity: 0.55; }
+
+/* Country index: one underline that glides between countries */
+.pr-index__bar { position: absolute; left: 0; bottom: -1px; width: 1px; height: 2px; background: var(--ox); transform-origin: left; opacity: 0; pointer-events: none; }
+.js .pr-chip::after { display: none; }
+
+/* Tiles: the fill enters from the edge the cursor came in through */
+.pr-tile { overflow: hidden; isolation: isolate; }
+.pr-fill { position: absolute; inset: 0; z-index: -1; background: var(--blush); pointer-events: none; }
+html:not(.js) .pr-fill { display: none; }
+.js .pr-tile:hover, .js .pr-tile:focus-visible { background: var(--cream); }
+.pr-tile:hover .pr-mark, .pr-tile:focus-visible .pr-mark { transform: translateY(-4%) scale(1.05); }
+
+@media (max-width: 900px) {
+}
+
+/* Hero reel: three columns of marks drifting slowly in alternating directions, fading at the edges */
+.pr-reel { position: relative; height: clamp(24rem, 66vh, 40rem); display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(0.75rem, 1.6vw, 1.5rem); overflow: hidden;
+  -webkit-mask-image: linear-gradient(to bottom, transparent, #000 18%, #000 82%, transparent); mask-image: linear-gradient(to bottom, transparent, #000 18%, #000 82%, transparent); }
+.pr-reel__col { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
+.pr-reel__col li { flex: none; margin-bottom: clamp(0.75rem, 1.6vw, 1.5rem); aspect-ratio: 5 / 4; display: grid; place-items: center; background: var(--blush); color: var(--ox); }
+.pr-reel__mark { width: 66%; height: 50%; background: currentColor; -webkit-mask: var(--m) center / contain no-repeat; mask: var(--m) center / contain no-repeat; }
+@media (max-width: 700px) {
+  /* the chips scroll in the gap between the logo and Menu, fading out at both ends */
+  .pr-index__in { padding: 0 5.6rem 0 6rem; scroll-padding-inline: 6rem 5.6rem;
+    -webkit-mask-image: linear-gradient(90deg, transparent 5.4rem, #000 6.4rem, #000 calc(100% - 6.2rem), transparent calc(100% - 5.2rem));
+    mask-image: linear-gradient(90deg, transparent 5.4rem, #000 6.4rem, #000 calc(100% - 6.2rem), transparent calc(100% - 5.2rem)); }
+}

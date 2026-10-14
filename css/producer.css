@@ -1,0 +1,80 @@
+/* ==========================================================================
+   Bespoke Wine & Spirits, producer detail page
+   The producer's mark and name lead; a single bottle stands beside them on a
+   blush plate. Their own words follow, then the wines as calm cards, then a
+   full-width step to the next producer.
+   ========================================================================== */
+
+/* 1. Opening ------------------------------------------------------------------------ */
+.pd-hero { padding-top: clamp(6.5rem, 15vh, 9rem); padding-bottom: clamp(3rem, 8vh, 5rem); }
+.pd-crumbs { display: flex; gap: 0.6rem; font-size: 0.82rem; color: var(--ink); }
+.pd-crumbs a { color: var(--ox); border-bottom: 1px solid transparent; transition: border-color 0.3s; }
+.pd-crumbs a:hover, .pd-crumbs a:focus-visible { border-bottom-color: currentColor; }
+.pd-hero__grid { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: clamp(2rem, 6vw, 6rem); align-items: end; margin-top: clamp(2rem, 5vh, 3.5rem); }
+.pd-hero__mark { display: block; width: min(18rem, 60%); aspect-ratio: 2 / 1; background: var(--ox); -webkit-mask: var(--m) left center / contain no-repeat; mask: var(--m) left center / contain no-repeat; }
+.pd-hero__title { margin: clamp(1.5rem, 4vh, 2.5rem) 0 0; font-family: var(--display); font-weight: 400; color: var(--ox); font-size: clamp(3rem, 7.2vw, 7.6rem); line-height: 0.94; letter-spacing: -0.045em; text-wrap: balance; }
+.pd-hero__title .line { padding-bottom: 0.08em; margin-bottom: -0.08em; }
+.pd-facts { display: flex; flex-wrap: wrap; gap: 1rem clamp(1.5rem, 4vw, 3.5rem); margin: clamp(1.8rem, 4vh, 2.6rem) 0 0; padding-top: 1.2rem; border-top: 1px solid var(--line); }
+.pd-facts dt { font-size: 0.75rem; color: var(--ink); }
+.pd-facts dd { margin: 0.3rem 0 0; font-size: 1rem; font-weight: 500; color: var(--ox); }
+.pd-facts a { display: inline-flex; align-items: center; gap: 0.45rem; border-bottom: 1px solid var(--line); transition: border-color 0.3s; }
+.pd-facts a:hover, .pd-facts a:focus-visible { border-bottom-color: currentColor; }
+.pd-hero__bottle { position: relative; margin: 0; aspect-ratio: 4 / 5; background: var(--blush); overflow: hidden; }
+.pd-hero__bottle::after { content: ""; position: absolute; left: 30%; right: 30%; bottom: 6.5%; height: 3%; background: radial-gradient(ellipse at center, rgba(95, 38, 38, 0.28), rgba(95, 38, 38, 0) 70%); }
+.pd-hero__bottle img { position: absolute; z-index: 1; left: 0; right: 0; top: 10%; bottom: 8%; margin: auto; width: 100%; height: 82%; object-fit: contain; object-position: 50% 100%; }
+
+/* 2. Their story ----------------------------------------------------------------------- */
+.pd-story { padding-block: clamp(4.5rem, 12vh, 8rem); border-top: 1px solid var(--line); }
+.pd-story__grid { display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 9fr); gap: clamp(1.5rem, 5vw, 5rem); }
+.pd-story__k { margin: 0.6rem 0 0; font-size: 0.82rem; font-weight: 500; color: var(--ox); }
+.pd-story__text { display: grid; gap: 1.4rem; max-width: 62ch; }
+.pd-story__text p { margin: 0; font-size: 1.02rem; line-height: 1.7; }
+.pd-story__text .pd-story__lead { max-width: 30ch; font-family: var(--display); font-size: clamp(1.7rem, 3vw, 3rem); line-height: 1.15; letter-spacing: -0.025em; color: var(--ox); text-wrap: pretty; }
+
+/* 3. The wines --------------------------------------------------------------------------- */
+.pd-wines { padding-bottom: clamp(5rem, 12vh, 8rem); }
+.pd-wines__head { display: flex; justify-content: space-between; align-items: flex-end; gap: 1.5rem 2rem; flex-wrap: wrap; padding-bottom: 1.2rem; border-bottom: 1px solid var(--line); }
+.pd-wines__title { margin: 0; font-family: var(--display); font-weight: 400; color: var(--ox); font-size: clamp(2.6rem, 5vw, 5rem); line-height: 0.98; letter-spacing: -0.04em; }
+.pd-filters { position: relative; display: flex; flex-wrap: wrap; gap: 0.25rem 1.6rem; }
+.pd-filter { position: relative; padding: 0.4rem 0; font-size: 0.9rem; color: rgba(138, 61, 61, 0.6); transition: color 0.35s var(--ease); }
+.pd-filter sup { font-size: 0.66rem; }
+.pd-filter:hover, .pd-filter:focus-visible, .pd-filter.is-on { color: var(--ox); }
+.pd-filters__bar { position: absolute; left: 0; bottom: -2px; width: 1px; height: 2px; background: var(--ox); transform-origin: left; pointer-events: none; }
+.pd-grid { list-style: none; margin: clamp(2rem, 5vh, 3rem) 0 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(1.75rem, 3vw, 2.75rem) clamp(1rem, 2vw, 1.75rem); }
+.pd-grid li[hidden] { display: none; }
+.pd-empty { margin: 2rem 0 0; font-size: 1rem; }
+/* no wines on the list: say so plainly and offer the next places to look */
+.pd-none { display: grid; gap: 0.9rem; justify-items: start; margin-top: clamp(2rem, 5vh, 3rem); padding: clamp(1.8rem, 4vw, 3rem); background: var(--blush); }
+.pd-none__t { margin: 0; max-width: 22ch; font-family: var(--display); font-size: clamp(1.9rem, 3.2vw, 3rem); line-height: 1.02; letter-spacing: -0.035em; color: var(--ox); text-wrap: balance; }
+.pd-none p:not(.pd-none__t) { margin: 0; max-width: 46ch; font-size: 1rem; line-height: 1.6; }
+.pd-none__acts { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem 1.6rem; margin-top: 0.5rem; }
+.pd-none__link { font-size: 0.88rem; font-weight: 500; color: var(--ox); border-bottom: 1px solid var(--line); padding-bottom: 0.2rem; transition: border-color 0.3s; }
+.pd-none__link:hover, .pd-none__link:focus-visible { border-bottom-color: currentColor; }
+.pd-empty a { color: var(--ox); border-bottom: 1px solid currentColor; }
+
+/* 4. Next producer ----------------------------------------------------------------------- */
+.pd-next { position: relative; display: block; overflow: hidden; isolation: isolate; border-top: 1px solid var(--line); color: var(--ox); }
+.pd-next__fill { position: absolute; inset: 0; z-index: -1; background: var(--ox); transform: scaleY(0); transform-origin: bottom; transition: transform 0.7s var(--ease); }
+.pd-next__in { display: grid; grid-template-columns: auto 1fr auto auto; align-items: center; gap: clamp(1rem, 3vw, 3rem); padding-block: clamp(2.5rem, 7vh, 4.5rem); }
+.pd-next__k { font-size: 0.82rem; font-weight: 500; }
+.pd-next__name { font-family: var(--display); font-size: clamp(2.2rem, 5vw, 5rem); line-height: 1; letter-spacing: -0.04em; }
+.pd-next__mark { width: clamp(5rem, 10vw, 9rem); aspect-ratio: 2 / 1; background: currentColor; -webkit-mask: var(--m) center / contain no-repeat; mask: var(--m) center / contain no-repeat; }
+.pd-next__arr { position: relative; width: 2.6rem; height: 1px; background: currentColor; transition: transform 0.6s var(--ease); transform-origin: left; }
+.pd-next__arr::after { content: ""; position: absolute; right: 0; top: -4px; width: 9px; height: 9px; border-right: 1px solid currentColor; border-top: 1px solid currentColor; transform: rotate(45deg); }
+.pd-next, .pd-next__name, .pd-next__k { transition: color 0.5s var(--ease); }
+.pd-next:hover, .pd-next:focus-visible { color: var(--cream); }
+.pd-next:hover .pd-next__fill, .pd-next:focus-visible .pd-next__fill { transform: scaleY(1); }
+.pd-next:hover .pd-next__arr, .pd-next:focus-visible .pd-next__arr { transform: scaleX(1.4); }
+
+@media (max-width: 1100px) { .pd-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 900px) {
+  .pd-hero__grid, .pd-story__grid { grid-template-columns: 1fr; }
+  .pd-hero__bottle { max-width: 26rem; }
+  .pd-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .pd-next__in { grid-template-columns: 1fr auto; }
+  .pd-next__k { grid-column: 1 / -1; }
+  .pd-next__mark { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .pd-next__fill, .pd-next__arr { transition: none; }
+}

@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gallery | Bespoke Wine &amp; Spirits</title>
+  <meta name="description" content="Moments from the vineyards, cellars, tastings and tables of Bespoke Wine and Spirits and the producers we work with.">
+  <meta name="theme-color" content="#fcf4ec">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <script>
+    document.documentElement.classList.add('js');
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) document.documentElement.classList.add('rm');
+    try { if (sessionStorage.getItem('bw-nav')) document.documentElement.classList.add('is-entering'); else if (sessionStorage.getItem('bw-pt')) document.documentElement.classList.add('is-turning'); } catch (e) {}
+  </script>
+  <link rel="preload" href="/assets/fonts/Coconat-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/LexendDeca-var.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/css/fonts.css?v=3">
+  <link rel="stylesheet" href="/css/styles.css?v=60">
+  <link rel="stylesheet" href="/css/cart.css?v=11">
+  <link rel="stylesheet" href="/css/gallery.css?v=6">
+</head>
+<body class="is-gallery">
+  <a class="skip" href="#main">Skip to content</a>
+
+  <nav class="nav" data-nav aria-label="Primary">
+    <a class="nav__logo" href="/" aria-label="Bespoke Wine and Spirits, home"><i class="logo-mark"></i></a>
+    <div class="nav__links" data-navlinks><div class="nav__shop"><a class="nav__link nav__link--shop" href="/wines/">Shop</a><div class="nav__drop"><div class="nav__drop-in"><div class="nav__col"><p>Wines</p><a href="/wines/">All wines</a><a href="/collections/red-wine/">Red</a><a href="/collections/white-wine/">White</a><a href="/collections/rose-wine/">Rosé</a><a href="/collections/sparkling-wine/">Sparkling</a><a href="/collections/skin-contact-orange-wine-white/">Orange</a><a href="/collections/dessert-wine/">Dessert</a><a href="/collections/non-alcoholic/">Non-alcoholic</a></div><div class="nav__col"><p>Spirits</p><a href="/collections/spirits/">All spirits</a><a href="/collections/amaro/">Amaro</a></div><div class="nav__col"><p>Style</p><a href="/collections/organic/">Organic</a><a href="/collections/bio-dynamic/">Biodynamic</a></div><div class="nav__col"><p>Gifts</p><a href="/gifts/">All gifts</a><a href="/experiences/">Mixed cases</a><a href="/wines/gift-card-100-00/">Gift card</a></div></div></div></div><a class="nav__link" href="/cart/" data-navcart>Cart<span class="nav__n" data-navcount hidden></span></a></div>
+    <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu" data-toggle>
+      <span id="nav-toggle-open">Menu</span>
+      <span id="nav-toggle-close" aria-hidden="true">Close</span>
+    </button>
+  </nav>
+
+  <div class="menu" id="menu" data-menu aria-hidden="true">
+    <div class="menu__content" data-menucontent>
+      <div class="menu__items">
+        <div class="menu__colL"><div class="menu__preview" data-preview><img src="/assets/photos/menu-wines.jpg" alt=""></div></div>
+        <div class="menu__colR">
+          <div class="menu__links">
+            <div class="menu__link"><a href="/" data-img="/assets/photos/flow-cover.jpg">Home</a></div>
+            <div class="menu__link"><a href="/wines/" data-img="/assets/photos/menu-wines.jpg">Wines &amp; Spirits</a></div>
+            <div class="menu__link"><a href="/collections/non-alcoholic/" data-img="/assets/photos/menu-nonalc.jpg">Non-Alcoholic</a></div>
+            <div class="menu__link"><a href="/experiences/" data-img="/assets/photos/menu-cases-2.jpg">Mixed cases</a></div>
+            <div class="menu__link"><a href="/producers/" data-img="/assets/photos/menu-producers.jpg">Producers</a></div>
+            <div class="menu__link"><a href="/about/" data-img="/assets/photos/menu-about.jpg">About</a></div>
+            <div class="menu__link"><a href="/gallery/" data-img="/assets/photos/menu-gallery.jpg" aria-current="page">Gallery</a></div>
+            <div class="menu__link"><a href="/contact/" data-img="/assets/photos/menu-contact.jpg">Contact</a></div>
+          </div>
+          <div class="menu__socials">
+            <div class="menu__social"><a href="https://www.instagram.com/bespokewineandspirits/">Instagram</a></div>
+            <div class="menu__social"><a href="https://www.facebook.com/bespokewineandspirits/">Facebook</a></div>
+            <div class="menu__social"><a href="/cart/">Cart</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="menu__foot">
+        <p><span>Organic and biodynamic</span></p>
+        <p><span>Wine &amp; Spirits Agency</span></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="page" data-page>
+  <main id="main" class="gl">
+    <h1 class="sr-only">Gallery</h1>
+    <section class="gl-field" data-field aria-label="Gallery of photographs. Drag to move through it, select a photograph to open it.">
+      <div class="gl-veil" aria-hidden="true"></div>
+      <div class="gl-frost gl-frost--top" aria-hidden="true"></div>
+      <div class="gl-frost gl-frost--bottom" aria-hidden="true"></div>
+      <div class="gl-bar">
+      <div class="gl-bar__title">
+        <p class="gl-bar__h" aria-hidden="true">Gallery</p>
+        <p class="gl-bar__sub">Vineyards, cellars and long tables with our producers</p>
+      </div>
+      <p class="gl-bar__count">25 photographs</p>
+      <p class="gl-bar__hint"><span class="gl-bar__dot" aria-hidden="true"></span>Drag to explore</p>
+      </div>
+    </section>
+
+    <!-- The viewer: a photograph whole, uncropped -->
+    <div class="gl-view" data-viewer role="dialog" aria-modal="true" aria-label="Photograph" hidden>
+      <figure class="gl-view__fig" aria-live="polite"></figure>
+      <div class="gl-view__bar">
+        <p class="gl-view__meta"><span class="gl-view__title" data-vtitle></span><span data-vtag></span></p>
+        <div class="gl-view__nav">
+          <button type="button" data-vprev aria-label="Previous photograph"><i class="gl-arr gl-arr--l" aria-hidden="true"></i></button>
+          <span class="gl-view__count" data-vcount></span>
+          <button type="button" data-vnext aria-label="Next photograph"><i class="gl-arr" aria-hidden="true"></i></button>
+        </div>
+        <button class="gl-view__close" type="button" data-vclose>Close</button>
+      </div>
+    </div>
+  </main>
+  </div>
+
+  <script src="/vendor/gsap.min.js"></script>
+  <script src="/vendor/ScrollTrigger.min.js"></script>
+  <script src="/vendor/SplitText.min.js"></script>
+  <script src="/vendor/lenis.min.js"></script>
+  <script src="/js/main.js?v=78"></script>
+  <script src="/js/cart.js?v=11"></script>
+  <script type="module" src="/js/gallery.js?v=8"></script>
+</body>
+</html>

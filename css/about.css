@@ -1,0 +1,146 @@
+/* ==========================================================================
+   Bespoke Wine & Spirits, about page
+   Same world as the landing page: cream ground, muted red type, Coconat over
+   Lexend Deca, square corners, hairlines. One idea per section.
+   ========================================================================== */
+
+.ico--down { --i: url(../assets/icons/arrow-up-right.svg); transform: rotate(135deg); }
+
+.ab-h2 {
+  margin: 0; font-family: var(--display); font-weight: 400; color: var(--ox);
+  font-size: clamp(2.6rem, 5vw, 5rem); line-height: 0.98; letter-spacing: -0.035em; text-wrap: balance;
+}
+
+/* 1. Opening ---------------------------------------------------------------- */
+
+.ab-hero { padding-top: clamp(7rem, 16vh, 10rem); }
+.ab-hero__top { display: grid; grid-template-columns: 1fr auto; gap: 1.5rem clamp(2rem, 5vw, 5rem); align-items: end; }
+.ab-hero__title {
+  margin: 0; font-family: var(--display); font-weight: 400; color: var(--ox);
+  font-size: clamp(3rem, 7.2vw, 9rem); line-height: 0.92; letter-spacing: -0.045em; max-width: 11.5em;
+}
+.ab-hero__title .line { padding-bottom: 0.08em; margin-bottom: -0.08em; }
+.ab-hero__aside { display: grid; gap: 1.4rem; justify-items: start; padding-bottom: 0.6rem; }
+.ab-hero__aside p { margin: 0; font-size: clamp(0.95rem, 1.1vw, 1.08rem); line-height: 1.55; max-width: 30ch; }
+.ab-link { display: inline-flex; align-items: center; gap: 0.55rem; font-size: 0.85rem; font-weight: 500; padding-bottom: 0.3rem; border-bottom: 1px solid var(--line); transition: border-color 0.3s; }
+.ab-link:hover, .ab-link:focus-visible { border-bottom-color: currentColor; }
+
+.ab-hero__frame {
+  position: relative; margin: clamp(2.5rem, 6vh, 4.5rem) 0 0; height: min(78svh, 52rem); overflow: hidden;
+  clip-path: inset(0 var(--gutter) 0 var(--gutter));
+}
+.ab-hero__frame img { position: absolute; left: 0; top: -8%; width: 100%; height: 116%; object-fit: cover; }
+
+/* 2. Statement ---------------------------------------------------------------- */
+
+.ab-say { padding-block: clamp(6rem, 18vh, 12rem); }
+.ab-say__text {
+  margin: 0 auto; max-width: 26ch; text-align: center;
+  font-family: var(--display); font-weight: 400; color: var(--ox);
+  font-size: clamp(2rem, 4.1vw, 4.3rem); line-height: 1.08; letter-spacing: -0.03em; text-wrap: balance;
+}
+.ab-say__text .wd { transition: none; }
+
+/* 3. Principles --------------------------------------------------------------- */
+
+.ab-way { border-top: 1px solid var(--line); }
+.ab-way__grid { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: clamp(2rem, 6vw, 7rem); align-items: start; }
+.ab-way__side { position: sticky; top: max(calc(var(--nav-h) + 1.5rem), 16vh); display: grid; gap: 2.2rem; }
+.ab-way__track { width: min(16rem, 70%); height: 2px; background: var(--line); }
+.ab-way__track i { display: block; height: 100%; background: var(--ox); transform: scaleX(0); transform-origin: left; }
+.ab-way__list { list-style: none; margin: 0; padding: 0; }
+.ab-way__item { display: grid; grid-template-columns: 4.5rem minmax(0, 1fr); column-gap: 1.5rem; row-gap: 0.9rem; padding: clamp(2.2rem, 5vh, 3.4rem) 0; border-top: 1px solid var(--line); }
+.ab-way__item:last-child { border-bottom: 1px solid var(--line); }
+.ab-way__n { grid-row: span 2; font-size: 0.8rem; font-weight: 500; font-variant-numeric: tabular-nums; padding-top: 0.75rem; }
+.ab-way__item h3 { margin: 0; font-family: var(--display); font-weight: 400; color: var(--ox); font-size: clamp(1.8rem, 2.8vw, 2.8rem); line-height: 1.02; letter-spacing: -0.03em; }
+.ab-way__item p { margin: 0; max-width: 44ch; font-size: clamp(0.95rem, 1.05vw, 1.05rem); line-height: 1.6; }
+
+/* 4. Portfolio strip ------------------------------------------------------------ */
+
+.ab-shelf { padding-block: clamp(3rem, 8vh, 6rem) clamp(5rem, 12vh, 9rem); background: var(--blush); overflow: hidden; }
+.ab-shelf__strip { width: 150%; margin-left: -25%; mix-blend-mode: multiply; }
+.ab-shelf__strip img { width: 100%; }
+.ab-shelf__cap { display: flex; justify-content: space-between; align-items: center; gap: 2rem; margin-top: clamp(1.5rem, 4vh, 3rem); padding-top: 1.5rem; border-top: 1px solid var(--line); }
+.ab-shelf__cap p { margin: 0; max-width: 40ch; font-size: clamp(1rem, 1.2vw, 1.15rem); line-height: 1.5; }
+
+/* 5. Leadership (interactive) ---------------------------------------------------------
+   Idle: a giant title line, three portraits in one warm monochrome. Hover rolls a name up.
+   Open: an editorial spread. Colour portrait left; role, name, lead and story set straight on
+   the page to the right, no box. */
+
+.tm { border-top: 1px solid var(--line); }
+.tm__stage { position: relative; min-height: max(100svh, 44rem); display: flex; flex-direction: column; justify-content: center; align-items: center; gap: clamp(1.75rem, 4.5vh, 3rem); padding: 6rem var(--gutter); }
+
+.tm__names { --tmfs: clamp(3.4rem, 10vw, 10rem); position: relative; width: 100%; height: calc(var(--tmfs) * 1.25); overflow: hidden; }
+.tm__name h2, .tm__name h3 {
+  position: absolute; left: 0; right: 0; top: 0; margin: 0; text-align: center; white-space: nowrap;
+  font-family: var(--display); font-weight: 400; letter-spacing: -0.04em; line-height: 1.25;
+  font-size: var(--tmfs); color: var(--ox); user-select: none;
+}
+.tm__name .tm-ch { display: inline-block; position: relative; }
+.js .tm__name:not(.tm__name--default) { visibility: hidden; }
+
+.tm__thumbs { display: flex; justify-content: center; align-items: center; height: 224px; }
+.tm__thumb { position: relative; width: 132px; height: 132px; padding: 6px; }
+.tm__thumb img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 30%; display: block; filter: grayscale(1) contrast(1.06) brightness(1.04); transition: filter 0.6s var(--ease); }
+.tm__thumb::after { content: ""; position: absolute; inset: 6px; background: #e9cbb9; mix-blend-mode: multiply; opacity: 0.55; pointer-events: none; transition: opacity 0.6s var(--ease); }
+.tm__thumb:hover img, .tm__thumb:focus-visible img { filter: none; }
+.tm__thumb:hover::after, .tm__thumb:focus-visible::after { opacity: 0; }
+.tm__thumb:focus-visible { outline: 1px solid var(--ox); outline-offset: 2px; }
+.tm__hint { margin: 0; font-size: 0.82rem; text-align: center; color: var(--ink); }
+
+.tm__big { position: absolute; z-index: 3; margin: 0; overflow: hidden; visibility: hidden; cursor: pointer; background: var(--blush); }
+.tm__big img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 30%; display: block; }
+
+.tm__card { position: absolute; z-index: 2; display: flex; flex-direction: column; color: var(--ink); }
+.tm__card[hidden], .tm__bio[hidden] { display: none; }
+.tm__meta { display: flex; justify-content: space-between; gap: 1rem; margin: 0; padding-bottom: 1rem; border-bottom: 1px solid var(--line); font-size: 0.8rem; font-weight: 500; font-variant-numeric: tabular-nums; color: var(--ox); }
+.tm__bname { margin: clamp(1.4rem, 3vh, 2rem) 0 0; font-family: var(--display); font-weight: 400; color: var(--ox); font-size: clamp(2.8rem, 5vw, 5.4rem); line-height: 0.95; letter-spacing: -0.04em; }
+.tm__lead { margin: clamp(1.2rem, 2.6vh, 1.75rem) 0 0; max-width: 40ch; font-family: var(--display); font-size: clamp(1.1rem, 1.3vw, 1.35rem); line-height: 1.4; letter-spacing: -0.01em; color: var(--ox); text-wrap: pretty; }
+.tm__body { margin-top: clamp(1.2rem, 2.6vh, 1.75rem); display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.4rem 2rem; }
+.tm__body p { margin: 0; font-size: 0.92rem; line-height: 1.65; text-wrap: pretty; }
+.tm__nav { display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-top: auto; padding-top: clamp(1.6rem, 3.5vh, 2.4rem); }
+
+.tm__btn { display: inline-flex; align-items: center; gap: 0.7rem; padding: 0.6rem 0; font-size: 0.85rem; font-weight: 500; color: var(--ox); border-top: 1px solid transparent; }
+.tm__btn span { font-family: var(--display); font-weight: 400; font-size: 1.05rem; letter-spacing: -0.01em; }
+.tm__arr { position: relative; width: 1.6rem; height: 1px; background: currentColor; transform-origin: left; transition: transform 0.5s var(--ease); }
+.tm__arr::after { content: ""; position: absolute; right: 0; top: -3px; width: 7px; height: 7px; border-right: 1px solid currentColor; border-top: 1px solid currentColor; transform: rotate(45deg); }
+.tm__arr--l { transform-origin: right; }
+.tm__arr--l::after { right: auto; left: 0; border-right: 0; border-top: 0; border-left: 1px solid currentColor; border-bottom: 1px solid currentColor; }
+.tm__btn:hover .tm__arr, .tm__btn:focus-visible .tm__arr { transform: scaleX(1.5); }
+
+@media (max-width: 1200px) { .tm__body { grid-template-columns: 1fr; } }
+@media (max-width: 900px) {
+  .tm__thumbs { height: auto; }
+  .tm__thumb { width: 100px; height: 100px; padding: 4px; }
+  .tm__thumb::after { inset: 4px; }
+  .tm__names { --tmfs: clamp(2.4rem, 10.5vw, 4rem); }
+  .tm__card { padding-top: 1.5rem; }
+}
+
+/* 6. Close ----------------------------------------------------------------------- */
+
+.ab-close__btns { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+.ab-btn--line { color: var(--ox); box-shadow: inset 0 0 0 1px var(--ox); }
+.ab-btn--line::before { background: var(--blush); }
+
+/* Responsive --------------------------------------------------------------------- */
+
+@media (max-width: 980px) {
+  .ab-hero__top { grid-template-columns: 1fr; align-items: start; }
+  .ab-way__grid { grid-template-columns: 1fr; }
+  .ab-way__side { position: static; }
+  .ab-way__track { display: none; }
+  .ab-shelf__cap { flex-direction: column; align-items: flex-start; }
+  .ab-shelf__strip { width: 190%; margin-left: -45%; }
+}
+@media (max-width: 700px) {
+  .ab-hero__frame { height: 56svh; }
+  .ab-way__item { grid-template-columns: 1fr; }
+  .ab-way__n { grid-row: auto; padding-top: 0; }
+}
+
+html.rm .ab-hero__frame { clip-path: none; }
+@media (prefers-reduced-motion: reduce) {
+  .tm__arr, .tm__thumb img, .tm__thumb::after { transition: none; }
+}

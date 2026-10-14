@@ -1,0 +1,986 @@
+{
+ "5-senses-2020": {
+  "w": 192,
+  "h": 742,
+  "cropped": null,
+  "closeup": false
+ },
+ "adrian-serrano-crianza-rioja-2023": {
+  "w": 258,
+  "h": 1089,
+  "cropped": null,
+  "closeup": false
+ },
+ "adrian-serrano-joven-rioja-2023": {
+  "w": 212,
+  "h": 769,
+  "cropped": null,
+  "closeup": false
+ },
+ "adriano-serrano-blanco-rioja-2024": {
+  "w": 163,
+  "h": 684,
+  "cropped": null,
+  "closeup": false
+ },
+ "alice-2023": {
+  "w": 188,
+  "h": 708,
+  "cropped": null,
+  "closeup": false
+ },
+ "amaro-aplomado-barrel-reserve-artichoke": {
+  "w": 208,
+  "h": 967,
+  "cropped": null,
+  "closeup": false
+ },
+ "amaro-aplomado": {
+  "w": 168,
+  "h": 748,
+  "cropped": null,
+  "closeup": false
+ },
+ "amaro-di-chainciano-1": {
+  "w": 263,
+  "h": 1100,
+  "cropped": null,
+  "closeup": false
+ },
+ "amaro-di-chainciano": {
+  "w": 263,
+  "h": 1100,
+  "cropped": null,
+  "closeup": false
+ },
+ "amaro-di-toscana": {
+  "w": 175,
+  "h": 698,
+  "cropped": null,
+  "closeup": false
+ },
+ "amaro-santoni": {
+  "w": 350,
+  "h": 1100,
+  "cropped": null,
+  "closeup": false
+ },
+ "amarone-classico-red-label": {
+  "w": 171,
+  "h": 729,
+  "cropped": null,
+  "closeup": false
+ },
+ "amarone-master-case-cantine-benedetti": {
+  "w": 519,
+  "h": 637,
+  "cropped": null,
+  "closeup": true
+ },
+ "amarone-white-label-riserva-2006": {
+  "w": 326,
+  "h": 1100,
+  "cropped": null,
+  "closeup": false
+ },
+ "aperit": {
+  "w": 264,
+  "h": 1100,
+  "cropped": null,
+  "closeup": false
+ },
+ "ayre-verdejo-2023": {
+  "w": 292,
+  "h": 1100,
+  "cropped": null,
+  "closeup": false
+ },
+ "barbera-d-alba-ciabot-marcarini-2024": {
+  "w": 284,
+  "h": 1071,
+  "cropped": null,
+  "closeup": false
+ },
+ "barbera-d-alba-virna-2023": {
+  "w": 248,
+  "h": 968,
+  "cropped": null,
+  "closeup": false
+ },
+ "barolo-brunate-marcarini-2021": {
+  "w": 285,
+  "h": 1071,
+  "cropped": null,
+  "closeup": false
+ },
+ "barolo-cascina-montegrosso-2023": {
+  "w": 287,
+  "h": 1100,
+  "cropped": null,
+  "closeup": false
+ },
+ "barolo-del-commune-di-la-morra-marcarini-2021": {
+  "w": 285,
+  "h": 1072,
+  "cropped": null,
+  "closeup": false
+ },
+ "barolo-noi-2021": {
+  "w": 282,
+  "h": 1100,
+  "cropped": null,
+  "closeup": false
+ },
+ "bella-bitter-amaro-compari": {
+  "w": 271,
+  "h": 1100,
+  "cropped": null,
+  "closeup": false
+ },
+ "bella-bitter-dolce-aperol": {
+  "w": 261,
+  "h": 1100,
+  "cropped": null,
+  "closeup": false
+ },
+ "bella-crema-di-caramello": {
+  "w": 252,
+  "h": 1061,
+  "cropped": null,
+  "closeup": false
+ },
+ "bella-crema-di-limone": {
+  "w": 262,
+  "h": 1100,
+  "cropped": null,
+  "closeup": false
+ },
+ "bella-crema-di-mandarino": {
+  "w": 265,
+  "h": 1100,
+  "cropped": null,
+  "closeup": false
+ },
+ "bella-gin": {
+  "w": 273,
+  "h": 1100,
+  "cropped": null,
+  "closeup": false
+ },
+ "bella-glamour-1": {
+  "w": 310,
+  "h": 1100,
+  "cropped": null,
+  "closeup": false
+ },
+ "bella-vermut-2": {
+  "w": 272,
+  "h": 1100,
+  "cropped": null,
+  "closeup": false
+ },
+ "black-mont-rubi-2021": {
+  "w": 183,
+  "h": 713,
+  "cropped": null,
+  "closeup": false
+ },
+ "blanc-de-blanc-1": {
+  "w": 381,
+  "h": 1100,
+  "cropped": null,
+  "closeup": false
+ },
+ "blaufrankish-2018": {
+  "w": 180,
+  "h": 723,
+  "cropped": null,
+  "closeup": false
+ },
+ "bourgogne-les-brulis-les-senties-2022": {
+  "w": 295,
+  "h": 1100,
+  "cropped": null,
+  "closeup": false
+ },
+ "brunello-di-montalcino-2017": {
+  "w": 233,
+  "h": 1100,
+  "cropped": null,
+  "closeup": false
+ },
+ "brunello-riserva-2015": {
+  "w": 250,
+  "h": 1100,
+  "cropped": null,
+  "closeup": false
+ },
+ "bus-9-red-2021": {
+  "w": 241,
+  "h": 1100,
+  "cropped": null,
+  "closeup": false
+ },
+ "bus-9-red": {
+  "w": 241,
+  "h": 1100,
+  "cropped": false,
+  "closeup": false
+ },
+ "bus-9-white-2021": {
+  "w": 232,
+  "h": 1100,
+  "cropped": true,
+  "closeup": false
+ },
+ "carte-blanche-champagne": {
+  "w": 293,
+  "h": 1100,
+  "cropped": null,
+  "closeup": false
+ },
+ "cennatoio-chianti-classico-2023": {
+  "w": 130,
+  "h": 542,
+  "cropped": false,
+  "closeup": false
+ },
+ "chablis-les-senties-2022": {
+  "w": 294,
+  "h": 1100,
+  "cropped": false,
+  "closeup": false
+ },
+ "chapelle-st-jean-la-vieille-eglise-red-2022": {
+  "w": 205,
+  "h": 842,
+  "cropped": true,
+  "closeup": false
+ },
+ "chapelle-st-jean-la-vieille-eglise-white-2022": {
+  "w": 267,
+  "h": 1100,
+  "cropped": false,
+  "closeup": false
+ },
+ "chapelle-st-jean-white-2021": {
+  "w": 200,
+  "h": 822,
+  "cropped": true,
+  "closeup": false
+ },
+ "chardonnay-truffieres-les-senties-2022": {
+  "w": 256,
+  "h": 987,
+  "cropped": true,
+  "closeup": false
+ },
+ "chardonnay": {
+  "w": 138,
+  "h": 513,
+  "cropped": false,
+  "closeup": false
+ },
+ "chianti-classico-menicucci-2023": {
+  "w": 282,
+  "h": 1100,
+  "cropped": false,
+  "closeup": false
+ },
+ "chianti-classico-menicucci-2024": {
+  "w": 282,
+  "h": 1100,
+  "cropped": false,
+  "closeup": false
+ },
+ "chianti-d-o-c-g-2022": {
+  "w": 275,
+  "h": 1073,
+  "cropped": false,
+  "closeup": false
+ },
+ "chianti-d-o-c-g-2026": {
+  "w": 275,
+  "h": 1073,
+  "cropped": false,
+  "closeup": false
+ },
+ "cremant-blanc-comtesse-d-estey-1": {
+  "w": 290,
+  "h": 1100,
+  "cropped": true,
+  "closeup": false
+ },
+ "cremant-rose-comtesse-d-estey-3": {
+  "w": 294,
+  "h": 1100,
+  "cropped": true,
+  "closeup": false
+ },
+ "croifolie-beaujolais-villages-rose-labise-2024": {
+  "w": 288,
+  "h": 1100,
+  "cropped": false,
+  "closeup": false
+ },
+ "croifolie-beaujolais-villages-rouge-tradition-2023": {
+  "w": 288,
+  "h": 1100,
+  "cropped": true,
+  "closeup": false
+ },
+ "croifolie-vieilles-vignes-beaujolais-villages-rouge-2023": {
+  "w": 286,
+  "h": 1100,
+  "cropped": true,
+  "closeup": false
+ },
+ "cuvee-elegance-magnum-2023": {
+  "w": 247,
+  "h": 1100,
+  "cropped": true,
+  "closeup": false
+ },
+ "cuvee-elegance-magnum-3-pack-rose": {
+  "w": 247,
+  "h": 1100,
+  "cropped": true,
+  "closeup": false
+ },
+ "cuvee-rose": {
+  "w": 389,
+  "h": 1100,
+  "cropped": true,
+  "closeup": false
+ },
+ "diwald-rose-2021": {
+  "w": 253,
+  "h": 1042,
+  "cropped": false,
+  "closeup": false
+ },
+ "diwald-rose-2025": {
+  "w": 248,
+  "h": 1100,
+  "cropped": true,
+  "closeup": false
+ },
+ "dolcetto-d-alba-boschi-di-berri-marcarini-2024": {
+  "w": 284,
+  "h": 1071,
+  "cropped": false,
+  "closeup": false
+ },
+ "domaine-faubert-aude-2023": {
+  "w": 251,
+  "h": 332,
+  "cropped": true,
+  "closeup": true
+ },
+ "durona-red-2017": {
+  "w": 243,
+  "h": 913,
+  "cropped": false,
+  "closeup": false
+ },
+ "durona-whte": {
+  "w": 254,
+  "h": 958,
+  "cropped": true,
+  "closeup": false
+ },
+ "duzat-2023": {
+  "w": 233,
+  "h": 951,
+  "cropped": true,
+  "closeup": false
+ },
+ "e-bianco": {
+  "w": 180,
+  "h": 647,
+  "cropped": false,
+  "closeup": false
+ },
+ "e-orange": {
+  "w": 201,
+  "h": 718,
+  "cropped": false,
+  "closeup": false
+ },
+ "e-rosato": {
+  "w": 304,
+  "h": 1100,
+  "cropped": false,
+  "closeup": false
+ },
+ "e-rosso": {
+  "w": 198,
+  "h": 719,
+  "cropped": false,
+  "closeup": false
+ },
+ "elegia-primitivo-di-manduria-riserva-2019": {
+  "w": 299,
+  "h": 1100,
+  "cropped": true,
+  "closeup": false
+ },
+ "elegia-primitivo-di-manduria-riserva-2020": {
+  "w": 299,
+  "h": 1100,
+  "cropped": true,
+  "closeup": false
+ },
+ "favorita-lafrea-2023": {
+  "w": 297,
+  "h": 1100,
+  "cropped": false,
+  "closeup": false
+ },
+ "fernet-willet-bourbon": {
+  "w": 290,
+  "h": 935,
+  "cropped": true,
+  "closeup": false
+ },
+ "fernet-willet-rye": {
+  "w": 180,
+  "h": 815,
+  "cropped": true,
+  "closeup": false
+ },
+ "folle-blanche-2024": {
+  "w": 223,
+  "h": 983,
+  "cropped": false,
+  "closeup": false
+ },
+ "furmint-2022": {
+  "w": 248,
+  "h": 1100,
+  "cropped": true,
+  "closeup": false
+ },
+ "garda-pinot-noir-2024": {
+  "w": 279,
+  "h": 1082,
+  "cropped": false,
+  "closeup": false
+ },
+ "garda-soave-2024": {
+  "w": 191,
+  "h": 743,
+  "cropped": false,
+  "closeup": false
+ },
+ "giuseppe-luigi-pinot-grigio-2026": {
+  "w": 170,
+  "h": 699,
+  "cropped": false,
+  "closeup": false
+ },
+ "gr20-rose-2": {
+  "w": 200,
+  "h": 925,
+  "cropped": true,
+  "closeup": false
+ },
+ "grauer-burgunder-2021": {
+  "w": 180,
+  "h": 714,
+  "cropped": false,
+  "closeup": false
+ },
+ "gruner-veltliner-vom-loss-2021": {
+  "w": 158,
+  "h": 704,
+  "cropped": false,
+  "closeup": false
+ },
+ "il-baffone": {
+  "w": 291,
+  "h": 1030,
+  "cropped": false,
+  "closeup": false
+ },
+ "il-barrusco": {
+  "w": 316,
+  "h": 1100,
+  "cropped": false,
+  "closeup": false
+ },
+ "inverno-montepulciano-riserva-2022": {
+  "w": 393,
+  "h": 1100,
+  "cropped": true,
+  "closeup": false
+ },
+ "kirschgarten-2018": {
+  "w": 161,
+  "h": 589,
+  "cropped": false,
+  "closeup": false
+ },
+ "kosmo-2020": {
+  "w": 314,
+  "h": 1100,
+  "cropped": false,
+  "closeup": false
+ },
+ "la-grinozza": {
+  "w": 139,
+  "h": 500,
+  "cropped": false,
+  "closeup": false
+ },
+ "la-vieille-eglise-rose-2022": {
+  "w": 265,
+  "h": 1096,
+  "cropped": true,
+  "closeup": false
+ },
+ "la-vitto-bianco": {
+  "w": 173,
+  "h": 705,
+  "cropped": false,
+  "closeup": false
+ },
+ "la-vitto-rosso-nv": {
+  "w": 180,
+  "h": 688,
+  "cropped": false,
+  "closeup": false
+ },
+ "lambrusco-pietrarossa-1": {
+  "w": 268,
+  "h": 938,
+  "cropped": true,
+  "closeup": false
+ },
+ "lancestral-pet-nat": {
+  "w": 304,
+  "h": 1100,
+  "cropped": false,
+  "closeup": false
+ },
+ "langhe-nebbiolo-lasarin-marcarini-2025": {
+  "w": 289,
+  "h": 1100,
+  "cropped": false,
+  "closeup": false
+ },
+ "langhe-nebbiolo-virna-2023": {
+  "w": 279,
+  "h": 1089,
+  "cropped": false,
+  "closeup": false
+ },
+ "lirica-primitivo-di-manduria": {
+  "w": 297,
+  "h": 1100,
+  "cropped": true,
+  "closeup": false
+ },
+ "manzanilla-1": {
+  "w": 156,
+  "h": 697,
+  "cropped": false,
+  "closeup": false
+ },
+ "matthew-fireplace-whiskey": {
+  "w": 348,
+  "h": 1100,
+  "cropped": true,
+  "closeup": false
+ },
+ "mencia-2018": {
+  "w": 245,
+  "h": 931,
+  "cropped": false,
+  "closeup": false
+ },
+ "montepulciano-trecciaia-2021": {
+  "w": 185,
+  "h": 699,
+  "cropped": false,
+  "closeup": false
+ },
+ "muscadet-elegance-2024": {
+  "w": 175,
+  "h": 737,
+  "cropped": false,
+  "closeup": false
+ },
+ "nebbiolo-cascina-montegrosso-2024": {
+  "w": 286,
+  "h": 1026,
+  "cropped": false,
+  "closeup": false
+ },
+ "no-9-cabernet-sauvignon": {
+  "w": 212,
+  "h": 793,
+  "cropped": false,
+  "closeup": false
+ },
+ "no-fine-print-cabernet-sauvignon-2020": {
+  "w": 270,
+  "h": 1100,
+  "cropped": true,
+  "closeup": false
+ },
+ "oliver-2021": {
+  "w": 321,
+  "h": 1100,
+  "cropped": false,
+  "closeup": false
+ },
+ "oxley-estate-chardonnay-2022": {
+  "w": 280,
+  "h": 1100,
+  "cropped": false,
+  "closeup": false
+ },
+ "oxley-estate-riesling-2020": {
+  "w": 121,
+  "h": 550,
+  "cropped": false,
+  "closeup": false
+ },
+ "parapli-cuvee-2020": {
+  "w": 240,
+  "h": 873,
+  "cropped": false,
+  "closeup": false
+ },
+ "petite-marie-red-bordeaux-2023": {
+  "w": 129,
+  "h": 469,
+  "cropped": true,
+  "closeup": false
+ },
+ "petite-marie-white-2023": {
+  "w": 201,
+  "h": 746,
+  "cropped": false,
+  "closeup": false
+ },
+ "pinot-gris-2023": {
+  "w": 265,
+  "h": 981,
+  "cropped": false,
+  "closeup": false
+ },
+ "pinot-noir-cd-2022": {
+  "w": 142,
+  "h": 531,
+  "cropped": false,
+  "closeup": false
+ },
+ "prestige-champagne-4": {
+  "w": 266,
+  "h": 932,
+  "cropped": false,
+  "closeup": false
+ },
+ "primitivo-1": {
+  "w": 184,
+  "h": 702,
+  "cropped": false,
+  "closeup": false
+ },
+ "primitivo-trecciaia-2025": {
+  "w": 279,
+  "h": 1100,
+  "cropped": false,
+  "closeup": false
+ },
+ "prosecco": {
+  "w": 208,
+  "h": 701,
+  "cropped": false,
+  "closeup": false
+ },
+ "pyjama-godello-2024": {
+  "w": 75,
+  "h": 300,
+  "cropped": false,
+  "closeup": false
+ },
+ "pyjama-mencia-2020": {
+  "w": 290,
+  "h": 1100,
+  "cropped": false,
+  "closeup": false
+ },
+ "rancore-2015": {
+  "w": 257,
+  "h": 1100,
+  "cropped": false,
+  "closeup": false
+ },
+ "refosco-seriade-nv": {
+  "w": 292,
+  "h": 1100,
+  "cropped": false,
+  "closeup": false
+ },
+ "reguta-pinot-nero-2023": {
+  "w": 198,
+  "h": 787,
+  "cropped": false,
+  "closeup": false
+ },
+ "ribolla-gialla-bellazoia-2021": {
+  "w": 355,
+  "h": 1100,
+  "cropped": false,
+  "closeup": false
+ },
+ "ribolla-gialla-classico-2021": {
+  "w": 222,
+  "h": 766,
+  "cropped": false,
+  "closeup": false
+ },
+ "ried-goldberg-2019": {
+  "w": 235,
+  "h": 1041,
+  "cropped": false,
+  "closeup": false
+ },
+ "ripasso-red-label-2020": {
+  "w": 164,
+  "h": 699,
+  "cropped": false,
+  "closeup": false
+ },
+ "ripasso-red-label": {
+  "w": 164,
+  "h": 699,
+  "cropped": false,
+  "closeup": false
+ },
+ "rober-perots-bordeaux-2019": {
+  "w": 275,
+  "h": 1100,
+  "cropped": true,
+  "closeup": false
+ },
+ "roberperots-bordeaux-2024": {
+  "w": 267,
+  "h": 1100,
+  "cropped": true,
+  "closeup": false
+ },
+ "roero-arneis-marcarini-2025": {
+  "w": 284,
+  "h": 1070,
+  "cropped": false,
+  "closeup": false
+ },
+ "roka-2021": {
+  "w": 289,
+  "h": 1100,
+  "cropped": true,
+  "closeup": false
+ },
+ "ronc-laris-cabernet": {
+  "w": 294,
+  "h": 1100,
+  "cropped": true,
+  "closeup": false
+ },
+ "ronc-laris-merlot-2": {
+  "w": 294,
+  "h": 1100,
+  "cropped": true,
+  "closeup": false
+ },
+ "ronc-laris-pinot-grigio-2025": {
+  "w": 104,
+  "h": 390,
+  "cropped": false,
+  "closeup": false
+ },
+ "ronc-laris-sauvignon-2": {
+  "w": 291,
+  "h": 1100,
+  "cropped": true,
+  "closeup": false
+ },
+ "rosa-2022": {
+  "w": 68,
+  "h": 246,
+  "cropped": true,
+  "closeup": false
+ },
+ "rose-idylle-2024": {
+  "w": 269,
+  "h": 1006,
+  "cropped": true,
+  "closeup": false
+ },
+ "rosso-di-montalcino-2020": {
+  "w": 251,
+  "h": 1100,
+  "cropped": false,
+  "closeup": false
+ },
+ "rosso-di-montalcino-2021": {
+  "w": 256,
+  "h": 1100,
+  "cropped": false,
+  "closeup": false
+ },
+ "ruibarbio": {
+  "w": 242,
+  "h": 1100,
+  "cropped": false,
+  "closeup": false
+ },
+ "sabinot-barbera-2023": {
+  "w": 252,
+  "h": 916,
+  "cropped": false,
+  "closeup": false
+ },
+ "sauvignon-blanc-igt-2025": {
+  "w": 293,
+  "h": 1100,
+  "cropped": true,
+  "closeup": false
+ },
+ "sauvignon-jean-aubron-2023": {
+  "w": 228,
+  "h": 924,
+  "cropped": true,
+  "closeup": false
+ },
+ "sauvignon-jean-aubron-2024": {
+  "w": 228,
+  "h": 924,
+  "cropped": true,
+  "closeup": false
+ },
+ "sauvignon-jean-aubron-2026": {
+  "w": 228,
+  "h": 924,
+  "cropped": true,
+  "closeup": false
+ },
+ "scacciapensier-rosso-toscana-2023": {
+  "w": 130,
+  "h": 513,
+  "cropped": false,
+  "closeup": false
+ },
+ "solo-super-tuscan-12-pack-2018": {
+  "w": 138,
+  "h": 560,
+  "cropped": false,
+  "closeup": false
+ },
+ "solo-super-tuscan-12-pack-2021": {
+  "w": 138,
+  "h": 560,
+  "cropped": false,
+  "closeup": false
+ },
+ "st-laurent": {
+  "w": 185,
+  "h": 682,
+  "cropped": false,
+  "closeup": false
+ },
+ "stu-fuori-langhe-bianco-2025": {
+  "w": 291,
+  "h": 1100,
+  "cropped": false,
+  "closeup": false
+ },
+ "taruguin-2020": {
+  "w": 190,
+  "h": 749,
+  "cropped": false,
+  "closeup": false
+ },
+ "terra-vallona-2026": {
+  "w": 241,
+  "h": 1055,
+  "cropped": false,
+  "closeup": false
+ },
+ "terra-vallona-cabernet-merlot-2022": {
+  "w": 241,
+  "h": 1055,
+  "cropped": false,
+  "closeup": false
+ },
+ "two-kings-pinot-noir-2021": {
+  "w": 202,
+  "h": 700,
+  "cropped": false,
+  "closeup": false
+ },
+ "une-ile-rose-12-pack-2025": {
+  "w": 271,
+  "h": 765,
+  "cropped": false,
+  "closeup": false
+ },
+ "valpolicella-superiore-red-label-2022": {
+  "w": 170,
+  "h": 721,
+  "cropped": false,
+  "closeup": false
+ },
+ "villa-folini-cabernet-2024": {
+  "w": 293,
+  "h": 1100,
+  "cropped": true,
+  "closeup": false
+ },
+ "villa-folini-merlot-2024": {
+  "w": 293,
+  "h": 1100,
+  "cropped": true,
+  "closeup": false
+ },
+ "villa-folini-ribolla-gialla-2025": {
+  "w": 293,
+  "h": 1100,
+  "cropped": true,
+  "closeup": false
+ },
+ "viognier-blanc-2022": {
+  "w": 176,
+  "h": 650,
+  "cropped": false,
+  "closeup": false
+ },
+ "weather-rock-red-2024": {
+  "w": 252,
+  "h": 1100,
+  "cropped": false,
+  "closeup": false
+ },
+ "weather-rock-white-2024": {
+  "w": 251,
+  "h": 1062,
+  "cropped": true,
+  "closeup": false
+ },
+ "white-mont-rubi-2021": {
+  "w": 182,
+  "h": 710,
+  "cropped": false,
+  "closeup": false
+ },
+ "zweigelt": {
+  "w": 214,
+  "h": 866,
+  "cropped": false,
+  "closeup": false
+ }
+}

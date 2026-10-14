@@ -1,0 +1,787 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>White wine | Bespoke Wine &amp; Spirits</title>
+  <meta name="description" content="White wine at Bespoke Wine &amp; Spirits: 60 bottles, sold by the case and delivered across Ontario.">
+  <meta name="theme-color" content="#fcf4ec">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <script>
+    document.documentElement.classList.add('js');
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) document.documentElement.classList.add('rm');
+    try { if (sessionStorage.getItem('bw-nav')) document.documentElement.classList.add('is-entering'); else if (sessionStorage.getItem('bw-pt')) document.documentElement.classList.add('is-turning'); } catch (e) {}
+  </script>
+  <link rel="preload" href="/assets/fonts/Coconat-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/LexendDeca-var.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/css/fonts.css?v=3">
+  <link rel="stylesheet" href="/css/styles.css?v=60">
+  <link rel="stylesheet" href="/css/cart.css?v=11">
+  <link rel="stylesheet" href="/css/shop.css?v=8">
+</head>
+<body class="is-shop">
+  <a class="skip" href="#main">Skip to content</a>
+
+  <nav class="nav" data-nav aria-label="Primary">
+    <a class="nav__logo" href="/" aria-label="Bespoke Wine and Spirits, home"><i class="logo-mark"></i></a>
+    <div class="nav__links" data-navlinks><div class="nav__shop"><a class="nav__link nav__link--shop" href="/wines/">Shop</a><div class="nav__drop"><div class="nav__drop-in"><div class="nav__col"><p>Wines</p><a href="/wines/">All wines</a><a href="/collections/red-wine/">Red</a><a href="/collections/white-wine/">White</a><a href="/collections/rose-wine/">Rosé</a><a href="/collections/sparkling-wine/">Sparkling</a><a href="/collections/skin-contact-orange-wine-white/">Orange</a><a href="/collections/dessert-wine/">Dessert</a><a href="/collections/non-alcoholic/">Non-alcoholic</a></div><div class="nav__col"><p>Spirits</p><a href="/collections/spirits/">All spirits</a><a href="/collections/amaro/">Amaro</a></div><div class="nav__col"><p>Style</p><a href="/collections/organic/">Organic</a><a href="/collections/bio-dynamic/">Biodynamic</a></div><div class="nav__col"><p>Gifts</p><a href="/gifts/">All gifts</a><a href="/experiences/">Mixed cases</a><a href="/wines/gift-card-100-00/">Gift card</a></div></div></div></div><a class="nav__link" href="/cart/" data-navcart>Cart<span class="nav__n" data-navcount hidden></span></a></div>
+    <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu" data-toggle>
+      <span id="nav-toggle-open">Menu</span>
+      <span id="nav-toggle-close" aria-hidden="true">Close</span>
+    </button>
+  </nav>
+
+  <div class="menu" id="menu" data-menu aria-hidden="true">
+    <div class="menu__content" data-menucontent>
+      <div class="menu__items">
+        <div class="menu__colL"><div class="menu__preview" data-preview><img src="/assets/photos/menu-wines.jpg" alt=""></div></div>
+        <div class="menu__colR">
+          <div class="menu__links">
+            <div class="menu__link"><a href="/" data-img="/assets/photos/flow-cover.jpg">Home</a></div>
+            <div class="menu__link"><a href="/wines/" aria-current="page" data-img="/assets/photos/menu-wines.jpg">Wines &amp; Spirits</a></div>
+            <div class="menu__link"><a href="/collections/non-alcoholic/" data-img="/assets/photos/menu-nonalc.jpg">Non-Alcoholic</a></div>
+            <div class="menu__link"><a href="/experiences/" data-img="/assets/photos/menu-cases-2.jpg">Mixed cases</a></div>
+            <div class="menu__link"><a href="/producers/" data-img="/assets/photos/menu-producers.jpg">Producers</a></div>
+            <div class="menu__link"><a href="/about/" data-img="/assets/photos/menu-about.jpg">About</a></div>
+            <div class="menu__link"><a href="/gallery/" data-img="/assets/photos/menu-gallery.jpg">Gallery</a></div>
+            <div class="menu__link"><a href="/contact/" data-img="/assets/photos/menu-contact.jpg">Contact</a></div>
+          </div>
+          <div class="menu__socials">
+            <div class="menu__social"><a href="https://www.instagram.com/bespokewineandspirits/">Instagram</a></div>
+            <div class="menu__social"><a href="https://www.facebook.com/bespokewineandspirits/">Facebook</a></div>
+            <div class="menu__social"><a href="/cart/">Cart</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="menu__foot">
+        <p><span>Organic and biodynamic</span></p>
+        <p><span>Wine &amp; Spirits Agency</span></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="page" data-page>
+  <main id="main">
+<!--
+THESIS: The whole list on one page, laid out like the producers page: country chapters with a pinned title, the
+wine cards beside them, and one frosted bar that keeps the store's own collections within reach. Every filter the
+store's collections offer sits in one blush drawer. Refuses the stock catalogue of a facet sidebar beside an endless
+undifferentiated grid.
+OWN-WORLD: Cream ground, blush plates, muted red Coconat over Lexend Deca, hairlines and square corners; filters
+are words with an underline, the drawer is the menu's blush.
+STORY: See how large the list is, pick a collection from the giant word list, narrow by any of the store's filters,
+open a wine.
+FIRST VIEWPORT: Left 6/12: the title, the line about the list, the counts, a search field. Right: the collections
+as a stacked word list in Coconat, each with its count; hovering one stands its bottle beside it.
+FORM: Candidate 5 of 6 (country chapters), seed 0e36fbc0; staging: hero word index, sticky bar, drawer.
+-->
+    <section class="sh-hero" aria-labelledby="sh-title">
+      <div class="wrap sh-hero__grid">
+        <div class="sh-hero__copy">
+          <nav class="sh-crumbs" aria-label="Breadcrumb" data-intro-fade><a href="/wines/">Wines &amp; Spirits</a><span aria-hidden="true">/</span><span aria-current="page">White wine</span></nav>
+          <h1 class="sh-hero__title" id="sh-title" data-intro>White wine</h1>
+          <div class="sh-hero__aside" data-intro-fade>
+            <p>White wines from 32 producers in 10 countries. Sold by the case, delivered across Ontario.</p>
+            <p class="sh-hero__k">60 bottles &middot; 43 ready to ship</p>
+            <form class="sh-search" role="search" data-search action="/collections/white-wine/">
+              <label class="sr-only" for="sh-q">Search white wine</label>
+              <input id="sh-q" name="q" type="search" placeholder="Search a wine, producer or grape" autocomplete="off" data-q>
+              <button type="submit" aria-label="Search"><i class="ico ico--arrow" aria-hidden="true"></i></button>
+            </form>
+          </div>
+        </div>
+        <nav class="sh-types" aria-label="Collections" data-intro-fade>
+          <ul><li><a class="sh-type" href="/collections/red-wine/"><span class="sh-type__name">Red</span><sup>87</sup><img class="sh-type__bottle" src="/assets/wines/bus-9-red.webp" alt="" width="241" height="1100" loading="lazy" decoding="async"></a></li><li><a class="sh-type is-on" href="/collections/white-wine/" aria-current="page"><span class="sh-type__name">White</span><sup>60</sup><img class="sh-type__bottle" src="/assets/wines/giuseppe-luigi-pinot-grigio-2026.webp" alt="" width="170" height="699" loading="lazy" decoding="async"></a></li><li><a class="sh-type" href="/collections/rose-wine/"><span class="sh-type__name">Rosé</span><sup>14</sup><img class="sh-type__bottle" src="/assets/cases/pretty-in-pink-v3.webp" alt="" width="1200" height="1094" loading="lazy" decoding="async"></a></li><li><a class="sh-type" href="/collections/sparkling-wine/"><span class="sh-type__name">Sparkling</span><sup>12</sup><img class="sh-type__bottle" src="/assets/wines/prosecco.webp" alt="" width="208" height="701" loading="lazy" decoding="async"></a></li><li><a class="sh-type" href="/collections/skin-contact-orange-wine-white/"><span class="sh-type__name">Orange</span><sup>2</sup><img class="sh-type__bottle" src="/assets/wines/e-orange.webp" alt="" width="201" height="718" loading="lazy" decoding="async"></a></li><li><a class="sh-type" href="/collections/non-alcoholic/"><span class="sh-type__name">Non-alcoholic</span><sup>10</sup><img class="sh-type__bottle" src="/assets/wines/bella-glamour-1.webp" alt="" width="310" height="1100" loading="lazy" decoding="async"></a></li></ul>
+        </nav>
+      </div>
+    </section>
+
+    <div class="sh-bar" data-shbar>
+      <div class="sh-bar__in">
+        <div class="sh-tabs" role="group" aria-label="Collections" data-tabs><i class="sh-tabs__bar" data-tbar aria-hidden="true"></i><a class="sh-tab" href="/wines/">All wines</a><a class="sh-tab" href="/collections/red-wine/">Red <sup>87</sup></a><a class="sh-tab is-on" href="/collections/white-wine/" aria-current="page">White <sup>60</sup></a><a class="sh-tab" href="/collections/rose-wine/">Rosé <sup>14</sup></a><a class="sh-tab" href="/collections/sparkling-wine/">Sparkling <sup>12</sup></a><a class="sh-tab" href="/collections/skin-contact-orange-wine-white/">Orange <sup>2</sup></a><a class="sh-tab" href="/collections/non-alcoholic/">Non-alcoholic <sup>10</sup></a></div>
+        <div class="sh-bar__side">
+          <p class="sh-bar__count" role="status" aria-live="polite"><b data-total>60</b> <span data-totalword>bottles</span></p>
+          <button type="button" class="sh-filterbtn" data-openf aria-expanded="false" aria-controls="sh-drawer">Filter &amp; sort<span class="sh-filterbtn__n" data-fcount hidden></span></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrap sh-active" data-active hidden></div>
+
+    <div class="wrap sh-list" data-list>
+      <section class="sh-ch" id="italy" data-ch="italy" aria-labelledby="h-italy">
+        <div class="sh-ch__side">
+          <h2 class="sh-ch__title" id="h-italy" data-lines>Italy</h2>
+          <p class="sh-ch__count"><span data-chcount>28</span> <span data-chword>bottles</span></p>
+          
+        </div>
+        <ul class="sh-grid" data-grid>
+            <li class="pcard" data-kind="white" data-farm="" data-country="italy" data-region="" data-producer="cantina-reguta" data-grape="" data-size="750-ml" data-case="12" data-cols="white-wine" data-avail="1" data-price="15.00" data-date="20260420" data-i="0" data-q="giuseppe &amp; luigi pinot grigio 2025 cantina reguta italy white"><a class="pcard__link" href="/wines/giuseppe-luigi-pinot-grigio-2026/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/giuseppe-luigi-pinot-grigio-2026.webp" alt="Giuseppe &amp; Luigi Pinot Grigio 2025" width="170" height="699" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Cantina Reguta</span>
+                <span class="pcard__row"><span class="pcard__name">Giuseppe &amp; Luigi Pinot Grigio 2025</span><span class="pcard__price">$15<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $180</span>
+              </span>
+            </a></li>
+            <li class="pcard" data-kind="white" data-farm="" data-country="italy" data-region="" data-producer="luca-menicucci" data-grape="chardonnay sauvignon-blanc" data-size="750-ml" data-case="12" data-cols="white-wine" data-avail="1" data-price="14.00" data-date="20240729" data-i="1" data-q="la vitto bianco luca menicucci chardonnay, sauvignon blanc italy white chardonnay sauvignon blanc"><a class="pcard__link" href="/wines/la-vitto-bianco/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/la-vitto-bianco.webp" alt="La Vitto Bianco" width="173" height="705" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Luca Menicucci</span>
+                <span class="pcard__row"><span class="pcard__name">La Vitto Bianco</span><span class="pcard__price">$14<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $168</span>
+              </span>
+            </a></li>
+            <li class="pcard" data-kind="white" data-farm="" data-country="italy" data-region="" data-producer="tenimenti-civa" data-grape="" data-size="750-ml" data-case="12" data-cols="white-wine" data-avail="1" data-price="16.00" data-date="20260301" data-i="2" data-q="villa folini ribolla gialla 2024 tenimenti civa italy white"><a class="pcard__link" href="/wines/villa-folini-ribolla-gialla-2025/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/villa-folini-ribolla-gialla-2025.webp" alt="Villa Folini Ribolla Gialla 2024" width="293" height="1100" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Tenimenti Civa</span>
+                <span class="pcard__row"><span class="pcard__name">Villa Folini Ribolla Gialla 2024</span><span class="pcard__price">$16<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $192</span>
+              </span>
+            </a></li>
+            <li class="pcard" data-kind="white" data-farm="" data-country="italy" data-region="" data-producer="ozzano-selections" data-grape="" data-size="750-ml" data-case="12" data-cols="white-wine" data-avail="1" data-price="34.00" data-date="20260227" data-i="3" data-q="roero arneis marcarini 2025 ozzano selections italy white"><a class="pcard__link" href="/wines/roero-arneis-marcarini-2025/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/roero-arneis-marcarini-2025.webp" alt="Roero Arneis Marcarini 2025" width="284" height="1070" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Ozzano Selections</span>
+                <span class="pcard__row"><span class="pcard__name">Roero Arneis Marcarini 2025</span><span class="pcard__price">$34<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $408</span>
+              </span>
+            </a></li>
+            <li class="pcard" data-kind="white" data-farm="" data-country="italy" data-region="" data-producer="birgi" data-grape="" data-size="750-ml" data-case="12" data-cols="white-wine" data-avail="1" data-price="22.00" data-date="20260210" data-i="4" data-q="trisole grillo birgi italy white"><a class="pcard__link" href="/wines/trisole-grillo/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/trisole-grillo.webp" alt="Trisole Grillo" width="291" height="1078" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Birgi</span>
+                <span class="pcard__row"><span class="pcard__name">Trisole Grillo</span><span class="pcard__price">$22<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $264</span>
+              </span>
+            </a></li>
+            <li class="pcard" data-kind="white" data-farm="" data-country="italy" data-region="" data-producer="vignamato" data-grape="" data-size="750-ml" data-case="12" data-cols="white-wine" data-avail="1" data-price="23.00" data-date="20251223" data-i="5" data-q="verdicchio - versus 2025 vignamato italy white"><a class="pcard__link" href="/wines/verdicchio-versus-2025/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/verdicchio-versus-2025.webp" alt="Verdicchio - Versus 2025" width="323" height="1100" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Vignamato</span>
+                <span class="pcard__row"><span class="pcard__name">Verdicchio - Versus 2025</span><span class="pcard__price">$23<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $276</span>
+              </span>
+            </a></li>
+            <li class="pcard" data-kind="white" data-farm="" data-country="italy" data-region="" data-producer="vignamato" data-grape="" data-size="750-ml" data-case="12" data-cols="white-wine" data-avail="1" data-price="27.00" data-date="20260409" data-i="6" data-q="versiano - verdicchio 2024 vignamato italy white"><a class="pcard__link" href="/wines/versiano-verdicchio-2024/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/versiano-verdicchio-2024.webp" alt="Versiano - Verdicchio 2024" width="313" height="1100" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Vignamato</span>
+                <span class="pcard__row"><span class="pcard__name">Versiano - Verdicchio 2024</span><span class="pcard__price">$27<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $324</span>
+              </span>
+            </a></li>
+            <li class="pcard" data-kind="white" data-farm="" data-country="italy" data-region="" data-producer="vignamato" data-grape="" data-size="750-ml" data-case="12" data-cols="white-wine" data-avail="1" data-price="20.00" data-date="20260409" data-i="7" data-q="verdicchio - terre delle lame 2025 vignamato italy white"><a class="pcard__link" href="/wines/verdicchio-terre-delle-lame-2024/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/verdicchio-terre-delle-lame-2024.webp" alt="Verdicchio - Terre Delle Lame 2025" width="295" height="1100" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Vignamato</span>
+                <span class="pcard__row"><span class="pcard__name">Verdicchio - Terre Delle Lame 2025</span><span class="pcard__price">$20<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $240</span>
+              </span>
+            </a></li>
+            <li class="pcard" data-kind="white" data-farm="" data-country="italy" data-region="" data-producer="birgi" data-grape="" data-size="750-ml" data-case="12" data-cols="white-wine" data-avail="1" data-price="22.00" data-date="20251119" data-i="8" data-q="trisole zibibbo 2024 birgi italy white"><a class="pcard__link" href="/wines/trisole-zibibbo-2025/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/trisole-zibibbo-2025.webp" alt="Trisole Zibibbo 2024" width="282" height="1100" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Birgi</span>
+                <span class="pcard__row"><span class="pcard__name">Trisole Zibibbo 2024</span><span class="pcard__price">$22<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $264</span>
+              </span>
+            </a></li>
+            <li class="pcard" data-kind="white" data-farm="" data-country="italy" data-region="" data-producer="virna" data-grape="" data-size="750-ml" data-case="12" data-cols="white-wine" data-avail="1" data-price="47.00" data-date="20250626" data-i="9" data-q="stu fuori langhe bianco 2024 virna italy white"><a class="pcard__link" href="/wines/stu-fuori-langhe-bianco-2025/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/stu-fuori-langhe-bianco-2025.webp" alt="Stu Fuori Langhe Bianco 2024" width="291" height="1100" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Virna</span>
+                <span class="pcard__row"><span class="pcard__name">Stu Fuori Langhe Bianco 2024</span><span class="pcard__price">$47<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $564</span>
+              </span>
+            </a></li>
+            <li class="pcard" data-kind="white" data-farm="" data-country="italy" data-region="" data-producer="pfitscher" data-grape="" data-size="750-ml" data-case="12" data-cols="white-wine" data-avail="1" data-price="35.00" data-date="20250417" data-i="10" data-q="chardonnay arvum 2024 pfitscher italy white"><a class="pcard__link" href="/wines/chardonnay-arvum-2024/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/chardonnay-arvum-2024.webp" alt="Chardonnay Arvum 2024" width="226" height="807" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Pfitscher</span>
+                <span class="pcard__row"><span class="pcard__name">Chardonnay Arvum 2024</span><span class="pcard__price">$35<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $420</span>
+              </span>
+            </a></li>
+            <li class="pcard" data-kind="white" data-farm="" data-country="italy" data-region="" data-producer="pfitscher" data-grape="" data-size="750-ml" data-case="12" data-cols="white-wine" data-avail="1" data-price="35.00" data-date="20250417" data-i="11" data-q="pinot bianco longarei 2023 pfitscher italy white"><a class="pcard__link" href="/wines/pinot-bianco-longarei-2023/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/pinot-bianco-longarei-2023.webp" alt="Pinot Bianco Longarei 2023" width="186" height="792" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Pfitscher</span>
+                <span class="pcard__row"><span class="pcard__name">Pinot Bianco Longarei 2023</span><span class="pcard__price">$35<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $420</span>
+              </span>
+            </a></li>
+            <li class="pcard" data-kind="white" data-farm="biodynamic" data-country="italy" data-region="" data-producer="gabrio-bini" data-grape="" data-size="750-ml" data-case="6" data-cols="white-wine bio-dynamic" data-avail="1" data-price="220.00" data-date="20240624" data-i="12" data-q="serraggia heritage 2022 gabrio bini italy white"><a class="pcard__link" href="/wines/serraggia-heritage-2022/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/serraggia-heritage-2022.webp" alt="Serraggia Heritage 2022" width="68" height="316" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Gabrio Bini</span>
+                <span class="pcard__row"><span class="pcard__name">Serraggia Heritage 2022</span><span class="pcard__price">$220<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 6 · $1320</span>
+              </span>
+            </a></li>
+            <li class="pcard" data-kind="white" data-farm="biodynamic" data-country="italy" data-region="" data-producer="gabrio-bini" data-grape="" data-size="750-ml" data-case="6" data-cols="white-wine bio-dynamic" data-avail="1" data-price="180.00" data-date="20240624" data-i="13" data-q="serraggia zibibbo 2022 gabrio bini italy white"><a class="pcard__link" href="/wines/serraggia-zibibbo-2022/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/serraggia-zibibbo-2022.webp" alt="Serraggia Zibibbo 2022" width="219" height="1100" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Gabrio Bini</span>
+                <span class="pcard__row"><span class="pcard__name">Serraggia Zibibbo 2022</span><span class="pcard__price">$180<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 6 · $1080</span>
+              </span>
+            </a></li>
+            <li class="pcard" data-kind="white" data-farm="" data-country="italy" data-region="" data-producer="tenimenti-civa" data-grape="" data-size="750-ml" data-case="12" data-cols="white-wine" data-avail="1" data-price="26.00" data-date="20250612" data-i="14" data-q="ribolla gialla classico 2021 tenimenti civa italy white"><a class="pcard__link" href="/wines/ribolla-gialla-classico-2021/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/ribolla-gialla-classico-2021.webp" alt="Ribolla Gialla Classico 2021" width="222" height="766" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Tenimenti Civa</span>
+                <span class="pcard__row"><span class="pcard__name">Ribolla Gialla Classico 2021</span><span class="pcard__price">$26<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $312</span>
+              </span>
+            </a></li>
+            <li class="pcard" data-kind="white" data-farm="" data-country="italy" data-region="" data-producer="tre-gemme" data-grape="" data-size="750-ml" data-case="12" data-cols="white-wine" data-avail="1" data-price="29.00" data-date="20240229" data-i="15" data-q="pecorino tre gemme 135 tre gemme italy white"><a class="pcard__link" href="/wines/pecorino-tre-gemme-135/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/pecorino-tre-gemme-135.webp" alt="Pecorino Tre Gemme 135" width="193" height="761" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Tre Gemme</span>
+                <span class="pcard__row"><span class="pcard__name">Pecorino Tre Gemme 135</span><span class="pcard__price">$29<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $348</span>
+              </span>
+            </a></li>
+            <li class="pcard" data-kind="white" data-farm="" data-country="italy" data-region="" data-producer="az-agr-alessandro-rivetto" data-grape="nascetta" data-size="750-ml" data-case="12" data-cols="white-wine" data-avail="1" data-price="30.00" data-date="20240229" data-i="16" data-q="nascetta az. agr. alessandro rivetto nascetta italy white nascetta"><a class="pcard__link" href="/wines/nascetta-2017/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/nascetta-2017.webp" alt="Nascetta" width="187" height="706" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Az. Agr. Alessandro Rivetto</span>
+                <span class="pcard__row"><span class="pcard__name">Nascetta</span><span class="pcard__price">$30<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $360</span>
+              </span>
+            </a></li>
+            <li class="pcard" data-kind="white" data-farm="organic" data-country="italy" data-region="" data-producer="poderi-cellario" data-grape="arneis moscato" data-size="1-l" data-case="12" data-cols="white-wine organic" data-avail="1" data-price="20.00" data-date="20240229" data-i="17" data-q="e&#x27; bianco poderi cellario arneis, moscato italy white arneis moscato"><a class="pcard__link" href="/wines/e-bianco/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/e-bianco.webp" alt="E&#x27; Bianco" width="180" height="647" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Poderi Cellario</span>
+                <span class="pcard__row"><span class="pcard__name">E&#x27; Bianco</span><span class="pcard__price">$20<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $240</span>
+              </span>
+            </a></li>
+            <li class="pcard pcard--out" data-kind="white" data-farm="" data-country="italy" data-region="" data-producer="ozzano-selections" data-grape="" data-size="750-ml" data-case="12" data-cols="white-wine" data-avail="0" data-price="16.00" data-date="20250505" data-i="18" data-q="garda soave ozzano selections italy white"><a class="pcard__link" href="/wines/garda-soave-2024/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/garda-soave-2024.webp" alt="Garda Soave" width="191" height="743" loading="lazy" decoding="async"><span class="pcard__flag">Sold out</span><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Ozzano Selections</span>
+                <span class="pcard__row"><span class="pcard__name">Garda Soave</span><span class="pcard__price">$16<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $192</span>
+              </span>
+            </a></li>
+            <li class="pcard pcard--out" data-kind="white" data-farm="organic" data-country="italy" data-region="" data-producer="ozzano-selections" data-grape="verdeca" data-size="750-ml" data-case="12" data-cols="white-wine organic" data-avail="0" data-price="27.00" data-date="20250527" data-i="19" data-q="alice 2024 ozzano selections verdeca italy white verdeca"><a class="pcard__link" href="/wines/alice-2023/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/alice-2023.webp" alt="Alice 2024" width="188" height="708" loading="lazy" decoding="async"><span class="pcard__flag">Sold out</span><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Ozzano Selections</span>
+                <span class="pcard__row"><span class="pcard__name">Alice 2024</span><span class="pcard__price">$27<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $324</span>
+              </span>
+            </a></li>
+            <li class="pcard pcard--out" data-kind="white" data-farm="" data-country="italy" data-region="" data-producer="benvenuto" data-grape="" data-size="750-ml" data-case="12" data-cols="white-wine" data-avail="0" data-price="30.00" data-date="20260820" data-i="20" data-q="benvenuto zibibbo 2025 benvenuto italy white"><a class="pcard__link" href="/wines/benvenuto-zibibbo-2026/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/benvenuto-zibibbo-2026.webp" alt="Benvenuto Zibibbo 2025" width="270" height="1100" loading="lazy" decoding="async"><span class="pcard__flag">Sold out</span><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Benvenuto</span>
+                <span class="pcard__row"><span class="pcard__name">Benvenuto Zibibbo 2025</span><span class="pcard__price">$30<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $360</span>
+              </span>
+            </a></li>
+            <li class="pcard pcard--out" data-kind="white" data-farm="" data-country="italy" data-region="" data-producer="tenimenti-civa" data-grape="" data-size="750-ml" data-case="12" data-cols="white-wine" data-avail="0" data-price="16.00" data-date="20260301" data-i="21" data-q="sauvignon blanc igt 2024 tenimenti civa italy white"><a class="pcard__link" href="/wines/sauvignon-blanc-igt-2025/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/sauvignon-blanc-igt-2025.webp" alt="Sauvignon Blanc IGT 2024" width="293" height="1100" loading="lazy" decoding="async"><span class="pcard__flag">Sold out</span><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Tenimenti Civa</span>
+                <span class="pcard__row"><span class="pcard__name">Sauvignon Blanc IGT 2024</span><span class="pcard__price">$16<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $192</span>
+              </span>
+            </a></li>
+            <li class="pcard pcard--out" data-kind="white" data-farm="" data-country="italy" data-region="" data-producer="birgi" data-grape="" data-size="750-ml" data-case="12" data-cols="white-wine" data-avail="0" data-price="22.00" data-date="20251119" data-i="22" data-q="trisole grillo 2024 birgi italy white"><a class="pcard__link" href="/wines/trisole-grillo-2024/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/trisole-grillo-2024.webp" alt="Trisole Grillo 2024" width="291" height="1078" loading="lazy" decoding="async"><span class="pcard__flag">Sold out</span><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Birgi</span>
+                <span class="pcard__row"><span class="pcard__name">Trisole Grillo 2024</span><span class="pcard__price">$22<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $264</span>
+              </span>
+            </a></li>
+            <li class="pcard pcard--out" data-kind="white" data-farm="" data-country="italy" data-region="" data-producer="tenimenti-civa" data-grape="" data-size="750-ml" data-case="12" data-cols="white-wine" data-avail="0" data-price="16.00" data-date="20251117" data-i="23" data-q="ronc laris pinot grigio 2024 tenimenti civa italy white"><a class="pcard__link" href="/wines/ronc-laris-pinot-grigio-2025/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/ronc-laris-pinot-grigio-2025.webp" alt="Ronc Laris Pinot Grigio 2024" width="104" height="390" loading="lazy" decoding="async"><span class="pcard__flag">Sold out</span><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Tenimenti Civa</span>
+                <span class="pcard__row"><span class="pcard__name">Ronc Laris Pinot Grigio 2024</span><span class="pcard__price">$16<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $192</span>
+              </span>
+            </a></li>
+            <li class="pcard pcard--out" data-kind="white" data-farm="organic" data-country="italy" data-region="" data-producer="poderi-cellario" data-grape="" data-size="750-ml" data-case="12" data-cols="white-wine organic" data-avail="0" data-price="22.00" data-date="20260226" data-i="24" data-q="favorita lafrea 2024 poderi cellario italy white"><a class="pcard__link" href="/wines/favorita-lafrea-2023/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/favorita-lafrea-2023.webp" alt="Favorita Lafrea 2024" width="297" height="1100" loading="lazy" decoding="async"><span class="pcard__flag">Sold out</span><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Poderi Cellario</span>
+                <span class="pcard__row"><span class="pcard__name">Favorita Lafrea 2024</span><span class="pcard__price">$22<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $264</span>
+              </span>
+            </a></li>
+            <li class="pcard pcard--out" data-kind="white" data-farm="" data-country="italy" data-region="" data-producer="tenimenti-civa" data-grape="" data-size="750-ml" data-case="6" data-cols="white-wine" data-avail="0" data-price="60.00" data-date="20240711" data-i="25" data-q="ribolla gialla bellazoia 2021 tenimenti civa italy white"><a class="pcard__link" href="/wines/ribolla-gialla-bellazoia-2021/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/ribolla-gialla-bellazoia-2021.webp" alt="Ribolla Gialla Bellazoia 2021" width="355" height="1100" loading="lazy" decoding="async"><span class="pcard__flag">Sold out</span><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Tenimenti Civa</span>
+                <span class="pcard__row"><span class="pcard__name">Ribolla Gialla Bellazoia 2021</span><span class="pcard__price">$60<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 6 · $360</span>
+              </span>
+            </a></li>
+            <li class="pcard pcard--out" data-kind="white" data-farm="organic" data-country="italy" data-region="" data-producer="poderi-cellario" data-grape="moscato favorita" data-size="750-ml" data-case="12" data-cols="white-wine organic" data-avail="0" data-price="20.00" data-date="20240229" data-i="26" data-q="il baffone poderi cellario moscato, favorita italy white moscato favorita"><a class="pcard__link" href="/wines/il-baffone/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/il-baffone.webp" alt="Il Baffone" width="291" height="1030" loading="lazy" decoding="async"><span class="pcard__flag">Sold out</span><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Poderi Cellario</span>
+                <span class="pcard__row"><span class="pcard__name">Il Baffone</span><span class="pcard__price">$20<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $240</span>
+              </span>
+            </a></li>
+            <li class="pcard pcard--out" data-kind="white" data-farm="" data-country="italy" data-region="" data-producer="tenimenti-civa" data-grape="" data-size="750-ml" data-case="12" data-cols="white-wine" data-avail="0" data-price="0.00" data-date="20260720" data-i="27" data-q="ronc laris sauvignon tenimenti civa italy white"><a class="pcard__link" href="/wines/ronc-laris-sauvignon-2/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/ronc-laris-sauvignon-2.webp" alt="Ronc Laris Sauvignon" width="291" height="1100" loading="lazy" decoding="async"><span class="pcard__flag">Sold out</span><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Tenimenti Civa</span>
+                <span class="pcard__row"><span class="pcard__name">Ronc Laris Sauvignon</span><span class="pcard__price">Ask us</span></span>
+                <span class="pcard__note">Price on request</span>
+              </span>
+            </a></li>
+        </ul>
+      </section>
+      <section class="sh-ch" id="france" data-ch="france" aria-labelledby="h-france">
+        <div class="sh-ch__side">
+          <h2 class="sh-ch__title" id="h-france" data-lines>France</h2>
+          <p class="sh-ch__count"><span data-chcount>13</span> <span data-chword>bottles</span></p>
+          
+        </div>
+        <ul class="sh-grid" data-grid>
+            <li class="pcard" data-kind="white" data-farm="" data-country="france" data-region="" data-producer="domaine-sainte-marie" data-grape="sauvignon-blanc s-millon" data-size="750-ml" data-case="12" data-cols="white-wine" data-avail="1" data-price="22.00" data-date="20260714" data-i="28" data-q="petite marie entre deux mers white 2024 domaine sainte-marie sauvignon blanc, sémillon france white sauvignon blanc sémillon"><a class="pcard__link" href="/wines/petite-marie-white-2023/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/petite-marie-white-2023.webp" alt="Petite Marie Entre Deux Mers White 2024" width="201" height="746" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Domaine Sainte-Marie</span>
+                <span class="pcard__row"><span class="pcard__name">Petite Marie Entre Deux Mers White 2024</span><span class="pcard__price">$22<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $264</span>
+              </span>
+            </a></li>
+            <li class="pcard" data-kind="white" data-farm="" data-country="france" data-region="" data-producer="cellier-des-demoiselles" data-grape="chardonnay" data-size="750-ml" data-case="12" data-cols="white-wine" data-avail="1" data-price="17.00" data-date="20260122" data-i="29" data-q="chardonnay - cd 2024 cellier des demoiselles chardonnay france white chardonnay"><a class="pcard__link" href="/wines/chardonnay/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/chardonnay.webp" alt="Chardonnay - CD 2024" width="138" height="513" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Cellier des Demoiselles</span>
+                <span class="pcard__row"><span class="pcard__name">Chardonnay - CD 2024</span><span class="pcard__price">$17<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $204</span>
+              </span>
+            </a></li>
+            <li class="pcard" data-kind="white" data-farm="" data-country="france" data-region="" data-producer="domaine-sainte-marie" data-grape="" data-size="750-ml" data-case="6" data-cols="white-wine" data-avail="1" data-price="47.00" data-date="20260911" data-i="30" data-q="chateau peyredon lagravette blanc 2024 domaine sainte-marie france white"><a class="pcard__link" href="/wines/chateau-peyredon-lagravette-blanc-2024/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/drawn/chateau-peyredon-lagravette-blanc-2024-v4.svg" alt="Chateau Peyredon Lagravette Blanc 2024" width="300" height="1080" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Domaine Sainte-Marie</span>
+                <span class="pcard__row"><span class="pcard__name">Chateau Peyredon Lagravette Blanc 2024</span><span class="pcard__price">$47<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 6 · $282</span>
+              </span>
+            </a></li>
+            <li class="pcard" data-kind="white" data-farm="" data-country="france" data-region="" data-producer="jean-aubron" data-grape="" data-size="750-ml" data-case="12" data-cols="white-wine" data-avail="1" data-price="22.00" data-date="20260317" data-i="31" data-q="sauvignon jean aubron 2025 jean aubron france white"><a class="pcard__link" href="/wines/sauvignon-jean-aubron-2026/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/sauvignon-jean-aubron-2026.webp" alt="Sauvignon Jean Aubron 2025" width="228" height="924" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Jean Aubron</span>
+                <span class="pcard__row"><span class="pcard__name">Sauvignon Jean Aubron 2025</span><span class="pcard__price">$22<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $264</span>
+              </span>
+            </a></li>
+            <li class="pcard" data-kind="white" data-farm="" data-country="france" data-region="" data-producer="jean-aubron" data-grape="" data-size="750-ml" data-case="12" data-cols="white-wine" data-avail="1" data-price="21.00" data-date="20241025" data-i="32" data-q="sauvignon jean aubron 2023 jean aubron france white"><a class="pcard__link" href="/wines/sauvignon-jean-aubron-2023/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/sauvignon-jean-aubron-2023.webp" alt="Sauvignon Jean Aubron 2023" width="228" height="924" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Jean Aubron</span>
+                <span class="pcard__row"><span class="pcard__name">Sauvignon Jean Aubron 2023</span><span class="pcard__price">$21<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $252</span>
+              </span>
+            </a></li>
+            <li class="pcard" data-kind="white" data-farm="" data-country="france" data-region="" data-producer="jean-aubron" data-grape="" data-size="750-ml" data-case="12" data-cols="white-wine" data-avail="1" data-price="21.00" data-date="20260213" data-i="33" data-q="folle blanche 2024 jean aubron france white"><a class="pcard__link" href="/wines/folle-blanche-2024/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/folle-blanche-2024.webp" alt="Folle Blanche 2024" width="223" height="983" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Jean Aubron</span>
+                <span class="pcard__row"><span class="pcard__name">Folle Blanche 2024</span><span class="pcard__price">$21<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $252</span>
+              </span>
+            </a></li>
+            <li class="pcard" data-kind="white" data-farm="" data-country="france" data-region="" data-producer="jean-aubron" data-grape="" data-size="750-ml" data-case="12" data-cols="white-wine" data-avail="1" data-price="21.00" data-date="20241025" data-i="34" data-q="muscadet elegance 2023 jean aubron france white"><a class="pcard__link" href="/wines/muscadet-elegance-2024/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/muscadet-elegance-2024.webp" alt="Muscadet Elegance 2023" width="175" height="737" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Jean Aubron</span>
+                <span class="pcard__row"><span class="pcard__name">Muscadet Elegance 2023</span><span class="pcard__price">$21<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $252</span>
+              </span>
+            </a></li>
+            <li class="pcard" data-kind="white" data-farm="" data-country="france" data-region="" data-producer="chateau-viranel" data-grape="viognier" data-size="750-ml" data-case="12" data-cols="white-wine" data-avail="1" data-price="25.00" data-date="20250422" data-i="35" data-q="viognier blanc 2024 château viranel viognier france white viognier"><a class="pcard__link" href="/wines/viognier-blanc-2022/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/viognier-blanc-2022.webp" alt="Viognier Blanc 2024" width="176" height="650" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Château Viranel</span>
+                <span class="pcard__row"><span class="pcard__name">Viognier Blanc 2024</span><span class="pcard__price">$25<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $300</span>
+              </span>
+            </a></li>
+            <li class="pcard" data-kind="white" data-farm="" data-country="france" data-region="" data-producer="famille-ternynck" data-grape="chardonnay" data-size="750-ml" data-case="12" data-cols="white-wine" data-avail="1" data-price="48.00" data-date="20260303" data-i="36" data-q="chablis (les senties) 2024 famille ternynck chardonnay france white chardonnay"><a class="pcard__link" href="/wines/chablis-les-senties-2022/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/chablis-les-senties-2022.webp" alt="Chablis (Les Senties) 2024" width="294" height="1100" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Famille Ternynck</span>
+                <span class="pcard__row"><span class="pcard__name">Chablis (Les Senties) 2024</span><span class="pcard__price">$48<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $576</span>
+              </span>
+            </a></li>
+            <li class="pcard" data-kind="white" data-farm="" data-country="france" data-region="" data-producer="terre-de-vignerons" data-grape="sauvignon-blanc" data-size="750-ml" data-case="12" data-cols="white-wine" data-avail="1" data-price="16.00" data-date="20260226" data-i="37" data-q="sauvignon atlantique 2024 terre de vignerons sauvignon blanc france white sauvignon blanc"><a class="pcard__link" href="/wines/sauvignon-atlantique-2023/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/drawn/sauvignon-atlantique-2023-v4.svg" alt="Sauvignon Atlantique 2024" width="300" height="1080" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Terre de Vignerons</span>
+                <span class="pcard__row"><span class="pcard__name">Sauvignon Atlantique 2024</span><span class="pcard__price">$16<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $192</span>
+              </span>
+            </a></li>
+            <li class="pcard pcard--out" data-kind="white" data-farm="" data-country="france" data-region="" data-producer="famille-ternynck" data-grape="chardonnay" data-size="750-ml" data-case="12" data-cols="white-wine" data-avail="0" data-price="40.00" data-date="20240229" data-i="38" data-q="chardonnay truffieres (les senties) famille ternynck chardonnay france white chardonnay"><a class="pcard__link" href="/wines/chardonnay-truffieres-les-senties-2022/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/chardonnay-truffieres-les-senties-2022.webp" alt="Chardonnay Truffieres (Les Senties)" width="256" height="987" loading="lazy" decoding="async"><span class="pcard__flag">Sold out</span><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Famille Ternynck</span>
+                <span class="pcard__row"><span class="pcard__name">Chardonnay Truffieres (Les Senties)</span><span class="pcard__price">$40<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $480</span>
+              </span>
+            </a></li>
+            <li class="pcard pcard--out" data-kind="white" data-farm="" data-country="france" data-region="" data-producer="jean-aubron" data-grape="" data-size="750-ml" data-case="12" data-cols="white-wine" data-avail="0" data-price="21.00" data-date="20260213" data-i="39" data-q="sauvignon jean aubron 2024 jean aubron france white"><a class="pcard__link" href="/wines/sauvignon-jean-aubron-2024/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/sauvignon-jean-aubron-2024.webp" alt="Sauvignon Jean Aubron 2024" width="228" height="924" loading="lazy" decoding="async"><span class="pcard__flag">Sold out</span><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Jean Aubron</span>
+                <span class="pcard__row"><span class="pcard__name">Sauvignon Jean Aubron 2024</span><span class="pcard__price">$21<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $252</span>
+              </span>
+            </a></li>
+            <li class="pcard pcard--out" data-kind="white" data-farm="" data-country="france" data-region="" data-producer="les-marmandais" data-grape="sauvignon-blanc" data-size="750-ml" data-case="12" data-cols="white-wine" data-avail="0" data-price="15.00" data-date="20250527" data-i="40" data-q="la vieille eglise white 2024 les marmandais sauvignon blanc france white sauvignon blanc"><a class="pcard__link" href="/wines/chapelle-st-jean-la-vieille-eglise-white-2022/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/chapelle-st-jean-la-vieille-eglise-white-2022.webp" alt="La Vieille Eglise White 2024" width="267" height="1100" loading="lazy" decoding="async"><span class="pcard__flag">Sold out</span><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Les Marmandais</span>
+                <span class="pcard__row"><span class="pcard__name">La Vieille Eglise White 2024</span><span class="pcard__price">$15<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $180</span>
+              </span>
+            </a></li>
+        </ul>
+      </section>
+      <section class="sh-ch" id="austria" data-ch="austria" aria-labelledby="h-austria">
+        <div class="sh-ch__side">
+          <h2 class="sh-ch__title" id="h-austria" data-lines>Austria</h2>
+          <p class="sh-ch__count"><span data-chcount>5</span> <span data-chword>bottles</span></p>
+          
+        </div>
+        <ul class="sh-grid" data-grid>
+            <li class="pcard" data-kind="white" data-farm="organic" data-country="austria" data-region="" data-producer="diwald" data-grape="gr-ner-veltliner" data-size="750-ml" data-case="12" data-cols="white-wine organic" data-avail="1" data-price="50.00" data-date="20240229" data-i="41" data-q="ried goldberg 2019 diwald grüner veltliner austria white grüner veltliner"><a class="pcard__link" href="/wines/ried-goldberg-2019/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/ried-goldberg-2019.webp" alt="Ried Goldberg 2019" width="235" height="1041" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Diwald</span>
+                <span class="pcard__row"><span class="pcard__name">Ried Goldberg 2019</span><span class="pcard__price">$50<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $600</span>
+              </span>
+            </a></li>
+            <li class="pcard" data-kind="white" data-farm="organic" data-country="austria" data-region="" data-producer="diwald" data-grape="" data-size="750-ml" data-case="12" data-cols="white-wine organic" data-avail="1" data-price="36.00" data-date="20241118" data-i="42" data-q="furmint 2022 diwald austria white"><a class="pcard__link" href="/wines/furmint-2022/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/furmint-2022.webp" alt="Furmint 2022" width="248" height="1100" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Diwald</span>
+                <span class="pcard__row"><span class="pcard__name">Furmint 2022</span><span class="pcard__price">$36<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $432</span>
+              </span>
+            </a></li>
+            <li class="pcard" data-kind="white" data-farm="organic" data-country="austria" data-region="" data-producer="diwald" data-grape="gr-ner-veltliner" data-size="750-ml" data-case="12" data-cols="white-wine organic" data-avail="1" data-price="27.00" data-date="20260302" data-i="43" data-q="gruner veltliner vom loss 2024 diwald grüner veltliner austria white grüner veltliner"><a class="pcard__link" href="/wines/gruner-veltliner-vom-loss-2021/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/gruner-veltliner-vom-loss-2021.webp" alt="Gruner Veltliner Vom Loss 2024" width="158" height="704" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Diwald</span>
+                <span class="pcard__row"><span class="pcard__name">Gruner Veltliner Vom Loss 2024</span><span class="pcard__price">$27<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $324</span>
+              </span>
+            </a></li>
+            <li class="pcard" data-kind="white" data-farm="biodynamic" data-country="austria" data-region="" data-producer="weingut-umathum" data-grape="pinot-gris" data-size="750-ml" data-case="12" data-cols="white-wine bio-dynamic" data-avail="1" data-price="35.00" data-date="20240323" data-i="44" data-q="grauer burgunder 2023 weingut umathum pinot gris austria white pinot gris"><a class="pcard__link" href="/wines/grauer-burgunder-2021/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/grauer-burgunder-2021.webp" alt="Grauer Burgunder 2023" width="180" height="714" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Weingut Umathum</span>
+                <span class="pcard__row"><span class="pcard__name">Grauer Burgunder 2023</span><span class="pcard__price">$35<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $420</span>
+              </span>
+            </a></li>
+            <li class="pcard pcard--out" data-kind="white" data-farm="organic" data-country="austria" data-region="" data-producer="weingut-umathum" data-grape="" data-size="750-ml" data-case="12" data-cols="white-wine organic" data-avail="0" data-price="25.00" data-date="20240626" data-i="45" data-q="pinot gris 2022 weingut umathum austria white"><a class="pcard__link" href="/wines/pinot-gris-2023/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/pinot-gris-2023.webp" alt="Pinot Gris 2022" width="265" height="981" loading="lazy" decoding="async"><span class="pcard__flag">Sold out</span><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Weingut Umathum</span>
+                <span class="pcard__row"><span class="pcard__name">Pinot Gris 2022</span><span class="pcard__price">$25<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $300</span>
+              </span>
+            </a></li>
+        </ul>
+      </section>
+      <section class="sh-ch" id="spain" data-ch="spain" aria-labelledby="h-spain">
+        <div class="sh-ch__side">
+          <h2 class="sh-ch__title" id="h-spain" data-lines>Spain</h2>
+          <p class="sh-ch__count"><span data-chcount>5</span> <span data-chword>bottles</span></p>
+          
+        </div>
+        <ul class="sh-grid" data-grid>
+            <li class="pcard" data-kind="white" data-farm="organic" data-country="spain" data-region="" data-producer="mont-rubi" data-grape="xarel-lo" data-size="750-ml" data-case="12" data-cols="white-wine organic" data-avail="1" data-price="26.00" data-date="20260101" data-i="46" data-q="white - mont rubi 2021 mont-rubí xarel-lo spain white xarel-lo"><a class="pcard__link" href="/wines/white-mont-rubi-2021/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/white-mont-rubi-2021.webp" alt="White - Mont Rubi 2021" width="182" height="710" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Mont-Rubí</span>
+                <span class="pcard__row"><span class="pcard__name">White - Mont Rubi 2021</span><span class="pcard__price">$26<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $312</span>
+              </span>
+            </a></li>
+            <li class="pcard" data-kind="white" data-farm="organic" data-country="spain" data-region="" data-producer="demencia-del-autor" data-grape="godello" data-size="750-ml" data-case="12" data-cols="white-wine organic" data-avail="1" data-price="28.00" data-date="20260226" data-i="47" data-q="pyjama godello 2024 demencia del autor godello spain white godello"><a class="pcard__link" href="/wines/pyjama-godello-2024/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/pyjama-godello-2024.webp" alt="Pyjama Godello 2024" width="75" height="300" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Demencia del Autor</span>
+                <span class="pcard__row"><span class="pcard__name">Pyjama Godello 2024</span><span class="pcard__price">$28<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $336</span>
+              </span>
+            </a></li>
+            <li class="pcard" data-kind="white" data-farm="" data-country="spain" data-region="" data-producer="bodegas-verdeal" data-grape="verdejo" data-size="750-ml" data-case="12" data-cols="white-wine" data-avail="1" data-price="22.50" data-date="20250710" data-i="48" data-q="ayre verdejo 2023 bodegas verdeal verdejo spain white verdejo"><a class="pcard__link" href="/wines/ayre-verdejo-2023/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/ayre-verdejo-2023.webp" alt="Ayre Verdejo 2023" width="292" height="1100" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Bodegas Verdeal</span>
+                <span class="pcard__row"><span class="pcard__name">Ayre Verdejo 2023</span><span class="pcard__price">$22.50<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $270</span>
+              </span>
+            </a></li>
+            <li class="pcard" data-kind="white" data-farm="" data-country="spain" data-region="" data-producer="aleavini" data-grape="tempranillo" data-size="750-ml" data-case="12" data-cols="white-wine" data-avail="1" data-price="17.25" data-date="20260226" data-i="49" data-q="adrian serrano blanco - rioja 2024 aleavini tempranillo spain white tempranillo"><a class="pcard__link" href="/wines/adriano-serrano-blanco-rioja-2024/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/adriano-serrano-blanco-rioja-2024.webp" alt="Adrian Serrano Blanco - Rioja 2024" width="163" height="684" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Aleavini</span>
+                <span class="pcard__row"><span class="pcard__name">Adrian Serrano Blanco - Rioja 2024</span><span class="pcard__price">$17.25<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $207</span>
+              </span>
+            </a></li>
+            <li class="pcard" data-kind="white" data-farm="" data-country="spain" data-region="" data-producer="mont-rubi" data-grape="parellada" data-size="750-ml" data-case="12" data-cols="white-wine" data-avail="1" data-price="33.00" data-date="20240229" data-i="50" data-q="durona whte mont-rubí parellada spain white parellada"><a class="pcard__link" href="/wines/durona-whte/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/durona-whte.webp" alt="Durona Whte" width="254" height="958" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Mont-Rubí</span>
+                <span class="pcard__row"><span class="pcard__name">Durona Whte</span><span class="pcard__price">$33<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $396</span>
+              </span>
+            </a></li>
+        </ul>
+      </section>
+      <section class="sh-ch" id="canada" data-ch="canada" aria-labelledby="h-canada">
+        <div class="sh-ch__side">
+          <h2 class="sh-ch__title" id="h-canada" data-lines>Canada</h2>
+          <p class="sh-ch__count"><span data-chcount>3</span> <span data-chword>bottles</span></p>
+          
+        </div>
+        <ul class="sh-grid" data-grid>
+            <li class="pcard" data-kind="white" data-farm="" data-country="canada" data-region="" data-producer="oxley-estate" data-grape="" data-size="750-ml" data-case="12" data-cols="white-wine" data-avail="1" data-price="15.50" data-date="20250922" data-i="51" data-q="oxley estate chardonnay 2021 oxley estate winery canada white"><a class="pcard__link" href="/wines/oxley-estate-chardonnay-2022/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/oxley-estate-chardonnay-2022.webp" alt="Oxley Estate Chardonnay 2021" width="280" height="1100" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Oxley Estate Winery</span>
+                <span class="pcard__row"><span class="pcard__name">Oxley Estate Chardonnay 2021</span><span class="pcard__price">$15.50<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $186</span>
+              </span>
+            </a></li>
+            <li class="pcard" data-kind="white" data-farm="" data-country="canada" data-region="" data-producer="oxley-estate" data-grape="" data-size="750-ml" data-case="12" data-cols="white-wine" data-avail="1" data-price="15.50" data-date="20250228" data-i="52" data-q="oxley estate riesling 2024 oxley estate winery canada white"><a class="pcard__link" href="/wines/oxley-estate-riesling-2020/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/oxley-estate-riesling-2020.webp" alt="Oxley Estate Riesling 2024" width="121" height="550" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Oxley Estate Winery</span>
+                <span class="pcard__row"><span class="pcard__name">Oxley Estate Riesling 2024</span><span class="pcard__price">$15.50<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $186</span>
+              </span>
+            </a></li>
+            <li class="pcard" data-kind="white" data-farm="" data-country="canada" data-region="" data-producer="oxley-estate" data-grape="" data-size="750-ml" data-case="12" data-cols="white-wine" data-avail="1" data-price="8.00" data-date="20250228" data-i="53" data-q="weather rock white 2024 oxley estate winery canada white"><a class="pcard__link" href="/wines/weather-rock-white-2024/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/weather-rock-white-2024.webp" alt="Weather Rock White 2024" width="251" height="1062" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Oxley Estate Winery</span>
+                <span class="pcard__row"><span class="pcard__name">Weather Rock White 2024</span><span class="pcard__price">$8<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $96</span>
+              </span>
+            </a></li>
+        </ul>
+      </section>
+      <section class="sh-ch" id="germany" data-ch="germany" aria-labelledby="h-germany">
+        <div class="sh-ch__side">
+          <h2 class="sh-ch__title" id="h-germany" data-lines>Germany</h2>
+          <p class="sh-ch__count"><span data-chcount>2</span> <span data-chword>bottles</span></p>
+          
+        </div>
+        <ul class="sh-grid" data-grid>
+            <li class="pcard" data-kind="white" data-farm="organic" data-country="germany" data-region="" data-producer="muller-oswald" data-grape="" data-size="750-ml" data-case="12" data-cols="white-wine organic" data-avail="1" data-price="22.00" data-date="20260301" data-i="54" data-q="riesling dry mueller-oswald 2025 muller-oswald germany white"><a class="pcard__link" href="/wines/riesling-dry-mueller-oswald-2025/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/riesling-dry-mueller-oswald-2025.webp" alt="Riesling Dry Mueller-Oswald 2025" width="251" height="1100" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Muller-Oswald</span>
+                <span class="pcard__row"><span class="pcard__name">Riesling Dry Mueller-Oswald 2025</span><span class="pcard__price">$22<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $264</span>
+              </span>
+            </a></li>
+            <li class="pcard" data-kind="white" data-farm="organic" data-country="germany" data-region="" data-producer="muller-oswald" data-grape="" data-size="750-ml" data-case="12" data-cols="white-wine organic" data-avail="1" data-price="22.00" data-date="20260301" data-i="55" data-q="sauvignon blanc dry mueller-oswald 2025 muller-oswald germany white"><a class="pcard__link" href="/wines/sauvignon-blanc-dry-mueller-oswald-2026/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/sauvignon-blanc-dry-mueller-oswald-2026.webp" alt="Sauvignon Blanc Dry Mueller-Oswald 2025" width="249" height="1100" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Muller-Oswald</span>
+                <span class="pcard__row"><span class="pcard__name">Sauvignon Blanc Dry Mueller-Oswald 2025</span><span class="pcard__price">$22<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $264</span>
+              </span>
+            </a></li>
+        </ul>
+      </section>
+      <section class="sh-ch" id="argentina" data-ch="argentina" aria-labelledby="h-argentina">
+        <div class="sh-ch__side">
+          <h2 class="sh-ch__title" id="h-argentina" data-lines>Argentina</h2>
+          <p class="sh-ch__count"><span data-chcount>1</span> <span data-chword>bottle</span></p>
+          
+        </div>
+        <ul class="sh-grid" data-grid>
+            <li class="pcard pcard--out" data-kind="red" data-farm="" data-country="argentina" data-region="" data-producer="malbicho" data-grape="" data-size="750-ml" data-case="12" data-cols="red-wine white-wine" data-avail="0" data-price="0.00" data-date="20260716" data-i="56" data-q="las nencias malbec 2025 malbicho argentina red"><a class="pcard__link" href="/wines/las-nencias-malbec-2030/">
+              <span class="pcard__plate"><span class="pcard__tag">Red</span><img class="pcard__img" src="/assets/wines/las-nencias-malbec-2030.webp" alt="Las Nencias Malbec 2025" width="278" height="1100" loading="lazy" decoding="async"><span class="pcard__flag">Sold out</span><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Malbicho</span>
+                <span class="pcard__row"><span class="pcard__name">Las Nencias Malbec 2025</span><span class="pcard__price">Ask us</span></span>
+                <span class="pcard__note">Price on request</span>
+              </span>
+            </a></li>
+        </ul>
+      </section>
+      <section class="sh-ch" id="hungary" data-ch="hungary" aria-labelledby="h-hungary">
+        <div class="sh-ch__side">
+          <h2 class="sh-ch__title" id="h-hungary" data-lines>Hungary</h2>
+          <p class="sh-ch__count"><span data-chcount>1</span> <span data-chword>bottle</span></p>
+          
+        </div>
+        <ul class="sh-grid" data-grid>
+            <li class="pcard pcard--out" data-kind="white" data-farm="biodynamic" data-country="hungary" data-region="" data-producer="kristinus" data-grape="" data-size="750-ml" data-case="12" data-cols="white-wine bio-dynamic" data-avail="0" data-price="28.00" data-date="20241112" data-i="57" data-q="parapli cuvee 2020 kristinus hungary white"><a class="pcard__link" href="/wines/parapli-cuvee-2020/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/parapli-cuvee-2020.webp" alt="Parapli Cuvee 2020" width="240" height="873" loading="lazy" decoding="async"><span class="pcard__flag">Sold out</span><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Kristinus</span>
+                <span class="pcard__row"><span class="pcard__name">Parapli Cuvee 2020</span><span class="pcard__price">$28<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $336</span>
+              </span>
+            </a></li>
+        </ul>
+      </section>
+      <section class="sh-ch" id="portugal" data-ch="portugal" aria-labelledby="h-portugal">
+        <div class="sh-ch__side">
+          <h2 class="sh-ch__title" id="h-portugal" data-lines>Portugal</h2>
+          <p class="sh-ch__count"><span data-chcount>1</span> <span data-chword>bottle</span></p>
+          
+        </div>
+        <ul class="sh-grid" data-grid>
+            <li class="pcard pcard--out" data-kind="white" data-farm="" data-country="portugal" data-region="" data-producer="adega-da-vermelha" data-grape="moscatel fern-o-pires" data-size="750-ml" data-case="12" data-cols="white-wine" data-avail="0" data-price="13.50" data-date="20240229" data-i="58" data-q="bus 9 white 2021 adega da vermelha moscatel, fernão pires portugal white moscatel fernão pires"><a class="pcard__link" href="/wines/bus-9-white-2021/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/bus-9-white-2021.webp" alt="Bus 9 White 2021" width="232" height="1100" loading="lazy" decoding="async"><span class="pcard__flag">Sold out</span><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">Adega da Vermelha</span>
+                <span class="pcard__row"><span class="pcard__name">Bus 9 White 2021</span><span class="pcard__price">$13.50<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $162</span>
+              </span>
+            </a></li>
+        </ul>
+      </section>
+      <section class="sh-ch" id="united-states" data-ch="united-states" aria-labelledby="h-united-states">
+        <div class="sh-ch__side">
+          <h2 class="sh-ch__title" id="h-united-states" data-lines>United States</h2>
+          <p class="sh-ch__count"><span data-chcount>1</span> <span data-chword>bottle</span></p>
+          
+        </div>
+        <ul class="sh-grid" data-grid>
+            <li class="pcard" data-kind="white" data-farm="" data-country="united-states" data-region="" data-producer="san-joaquin" data-grape="" data-size="750-ml" data-case="12" data-cols="white-wine" data-avail="1" data-price="23.00" data-date="20240909" data-i="59" data-q="california wonders chardonnay 2023 san joaquin united states white"><a class="pcard__link" href="/wines/california-wonders-chardonnay-2023/">
+              <span class="pcard__plate"><span class="pcard__tag">White</span><img class="pcard__img" src="/assets/wines/california-wonders-chardonnay-2023.webp" alt="California Wonders Chardonnay 2023" width="277" height="1100" loading="lazy" decoding="async"><span class="pcard__go">View wine<i class="ico ico--arrow" aria-hidden="true"></i></span></span>
+              <span class="pcard__body">
+                <span class="pcard__meta">San Joaquin</span>
+                <span class="pcard__row"><span class="pcard__name">California Wonders Chardonnay 2023</span><span class="pcard__price">$23<small>a bottle</small></span></span>
+                <span class="pcard__note">Case of 12 · $276</span>
+              </span>
+            </a></li>
+        </ul>
+      </section>
+      <div class="sh-empty" data-empty hidden>
+        <p class="sh-empty__title">Nothing on the list matches that.</p>
+        <p>Try fewer filters, or tell us what you are after and we will find it.</p>
+        <p class="sh-empty__also">Or browse <a href="/collections/red-wine/">Red</a><a href="/collections/white-wine/">White</a><a href="/collections/rose-wine/">Rosé</a><a href="/collections/sparkling-wine/">Sparkling</a><a href="/experiences/">Mixed cases</a></p>
+        <div class="sh-empty__acts"><button type="button" class="btn btn--wine" data-clear>Clear all filters</button><a class="sh-empty__link" href="/contact/">Ask the team</a></div>
+      </div>
+    </div>
+
+    <section class="sh-close" aria-labelledby="sh-close-title">
+      <div class="wrap sh-close__in">
+        <h2 class="sh-close__title" id="sh-close-title" data-lines>Not sure where to start?</h2>
+        <div class="sh-close__side" data-reveal>
+          <p>Take a mixed case we have put together, or tell us what you like to drink and our sommelier will choose for you.</p>
+          <div class="sh-close__acts">
+            <a class="btn btn--wine" href="/experiences/">See the mixed cases<i class="ico ico--arrow" aria-hidden="true"></i></a>
+            <a class="sh-close__link" href="/contact/">Ask for a recommendation</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <aside class="sh-drawer" id="sh-drawer" data-drawer aria-hidden="true" aria-labelledby="sh-drawer-title" role="dialog" aria-modal="true">
+    <div class="sh-drawer__shade" data-closef></div>
+    <div class="sh-drawer__panel" data-panel>
+      <div class="sh-drawer__head">
+        <h2 class="sh-drawer__title" id="sh-drawer-title">Filter &amp; sort</h2>
+        <button type="button" class="sh-drawer__x" data-closef>Close</button>
+      </div>
+      <div class="sh-drawer__body" data-lenis-prevent>
+        <fieldset class="sh-group"><legend>Sort by</legend><div class="sh-opts"><button type="button" class="sh-opt is-on" data-sort="best" aria-pressed="true">Featured</button><button type="button" class="sh-opt" data-sort="low" aria-pressed="false">Price, low to high</button><button type="button" class="sh-opt" data-sort="high" aria-pressed="false">Price, high to low</button><button type="button" class="sh-opt" data-sort="az" aria-pressed="false">Name, A to Z</button><button type="button" class="sh-opt" data-sort="za" aria-pressed="false">Name, Z to A</button><button type="button" class="sh-opt" data-sort="new" aria-pressed="false">Newest first</button><button type="button" class="sh-opt" data-sort="old" aria-pressed="false">Oldest first</button></div></fieldset>
+        <fieldset class="sh-group"><legend>Availability</legend>
+          <label class="sh-switch"><input type="checkbox" data-stock><span class="sh-switch__track" aria-hidden="true"></span>Ready to ship only</label>
+        </fieldset>
+        <fieldset class="sh-group"><legend>Price per bottle</legend>
+          <div class="sh-price">
+            <label><span>From</span><span class="sh-price__in">$<input type="number" inputmode="numeric" min="0" step="1" placeholder="8" data-pmin aria-label="Lowest price per bottle"></span></label>
+            <label><span>To</span><span class="sh-price__in">$<input type="number" inputmode="numeric" min="0" step="1" placeholder="220" data-pmax aria-label="Highest price per bottle"></span></label>
+          </div>
+        </fieldset>
+        <fieldset class="sh-group" data-group="farm"><legend>Farming</legend><div class="sh-opts"><button type="button" class="sh-opt" data-f="farm" data-v="organic" aria-pressed="false">Organic <sup>12</sup></button><button type="button" class="sh-opt" data-f="farm" data-v="biodynamic" aria-pressed="false">Biodynamic <sup>4</sup></button></div></fieldset>
+        <fieldset class="sh-group is-clamped" data-group="country"><legend>Country</legend><div class="sh-opts"><button type="button" class="sh-opt" data-f="country" data-v="italy" aria-pressed="false">Italy <sup>28</sup></button><button type="button" class="sh-opt" data-f="country" data-v="france" aria-pressed="false">France <sup>13</sup></button><button type="button" class="sh-opt" data-f="country" data-v="austria" aria-pressed="false">Austria <sup>5</sup></button><button type="button" class="sh-opt" data-f="country" data-v="spain" aria-pressed="false">Spain <sup>5</sup></button><button type="button" class="sh-opt" data-f="country" data-v="canada" aria-pressed="false">Canada <sup>3</sup></button><button type="button" class="sh-opt" data-f="country" data-v="germany" aria-pressed="false">Germany <sup>2</sup></button><button type="button" class="sh-opt" data-f="country" data-v="argentina" aria-pressed="false">Argentina <sup>1</sup></button><button type="button" class="sh-opt" data-f="country" data-v="hungary" aria-pressed="false">Hungary <sup>1</sup></button><button type="button" class="sh-opt" data-f="country" data-v="portugal" aria-pressed="false">Portugal <sup>1</sup></button><button type="button" class="sh-opt" data-f="country" data-v="united-states" aria-pressed="false">United States <sup>1</sup></button></div><button type="button" class="sh-more" data-more aria-expanded="false">Show all 10</button></fieldset>
+        <fieldset class="sh-group is-clamped" data-group="producer"><legend>Producer</legend><div class="sh-opts"><button type="button" class="sh-opt" data-f="producer" data-v="adega-da-vermelha" aria-pressed="false">Adega da Vermelha <sup>1</sup></button><button type="button" class="sh-opt" data-f="producer" data-v="aleavini" aria-pressed="false">Aleavini <sup>1</sup></button><button type="button" class="sh-opt" data-f="producer" data-v="az-agr-alessandro-rivetto" aria-pressed="false">Az. Agr. Alessandro Rivetto <sup>1</sup></button><button type="button" class="sh-opt" data-f="producer" data-v="benvenuto" aria-pressed="false">Benvenuto <sup>1</sup></button><button type="button" class="sh-opt" data-f="producer" data-v="birgi" aria-pressed="false">Birgi <sup>3</sup></button><button type="button" class="sh-opt" data-f="producer" data-v="bodegas-verdeal" aria-pressed="false">Bodegas Verdeal <sup>1</sup></button><button type="button" class="sh-opt" data-f="producer" data-v="cantina-reguta" aria-pressed="false">Cantina Reguta <sup>1</sup></button><button type="button" class="sh-opt" data-f="producer" data-v="cellier-des-demoiselles" aria-pressed="false">Cellier des Demoiselles <sup>1</sup></button><button type="button" class="sh-opt" data-f="producer" data-v="chateau-viranel" aria-pressed="false">Château Viranel <sup>1</sup></button><button type="button" class="sh-opt" data-f="producer" data-v="demencia-del-autor" aria-pressed="false">Demencia del Autor <sup>1</sup></button><button type="button" class="sh-opt" data-f="producer" data-v="diwald" aria-pressed="false">Diwald <sup>3</sup></button><button type="button" class="sh-opt" data-f="producer" data-v="domaine-sainte-marie" aria-pressed="false">Domaine Sainte-Marie <sup>2</sup></button><button type="button" class="sh-opt" data-f="producer" data-v="famille-ternynck" aria-pressed="false">Famille Ternynck <sup>2</sup></button><button type="button" class="sh-opt" data-f="producer" data-v="gabrio-bini" aria-pressed="false">Gabrio Bini <sup>2</sup></button><button type="button" class="sh-opt" data-f="producer" data-v="jean-aubron" aria-pressed="false">Jean Aubron <sup>5</sup></button><button type="button" class="sh-opt" data-f="producer" data-v="kristinus" aria-pressed="false">Kristinus <sup>1</sup></button><button type="button" class="sh-opt" data-f="producer" data-v="les-marmandais" aria-pressed="false">Les Marmandais <sup>1</sup></button><button type="button" class="sh-opt" data-f="producer" data-v="luca-menicucci" aria-pressed="false">Luca Menicucci <sup>1</sup></button><button type="button" class="sh-opt" data-f="producer" data-v="malbicho" aria-pressed="false">Malbicho <sup>1</sup></button><button type="button" class="sh-opt" data-f="producer" data-v="mont-rubi" aria-pressed="false">Mont-Rubí <sup>2</sup></button><button type="button" class="sh-opt" data-f="producer" data-v="muller-oswald" aria-pressed="false">Muller-Oswald <sup>2</sup></button><button type="button" class="sh-opt" data-f="producer" data-v="oxley-estate" aria-pressed="false">Oxley Estate Winery <sup>3</sup></button><button type="button" class="sh-opt" data-f="producer" data-v="ozzano-selections" aria-pressed="false">Ozzano Selections <sup>3</sup></button><button type="button" class="sh-opt" data-f="producer" data-v="pfitscher" aria-pressed="false">Pfitscher <sup>2</sup></button><button type="button" class="sh-opt" data-f="producer" data-v="poderi-cellario" aria-pressed="false">Poderi Cellario <sup>3</sup></button><button type="button" class="sh-opt" data-f="producer" data-v="san-joaquin" aria-pressed="false">San Joaquin <sup>1</sup></button><button type="button" class="sh-opt" data-f="producer" data-v="tenimenti-civa" aria-pressed="false">Tenimenti Civa <sup>6</sup></button><button type="button" class="sh-opt" data-f="producer" data-v="terre-de-vignerons" aria-pressed="false">Terre de Vignerons <sup>1</sup></button><button type="button" class="sh-opt" data-f="producer" data-v="tre-gemme" aria-pressed="false">Tre Gemme <sup>1</sup></button><button type="button" class="sh-opt" data-f="producer" data-v="vignamato" aria-pressed="false">Vignamato <sup>3</sup></button><button type="button" class="sh-opt" data-f="producer" data-v="virna" aria-pressed="false">Virna <sup>1</sup></button><button type="button" class="sh-opt" data-f="producer" data-v="weingut-umathum" aria-pressed="false">Weingut Umathum <sup>2</sup></button></div><button type="button" class="sh-more" data-more aria-expanded="false">Show all 32</button></fieldset>
+        <fieldset class="sh-group is-clamped" data-group="grape"><legend>Grape</legend><div class="sh-opts"><button type="button" class="sh-opt" data-f="grape" data-v="arneis" aria-pressed="false">Arneis <sup>1</sup></button><button type="button" class="sh-opt" data-f="grape" data-v="chardonnay" aria-pressed="false">Chardonnay <sup>4</sup></button><button type="button" class="sh-opt" data-f="grape" data-v="favorita" aria-pressed="false">Favorita <sup>1</sup></button><button type="button" class="sh-opt" data-f="grape" data-v="fern-o-pires" aria-pressed="false">Fernão Pires <sup>1</sup></button><button type="button" class="sh-opt" data-f="grape" data-v="godello" aria-pressed="false">Godello <sup>1</sup></button><button type="button" class="sh-opt" data-f="grape" data-v="gr-ner-veltliner" aria-pressed="false">Grüner Veltliner <sup>2</sup></button><button type="button" class="sh-opt" data-f="grape" data-v="moscatel" aria-pressed="false">Moscatel <sup>1</sup></button><button type="button" class="sh-opt" data-f="grape" data-v="moscato" aria-pressed="false">Moscato <sup>2</sup></button><button type="button" class="sh-opt" data-f="grape" data-v="nascetta" aria-pressed="false">Nascetta <sup>1</sup></button><button type="button" class="sh-opt" data-f="grape" data-v="parellada" aria-pressed="false">Parellada <sup>1</sup></button><button type="button" class="sh-opt" data-f="grape" data-v="pinot-gris" aria-pressed="false">Pinot Gris <sup>1</sup></button><button type="button" class="sh-opt" data-f="grape" data-v="sauvignon-blanc" aria-pressed="false">Sauvignon Blanc <sup>4</sup></button><button type="button" class="sh-opt" data-f="grape" data-v="s-millon" aria-pressed="false">Sémillon <sup>1</sup></button><button type="button" class="sh-opt" data-f="grape" data-v="tempranillo" aria-pressed="false">Tempranillo <sup>1</sup></button><button type="button" class="sh-opt" data-f="grape" data-v="verdeca" aria-pressed="false">Verdeca <sup>1</sup></button><button type="button" class="sh-opt" data-f="grape" data-v="verdejo" aria-pressed="false">Verdejo <sup>1</sup></button><button type="button" class="sh-opt" data-f="grape" data-v="viognier" aria-pressed="false">Viognier <sup>1</sup></button><button type="button" class="sh-opt" data-f="grape" data-v="xarel-lo" aria-pressed="false">Xarel-lo <sup>1</sup></button></div><button type="button" class="sh-more" data-more aria-expanded="false">Show all 18</button></fieldset>
+        <fieldset class="sh-group" data-group="size"><legend>Bottle size</legend><div class="sh-opts"><button type="button" class="sh-opt" data-f="size" data-v="750-ml" aria-pressed="false">750 mL <sup>59</sup></button><button type="button" class="sh-opt" data-f="size" data-v="1-l" aria-pressed="false">1 L <sup>1</sup></button></div></fieldset>
+        <fieldset class="sh-group" data-group="case"><legend>Bottles per case</legend><div class="sh-opts"><button type="button" class="sh-opt" data-f="case" data-v="6" aria-pressed="false">6 bottles <sup>4</sup></button><button type="button" class="sh-opt" data-f="case" data-v="12" aria-pressed="false">12 bottles <sup>56</sup></button></div></fieldset>
+      </div>
+      <div class="sh-drawer__foot">
+        <button type="button" class="sh-drawer__clear" data-clear>Clear all</button>
+        <button type="button" class="btn btn--wine" data-closef><span data-showlabel>Show 60 bottles</span></button>
+      </div>
+    </div>
+  </aside>
+
+  <button type="button" class="sh-fab" data-openf aria-controls="sh-drawer" aria-expanded="false">Filter &amp; sort<span class="sh-filterbtn__n" data-fcount hidden></span></button>
+  <script type="application/json" id="sh-names">{"kind": {"white": "White", "red": "Red"}, "farm": {"organic": "Organic", "biodynamic": "Biodynamic"}, "country": {"italy": "Italy", "france": "France", "hungary": "Hungary", "spain": "Spain", "argentina": "Argentina", "austria": "Austria", "germany": "Germany", "canada": "Canada", "united-states": "United States", "portugal": "Portugal"}, "region": {}, "producer": {"cantina-reguta": "Cantina Reguta", "ozzano-selections": "Ozzano Selections", "domaine-sainte-marie": "Domaine Sainte-Marie", "kristinus": "Kristinus", "luca-menicucci": "Luca Menicucci", "mont-rubi": "Mont-Rubí", "famille-ternynck": "Famille Ternynck", "cellier-des-demoiselles": "Cellier des Demoiselles", "benvenuto": "Benvenuto", "tenimenti-civa": "Tenimenti Civa", "malbicho": "Malbicho", "jean-aubron": "Jean Aubron", "diwald": "Diwald", "muller-oswald": "Muller-Oswald", "demencia-del-autor": "Demencia del Autor", "birgi": "Birgi", "vignamato": "Vignamato", "oxley-estate": "Oxley Estate Winery", "bodegas-verdeal": "Bodegas Verdeal", "virna": "Virna", "pfitscher": "Pfitscher", "san-joaquin": "San Joaquin", "aleavini": "Aleavini", "weingut-umathum": "Weingut Umathum", "gabrio-bini": "Gabrio Bini", "poderi-cellario": "Poderi Cellario", "chateau-viranel": "Château Viranel", "tre-gemme": "Tre Gemme", "az-agr-alessandro-rivetto": "Az. Agr. Alessandro Rivetto", "les-marmandais": "Les Marmandais", "adega-da-vermelha": "Adega da Vermelha", "terre-de-vignerons": "Terre de Vignerons"}, "grape": {"verdeca": "Verdeca", "sauvignon-blanc": "Sauvignon Blanc", "s-millon": "Sémillon", "chardonnay": "Chardonnay", "xarel-lo": "Xarel-lo", "gr-ner-veltliner": "Grüner Veltliner", "godello": "Godello", "verdejo": "Verdejo", "tempranillo": "Tempranillo", "pinot-gris": "Pinot Gris", "viognier": "Viognier", "nascetta": "Nascetta", "moscato": "Moscato", "favorita": "Favorita", "parellada": "Parellada", "arneis": "Arneis", "moscatel": "Moscatel", "fern-o-pires": "Fernão Pires"}, "size": {"750-ml": "750 mL", "1-l": "1 L"}, "case": {"12": "12 bottles", "6": "6 bottles"}}</script>
+  <footer class="foot" data-foot>
+    <div class="foot__top">
+      <div>
+        <h2 class="foot__title" data-lines>Let's stay in touch</h2>
+        <p class="foot__lead">New producers and new bottles, sent when there is something worth sharing.</p>
+      </div>
+      <form class="news" data-news novalidate>
+        <div class="news__row">
+          <div class="field"><label for="n-name">Name</label><input id="n-name" name="name" type="text" autocomplete="name"></div>
+          <div class="field"><label for="n-email">Email</label><input id="n-email" name="email" type="email" autocomplete="email" required aria-describedby="n-msg"></div>
+        </div>
+        <button class="btn btn--wine" type="submit">Join the newsletter<i class="ico ico--arrow" aria-hidden="true"></i></button>
+        <p class="news__msg" id="n-msg" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+
+    <div class="foot__cols">
+      <div><h3>Shop</h3>
+        <a href="/wines/">Wines &amp; Spirits</a>
+        <a href="/collections/non-alcoholic/">Non-Alcoholic</a>
+        <a href="/experiences/">Mixed cases</a>
+        <a href="/cart/">Cart</a></div>
+      <div><h3>Company</h3>
+        <a href="/producers/">Producers</a>
+        <a href="/about/">About</a>
+        <a href="/gallery/">Gallery</a>
+        <a href="/contact/">Contact</a>
+        <a href="/terms/">Terms &amp; conditions</a></div>
+      <div><h3>Get in touch</h3>
+        <a href="tel:+16472861153">647-286-1153</a>
+        <a href="https://www.instagram.com/bespokewineandspirits/">Instagram</a>
+        <a href="https://www.facebook.com/bespokewineandspirits/">Facebook</a></div>
+    </div>
+
+    <p class="foot__legal">&copy; 2026 Bespoke Wine &amp; Spirits</p>
+    <div class="foot__word" data-fit="0.955" data-footword aria-hidden="true"><span class="hero__line"><span class="ch2">BESPOKE</span></span></div>
+  </footer>
+  </div>
+
+  <script src="/vendor/gsap.min.js"></script>
+  <script src="/vendor/ScrollTrigger.min.js"></script>
+  <script src="/vendor/SplitText.min.js"></script>
+  <script src="/vendor/lenis.min.js"></script>
+  <script src="/js/main.js?v=78"></script>
+  <script src="/js/cart.js?v=11"></script>
+  <script src="/js/shop.js?v=9"></script>
+</body>
+</html>
