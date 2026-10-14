@@ -12,12 +12,12 @@
   <script>
     document.documentElement.classList.add('js');
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) document.documentElement.classList.add('rm');
-    try { if (sessionStorage.getItem('bw-nav')) document.documentElement.classList.add('is-entering'); else if (sessionStorage.getItem('bw-pt')) document.documentElement.classList.add('is-turning'); } catch (e) {}
+    try { var bwn = sessionStorage.getItem('bw-nav'); if (bwn) { document.documentElement.classList.add('is-entering'); document.documentElement.style.setProperty('--nav-img', 'url("' + bwn + '")'); } else if (sessionStorage.getItem('bw-pt')) document.documentElement.classList.add('is-turning'); } catch (e) {}
   </script>
   <link rel="preload" href="/assets/fonts/Coconat-400.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/assets/fonts/LexendDeca-var.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/css/fonts.css?v=3">
-  <link rel="stylesheet" href="/css/styles.css?v=60">
+  <link rel="stylesheet" href="/css/styles.css?v=61">
   <link rel="stylesheet" href="/css/cart.css?v=11">
   <link rel="stylesheet" href="/css/producer.css?v=4">
   <link rel="stylesheet" href="/css/wine.css?v=10">

@@ -142,6 +142,9 @@ html.is-entering .menu { visibility: visible; clip-path: none; }
 html.is-entering .menu__content { transform: none; opacity: 1; }
 html.is-entering .menu__link a, html.is-entering .menu__social a, html.is-entering .menu__foot p span { transform: none; opacity: 1; }
 html.is-entering .preloader { display: none; }
+/* the clicked link's photo, painted by the head script until main.js puts the same photo in place */
+html.is-entering .menu__preview { background: var(--nav-img) center / cover no-repeat; }
+html.is-entering .menu__preview img { visibility: hidden; }
 html.is-entering #nav-toggle-open { opacity: 0; }
 html.is-entering #nav-toggle-close { opacity: 1; transform: none; }
 /* Page turn (driven from main.js through these properties) */

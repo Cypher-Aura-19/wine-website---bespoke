@@ -53,6 +53,12 @@ for f in pages:
         s = re.sub(r'(<div class="menu__link"><a href="/wines/\?type=non-alcoholic" data-img="([^"]*?)menu-nonalc\.jpg"[^>]*>Non-Alcoholic</a></div>)',
                    lambda m: m.group(1) + '\n            <div class="menu__link"><a href="/experiences/" data-img="%smenu-cases-2.jpg">Mixed cases</a></div>' % m.group(2), s, count=1)
     s = s.replace('menu-cases.jpg"', 'menu-cases-2.jpg"')          # the case photo, renamed so no browser shows the old one
+    # arriving from the menu: the preview shows the photo of the link that was clicked from the first paint, so it
+    # never flashes the default photo before the script swaps it in
+    # arriving from the menu: the panel shows the photo of the link that was clicked from the very first paint (the head
+    # script sets it before anything is drawn), so the default photo never flashes before the script swaps it in
+    s = s.replace("try { if (sessionStorage.getItem('bw-nav')) document.documentElement.classList.add('is-entering');",
+                  "try { var bwn = sessionStorage.getItem('bw-nav'); if (bwn) { document.documentElement.classList.add('is-entering'); document.documentElement.style.setProperty('--nav-img', 'url(\"' + bwn + '\")'); }", 1)
     # footer: the shop column names the cases as the site does, and the cart
     s = s.replace('<a href="/experiences/">Mixed packs</a></div>', '<a href="/experiences/">Mixed cases</a>\n        <a href="/cart/">Cart</a></div>')
     # footer: the terms page joins the company column
